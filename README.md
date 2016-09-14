@@ -6,7 +6,7 @@ During installation process you will need:
 - Git
 - Composer
 - Node.js
-- NMP
+- npm
 
 1. Clone aurora-core git repository into your installation root directory
 ```  
