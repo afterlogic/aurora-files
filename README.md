@@ -17,7 +17,7 @@ git clone https://github.com/afterlogic/aurora-core.git ./
 
 3. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
-4. Run composer installation process from command line by 
+4. Run composer installation process from command line with 
 ```bash
 composer.phar install
 ```
@@ -44,4 +44,4 @@ gulp js1:min --output app
 gulp js1:min --output files-pub --modules FilesWebclient
 ```
 
-Now you a ready to configure you fresh installation of AfterLogic platform.
+Now you are ready to configure you fresh installation of AfterLogic platform.
