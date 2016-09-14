@@ -1,0 +1,49 @@
+{
+	"config": {
+		"github-protocols": ["https"]
+	},
+	"repositories": [
+		{
+            "type":"package",
+            "package":{
+                "name":"afterlogic/aurora-core",
+                "version":"dev-master",
+				"type": "aurora-platform",
+                "source":{
+                    "type":"git",
+                    "url":"https://github.com/vasil-sokolov/test.git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],	
+	"require": {
+		"google/recaptcha": "~1.1",
+		"sabre/dav": "3.0.*",
+		"sabre/uri": "1.0.*",
+		"knplabs/knp-snappy": "*",
+		"symfony/filesystem": "2.8",
+		"masterexploder/PHPThumb": "2.1",
+		"PHPGangsta/GoogleAuthenticator" : "dev-master",
+		"phpzip/phpzip": ">=2.0.7",
+		"tijsverkoyen/css-to-inline-styles": "1.3.*",
+		"afterlogic/dav": "dev-master",
+		"afterlogic/mailso": "dev-master",
+		"anahkiasen/underscore-php": "*",
+		
+		"oomphinc/composer-installers-extender": "^1.1",
+		"wikimedia/composer-merge-plugin": "dev-master"
+	},
+	"extra": {
+		"installer-types": ["aurora-module", "aurora-platform"],
+        "installer-paths": {
+			"special/package/": ["my/package"],
+			"modules/{$name}/": ["type:aurora-module"]
+		},
+        "merge-plugin": {
+            "include": [
+                "modules.json"
+            ]
+		}
+	}
+}
