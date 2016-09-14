@@ -9,17 +9,18 @@ During installation process you will need:
 - NMP
 
 1. Clone aurora-core git repository into your installation root directory
-  git clone https://github.com/afterlogic/aurora-core.git ./
+```  
+git clone https://github.com/afterlogic/aurora-core.git ./
+```
 
-2. Copy composer.json and modules.json from https://github.com/afterlogic/aurora-bundle-files.git
+2. Copy `composer.json` and `modules.json` from `https://github.com/afterlogic/aurora-bundle-files.git`
 
-3. Download composer.phar from https://getcomposer.org/composer.phar
+3. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
-4. Run composer installation process by 
+4. Run composer installation process from command line by 
 ```bash
 composer.phar install
 ```
-from command line.
 
 This will install modules discribed in modules.json. At this moment aurora-bundle-files repository contains configs for Files bundle biuld.
 
