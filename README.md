@@ -46,3 +46,7 @@ gulp js1:min --output files-pub --modules FilesWebclient
 ```
 
 Now you are ready to configure you fresh installation of AfterLogic platform.
+
+## Support
+
+
