@@ -7,6 +7,7 @@ During installation process you will need:
 - [Git](https://git-scm.com/downloads)
 - [Composer](https://getcomposer.org/download/)
 - [Node.js + NPM](https://nodejs.org/en/)
+
 1. Clone aurora-core git repository into your installation root directory
 ```  
 git clone https://github.com/afterlogic/aurora-core.git ./
