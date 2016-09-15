@@ -1,6 +1,7 @@
 # Aurora Files PHP App
 
 
+## Installation instructions
 
 During installation process you will need:
 - Git
