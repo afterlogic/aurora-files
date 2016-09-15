@@ -4,10 +4,9 @@
 ## Installation instructions
 
 During installation process you will need:
-- Git
-- Composer
-- Node.js
-- npm
+- [Git](https://git-scm.com/downloads)
+- [Composer](https://getcomposer.org/download/)
+- [Node.js + NPM](https://nodejs.org/en/)
 
 1. Clone aurora-core git repository into your installation root directory
 ```  
