@@ -2,21 +2,7 @@
 	"config": {
 		"github-protocols": ["https"]
 	},
-	"repositories": [
-		{
-            "type":"package",
-            "package":{
-                "name":"afterlogic/aurora-core",
-                "version":"dev-master",
-				"type": "aurora-platform",
-                "source":{
-                    "type":"git",
-                    "url":"https://github.com/vasil-sokolov/test.git",
-                    "reference":"master"
-                }
-            }
-        }
-    ],	
+	"repositories": [],	
 	"require": {
 		"google/recaptcha": "~1.1",
 		"sabre/dav": "3.0.*",
