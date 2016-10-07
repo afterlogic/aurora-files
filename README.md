@@ -1,4 +1,4 @@
-# Aurora Files PHP App
+# Aurora Cloud (Beta)
 
 
 ## Installation instructions
