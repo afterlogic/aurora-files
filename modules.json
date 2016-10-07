@@ -20,7 +20,7 @@
 		"afterlogic/aurora-module-files": "0.1.x",
 		"afterlogic/aurora-module-webclient-files": "0.1.x",
 		"afterlogic/aurora-module-ios": "0.1.x",
-		"afterlogic/aurora-module-webclient-magic-link": "0.1.x",
+		"afterlogic/aurora-module-webclient-invitation-link": "0.1.x",
 		"afterlogic/aurora-module-min": "0.1.x",
 		"afterlogic/aurora-module-mobile-sync": "0.1.x",
 		"afterlogic/aurora-module-webclient-mobile-sync": "0.1.x",
