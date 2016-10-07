@@ -19,7 +19,7 @@ git clone https://github.com/afterlogic/aurora-core.git ./
 
 4. Run composer installation process from command line with 
 ```bash
-composer.phar install
+php composer.phar install
 ```
 
 This will install modules described in modules.json. At this moment aurora-bundle-files repository contains configs for Files bundle build.
