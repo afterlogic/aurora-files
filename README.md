@@ -53,7 +53,7 @@ gulp js:min --output app
 gulp js:min --output files-pub --modules FilesWebclient
 ```
 
-Upon installing the product, you'll need to [configure your installation](/docs/{{=productAlias}}/configuration).
+Upon installing the product, you'll need to [configure your installation](http://afterlogic.com/docs/aurora-cloud/configuration).
 
 **IMPORTANT:**
 
