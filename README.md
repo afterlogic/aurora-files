@@ -46,11 +46,11 @@ gulp langs --langs Arabic,Bulgarian,Chinese-Simplified,Chinese-Traditional,Czech
 ```
 
 ```bash
-gulp js1:min --output app
+gulp js:min --output app
 ```
 
 ```bash
-gulp js1:min --output files-pub --modules FilesWebclient
+gulp js:min --output files-pub --modules FilesWebclient
 ```
 
 Upon installing the product, you'll need to [configure your installation](/docs/{{=productAlias}}/configuration).
