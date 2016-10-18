@@ -4,7 +4,7 @@
 		
     	],
 	"require": {
-		"afterlogic/aurora-module-admin-auth": "0.1.0",
+		"afterlogic/aurora-module-admin-auth": "0.1.x",
 		"afterlogic/aurora-module-webclient-adminpanel": "0.1.x",
 		"afterlogic/aurora-module-standard-auth": "0.1.x",
 		"afterlogic/aurora-module-webclient-standard-login-form": "0.1.x",
