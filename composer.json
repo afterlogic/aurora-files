@@ -18,7 +18,7 @@
 		"anahkiasen/underscore-php": "*",
 		
 		"oomphinc/composer-installers-extender": "^1.1",
-		"wikimedia/composer-merge-plugin": "dev-master"
+		"wikimedia/composer-merge-plugin": "1.3.x"
 	},
 	"extra": {
 		"installer-types": ["aurora-module", "aurora-platform"],
