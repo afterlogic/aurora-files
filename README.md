@@ -9,9 +9,9 @@ During installation process you will need:
 
 1. Clone aurora-core git repository into your installation root directory
 ```git
-git clone https://github.com/afterlogic/aurora-core.git ./
+git clone https://github.com/afterlogic/aurora-framework.git ./
 ```
-2. Copy `composer.json` and `modules.json` from `https://github.com/afterlogic/aurora-bundle-files.git`
+2. Copy `composer.json` and `modules.json` from `https://github.com/afterlogic/aurora-cloud.git`
 
 3. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
