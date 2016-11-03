@@ -35,6 +35,10 @@ First of all, install all npm modules via
 ```bash
 npm install
 ```
+and install gulp-cli module globaly 
+```bash
+npm install --global gulp-cli
+```
 
 Now you can build static files
 ```bash
