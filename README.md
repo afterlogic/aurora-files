@@ -7,7 +7,7 @@ During installation process you will need:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js + NPM](https://nodejs.org/en/)
 
-1. Download and unpack latest version of aurora-framework into your installation root directory (currently it's version 0.2.0)
+1. Download and unpack the latest version of aurora-framework into your installation root directory (currently it's version 0.2.0)
 `https://github.com/afterlogic/aurora-framework/archive/0.2.0.zip`
 
 2. Copy `modules.json` from `https://github.com/afterlogic/aurora-cloud.git`
