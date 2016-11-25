@@ -10,7 +10,7 @@ During installation process you will need:
 1. Download and unpack the latest version of aurora-framework into your installation root directory (currently it's version 0.2.0)
 `https://github.com/afterlogic/aurora-framework/archive/0.2.0.zip`
 
-2. Download `modules.json` from https://raw.githubusercontent.com/afterlogic/aurora-cloud/master/modules.json and override existing `modules.json` in root directory.
+2. Download `modules.json` from `https://raw.githubusercontent.com/afterlogic/aurora-cloud/master/modules.json` and override existing `modules.json` in root directory.
 
 3. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
