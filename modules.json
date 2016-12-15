@@ -1,6 +1,6 @@
 {
 	"repositories": [
-		{"type": "composer", "url":"https://afterlogic.com/packages.json"}
+		{"type": "composer", "url":"https://afterlogic.com/composer"}
 	],
 	"require": {
 		"afterlogic/aurora-module-core": "0.2.x",
