@@ -51,13 +51,13 @@ gulp js:min --output app
 gulp js:min --output app-files-pub --modules FilesWebclient
 ```
 
-Upon installing the product, you'll need to [configure your installation](http://afterlogic.com/docs/aurora-cloud/configuration).
+Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-cloud/configuration).
 
 **IMPORTANT:**
 
 1. Make sure data directory is writable by web server. For example:
 ```bash
-chown -R www-data:www-data /var/www/aurora/cloud
+chown -R www-data:www-data /var/www/aurora/data
 ```
 
 2. It is strongly recommended to runs the product under **https**. If you run it under **http**, the majority of features will still be available, but some functionality aspects, such as authentication with Google account, won't work.
