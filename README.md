@@ -7,8 +7,8 @@ During installation process you will need:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js + NPM](https://nodejs.org/en/)
 
-1. Download and unpack the latest version of aurora-framework into your installation root directory (currently it's version 0.3.1)
-`https://github.com/afterlogic/aurora-framework/archive/0.3.1.zip`
+1. Download and unpack the latest version of aurora-framework into your installation root directory (currently it's version 0.4.0)
+`https://github.com/afterlogic/aurora-framework/archive/0.4.0.zip`
 
 2. Download `modules.json` from `https://raw.githubusercontent.com/afterlogic/aurora-cloud/master/modules.json` and override existing `modules.json` in root directory.
 
@@ -40,17 +40,8 @@ gulp styles --themes Default,Funny
 ```
 
 ```bash
-gulp langs --langs Arabic,Bulgarian,Chinese-Simplified,Chinese-Traditional,Czech,Danish,Dutch,English,Estonian,Finnish,French,German,Greek,Hebrew,Hungarian,Italian,Japanese,Korean,Latvian,Lithuanian,Norwegian,Persian,Polish,Portuguese-Brazil,Portuguese-Portuguese,Romanian,Russian,Serbian,Slovenian,Spanish,Swedish,Thai,Turkish,Ukrainian,Vietnamese
+gulp js:min
 ```
-
-```bash
-gulp js:min --output app
-```
-
-```bash
-gulp js:min --output app-files-pub --modules FilesWebclient
-```
-
 Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-cloud/configuration).
 
 **IMPORTANT:**
