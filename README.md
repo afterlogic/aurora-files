@@ -42,7 +42,7 @@ gulp styles --themes Default,Funny
 ```bash
 gulp js:min
 ```
-Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-cloud/configuration).
+Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-files/configuration).
 
 **IMPORTANT:**
 
