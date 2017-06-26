@@ -1,5 +1,8 @@
 # Aurora Files (Beta)
 
+Aurora Files is an open-source file storage platform, built to give you an ability to create your own cloud storage on your hardware by your rules. The file storage can be accessed from web browser or using native clients for Windows, iOS and Android operating systems. Alternatively you can use third-party WebDAV clients. For more informaition please visit [Aurora File home page](https://afterlogic.org/aurora-files).
+Look at Aurora Files [live demo](http://aurora-files.afterlogic.com/).
+
 ## Installation instructions
 
 During installation process you will need:
