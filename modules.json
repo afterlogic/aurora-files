@@ -1,8 +1,10 @@
 {
 	"repositories": [
-		{"type": "composer", "url":"https://afterlogic.com/composer/"}
+		{"type": "composer", "url":"https://afterlogic.com/composer-alt/"}
 	],
 	"require": {
+		"afterlogic/aurora-framework": "dev-master",
+		
 		"afterlogic/aurora-module-core": "0.4.x",
 		"afterlogic/aurora-module-webclient-core": "0.4.x",
 		"afterlogic/aurora-module-min": "0.4.x",
