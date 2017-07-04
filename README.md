@@ -18,34 +18,36 @@ During installation process you will need:
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
 3. Run composer installation process by running the following from command line:
-  ```bash
-  php composer.phar install
-  ```
+    ```bash
+    php composer.phar install
+    ```
 
-   **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script as the same user web server runs under.
+    **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script as the same user web server runs under.
 
-This will install modules described in modules.json. At this moment aurora-bundle-files repository contains configs for Files bundle build.
+5. Next, you need to build static files for current module set.
 
-After that, you need to build static files for current module set.
+    First of all, install all npm modules via
+    ```bash
+    npm install ./modules/CoreWebclient
+    ```
+    and install gulp-cli module globaly 
+    ```bash
+    npm install --global gulp-cli
+    ```
 
-First of all, install all npm modules via
-```bash
-npm install
-```
-and install gulp-cli module globaly 
-```bash
-npm install --global gulp-cli
-```
+6. Now you can build static files
+    ```bash
+    gulp styles --themes Default,Funny
+    ```
 
-Now you can build static files
-```bash
-gulp styles --themes Default,Funny
-```
+    ```bash
+    gulp js:min
+    ```
+  
+7. Now you are ready to open a URL pointing to the installation directory in your favorite web browser.
 
-```bash
-gulp js:min
-```
-Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-files/configuration).
+8. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-files/configuration).
+
 
 **IMPORTANT:**
 
