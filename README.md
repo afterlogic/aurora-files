@@ -52,9 +52,9 @@ During installation process you will need:
 **IMPORTANT:**
 
 1. Make sure data directory is writable by web server. For example:
-  ```bash
-  chown -R www-data:www-data /var/www/aurora/data
-  ```
+    ```bash
+    chown -R www-data:www-data /var/www/aurora/data
+    ```
 
 2. It is strongly recommended to runs the product under **https**. If you run it under **http**, the majority of features will still be available, but some functionality aspects, such as authentication with Google account, won't work.
 
