@@ -12,19 +12,17 @@ During installation process you will need:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js + NPM](https://nodejs.org/en/)
 
-1. Download and unpack the latest version of aurora-framework into your installation root directory (currently it's version 0.4.0)
-`https://github.com/afterlogic/aurora-framework/archive/0.4.0.zip`
+1. Download and unpack the latest version of aurora-files into your installation root directory (currently it's version 0.5.0)
+`https://github.com/afterlogic/aurora-framework/archive/0.5.0.zip`
 
-2. Download `modules.json` from `https://raw.githubusercontent.com/afterlogic/aurora-files/master/modules.json` and override existing `modules.json` in root directory.
+2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
-3. Download `composer.phar` from `https://getcomposer.org/composer.phar`
+3. Run composer installation process by running the following from command line:
+  ```bash
+  php composer.phar install
+  ```
 
-4. Run composer installation process by running the following from command line:
-```bash
-php composer.phar install
-```
-
-**NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script as the same user web server runs under.
+   **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script as the same user web server runs under.
 
 This will install modules described in modules.json. At this moment aurora-bundle-files repository contains configs for Files bundle build.
 
