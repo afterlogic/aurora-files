@@ -12,8 +12,8 @@ During installation process you will need:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js + NPM](https://nodejs.org/en/)
 
-1. Download and unpack the latest version of aurora-files into your installation root directory (currently it's version 0.5.0)
-`https://github.com/afterlogic/aurora-framework/archive/0.5.0.zip`
+1. Download and unpack the latest version of Aurora Files into your installation root directory (currently it's version 0.5.0)
+`https://github.com/afterlogic/aurora-files/archive/0.5.0.zip`
 
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
