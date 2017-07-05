@@ -1,0 +1,16 @@
+{
+	"system": {
+	},
+	"modules": {
+		"CoreWebclient": {
+			"HeaderModulesOrder": ["files", "contacts"],
+			"EntryModule": "files"
+		},
+		"DropboxAuthWebclient": {
+			"Scopes": "auth"
+		},
+		"OAuthIntegratorWebclient": {
+			"AllowNewUsersRegister": false
+		}
+	}
+}
