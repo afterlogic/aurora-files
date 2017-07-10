@@ -11,6 +11,8 @@ During installation process you will need:
 * [Git](https://git-scm.com/downloads)
 * [Composer](https://getcomposer.org/download/)
 * [Node.js + NPM](https://nodejs.org/en/)
+    
+    **Note!** Version of npm above 3 is required
 
 1. Download and unpack the latest version of Aurora Files into your installation root directory (currently it's version 0.5.0)
 `https://github.com/afterlogic/aurora-files/archive/0.5.0.zip`
