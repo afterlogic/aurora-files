@@ -4,6 +4,7 @@
 	],
 	"require": {
 		"afterlogic/aurora-framework": "0.5.x",
+		"afterlogic/aurora-dev-tools": "0.5.x",
 		
 		"afterlogic/aurora-module-core": "0.5.x",
 		"afterlogic/aurora-module-webclient-core": "0.5.x",
