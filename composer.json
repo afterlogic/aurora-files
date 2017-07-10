@@ -18,7 +18,7 @@
 			"special/package/": ["my/package"],
 			"modules/{$name}/": ["type:aurora-module"],
 			"system/": ["type:aurora-framework"],
-			"build/": ["type:aurora-dev-tools"]
+			"dev/": ["type:aurora-dev-tools"]
 		},
 		"merge-plugin": {
 			"include": [
