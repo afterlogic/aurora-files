@@ -1,0 +1,14 @@
+{
+  "name": "Aurora Files Web API Reference",
+  "version": "0.1.0",
+  "description": "",
+  "url" : "https://afterlogic.org/aurora-files",
+  "sampleUrl" : "https://aurora-files.afterlogic.com/",
+  "template": {
+	  "forceLanguage": "en"
+  },
+  "header": {
+    "title": "Overview",
+    "filename": "../../apidoc-overview.md"
+  }
+}
