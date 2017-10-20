@@ -13,7 +13,7 @@ script:
 - php ./travis.php
 - chmod +x ./build.sh
 - ./build.sh $PRODUCT_NAME.zip
-after_success: curl --ftp-create-dirs -T aurora-files.zip -u $FTP_USER:$FTP_PASSWORD ftp://afterlogic.com/
+after_success: curl --ftp-create-dirs -T $PRODUCT_NAME.zip -u $FTP_USER:$FTP_PASSWORD ftp://afterlogic.com/
 env:
   global:
   - PRODUCT_NAME=aurora-files
