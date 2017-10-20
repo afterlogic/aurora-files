@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/afterlogic/webmail-lite-8.svg?branch=master)](https://travis-ci.org/afterlogic/webmail-lite-8)
+[![Build Status](https://travis-ci.org/afterlogic/aurora-files.svg?branch=master)](https://travis-ci.org/afterlogic/aurora-files)
 
 # Aurora Files (Beta)
 
