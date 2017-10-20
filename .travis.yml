@@ -12,10 +12,9 @@ install:
 script:
 - php ./travis.php
 - chmod +x ./build.sh
-- "./build.sh"
+- ./build.sh $PRODUCT_NAME.zip
 after_success: curl --ftp-create-dirs -T $PRODUCT_NAME.zip -u $FTP_USER:$FTP_PASSWORD ftp://afterlogic.com/
 env:
-
   global:
   - PRODUCT_NAME=aurora-files
   - secure: R1JOoldkdd6kkQ6Dc8Sih3JIv1ES9IbXs+EdTrov5pxKrDHA5LrO1uOLbuFDcsWeqrcjOPgzPph5BSCljNQYKzZLJ9s+B9TveadWrfugPor5itOxz5DZGyAxEiaNU7wDmlRoNtlU2IS7fDi0nbuR8seyxSrPHwcGksZ3Gxo6BhvhVdvxkUmBFN1XtKpxC4CLtFv/C4fg5QnfUfE5EsVBQtXBRdTYo/04mj1n5daoezzjKujP+98yxyQqLBkFo1W1XoA+fWdy0dVG3emBAzf6XoMd2/wmNGNA1dhY4IGCk4Hh6BK6tHXBUPf3V3PE8wKzvnIN0UfTp5Hiqo8uoQCp4LgG/dFDByMDay9dymaDElkshotPtKLkI61O/w+bLbqeVXLBPLq2mUEa2zPzeN/2NQLAITCGePQroM3DVpi/bYZNUGfyDZtsDuJtZxBouGD5dt/EKwvPe3VEjzZ+Wu9hQ88ttVr0DszP0n/O7331HlgQgVoy3TqUljv8X7zGlnssAP2K0lIBnAAfJHK4EEFD1Ad3lDakdaGUNoAx46ftw4Q/z99yWcbV4xnMwVTOvS3lXQUModdB8NhYK4SV2/rrnQnUXbNQ35OfQg3M5Wn95hJlSGd+mL5GMd6NYdqsINkjGL6gZlIwYjzPChQb1vAXC1d8YvImbjSKFTFJVJLNF6c=
