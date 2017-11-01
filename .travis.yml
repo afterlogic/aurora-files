@@ -12,7 +12,7 @@ install:
 script:
 - php ./travis.php
 - chmod +x ./build.sh
-- ./build.sh $PRODUCT_NAME.zip
+- ./build.sh
 after_success: curl --ftp-create-dirs -T $PRODUCT_NAME.zip -u $FTP_USER:$FTP_PASSWORD ftp://afterlogic.com/
 env:
   global:
