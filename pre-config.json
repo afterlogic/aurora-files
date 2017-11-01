@@ -11,6 +11,9 @@
 		},
 		"OAuthIntegratorWebclient": {
 			"AllowNewUsersRegister": false
+		},
+		"FilesWebclient": {
+			"ShowCommonSettings": false
 		}
 	}
 }
