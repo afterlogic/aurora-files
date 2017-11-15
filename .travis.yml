@@ -14,6 +14,7 @@ script:
 - chmod +x ./build.sh
 - ./build.sh
 after_success: curl --ftp-create-dirs -T $PRODUCT_NAME.zip -u $FTP_USER:$FTP_PASSWORD ftp://afterlogic.com/
+
 env:
   global:
   - PRODUCT_NAME=aurora-files
