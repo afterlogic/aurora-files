@@ -2,12 +2,10 @@
 
 # Aurora Files (Beta)
 
-https://travis-ci.org/afterlogic/aurora-files.svg?branch=master
-
 Aurora Files is an open-source file storage platform, built to give you an ability to create your own cloud storage on your hardware by your rules. The file storage can be accessed from web browser or using native clients for Windows, iOS and Android operating systems. Alternatively you can use third-party WebDAV clients. For more informaition please visit [Aurora File home page](https://afterlogic.org/aurora-files).
 Look at Aurora Files [live demo](http://aurora-files.afterlogic.com/).
 
-![Afterlogic Webmail Pro 8: Message List](https://afterlogic.org/images/products/aurora-files/aurora-files-folder-list.png)
+![Afterlogic Aurora Files: Files List](https://afterlogic.org/images/products/aurora-files/aurora-files-folder-list.png)
 
 ## Installation instructions
 
@@ -19,7 +17,7 @@ During installation process you will need:
     **Note!** Version of npm above 3 is required
 
 1. Download and unpack the latest version of Aurora Files into your installation root directory (currently it's version 0.5.0)
-`https://github.com/afterlogic/aurora-files/archive/0.5.0.zip`
+`https://github.com/afterlogic/aurora-files/archive/0.7.0.zip`
 
 2. Download `composer.phar` from `https://getcomposer.org/composer.phar`
 
@@ -43,7 +41,7 @@ During installation process you will need:
 
 6. Now you can build static files
     ```bash
-    gulp styles --themes Default,Funny
+    gulp styles --themes Default,Funny,DeepForest
     ```
 
     ```bash
