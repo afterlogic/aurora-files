@@ -3,60 +3,60 @@
 		{"type": "composer", "url":"https://afterlogic.com/composer/"}
 	],
 	"require": {
-		"afterlogic/aurora-framework": "0.7.x",
-		"afterlogic/aurora-dev-tools": "0.7.x",
+		"afterlogic/aurora-framework": "dev-master",
+		"afterlogic/aurora-dev-tools": "dev-master",
 		
-		"afterlogic/aurora-module-core": "0.7.x",
-		"afterlogic/aurora-module-webclient-core": "0.7.x",
-		"afterlogic/aurora-module-min": "0.7.x",
-		"afterlogic/aurora-module-webclient-settings": "0.7.x",
-		"afterlogic/aurora-module-admin-auth": "0.7.x",
-		"afterlogic/aurora-module-webclient-adminpanel": "0.7.x",
-		"afterlogic/aurora-module-standard-auth": "0.7.x",
-		"afterlogic/aurora-module-webclient-standard-auth": "0.7.x",
-		"afterlogic/aurora-module-webclient-standard-login-form": "0.7.x",
-		"afterlogic/aurora-module-webclient-standard-register-form": "0.7.x",
+		"afterlogic/aurora-module-core": "dev-master",
+		"afterlogic/aurora-module-webclient-core": "dev-master",
+		"afterlogic/aurora-module-min": "dev-master",
+		"afterlogic/aurora-module-webclient-settings": "dev-master",
+		"afterlogic/aurora-module-admin-auth": "dev-master",
+		"afterlogic/aurora-module-webclient-adminpanel": "dev-master",
+		"afterlogic/aurora-module-standard-auth": "dev-master",
+		"afterlogic/aurora-module-webclient-standard-auth": "dev-master",
+		"afterlogic/aurora-module-webclient-standard-login-form": "dev-master",
+		"afterlogic/aurora-module-webclient-standard-register-form": "dev-master",
 		
-		"afterlogic/aurora-module-webclient-logs-viewer": "0.7.x",
-		"afterlogic/aurora-module-eav-object-viewer": "0.7.x",
+		"afterlogic/aurora-module-webclient-logs-viewer": "dev-master",
+		"afterlogic/aurora-module-eav-object-viewer": "dev-master",
 		
-		"afterlogic/aurora-module-files": "0.7.x",
-		"afterlogic/aurora-module-webclient-files": "0.7.x",
-		"afterlogic/aurora-module-oembed-files": "0.7.x",
-		"afterlogic/aurora-module-dav": "0.7.x",
+		"afterlogic/aurora-module-files": "dev-master",
+		"afterlogic/aurora-module-webclient-files": "dev-master",
+		"afterlogic/aurora-module-oembed-files": "dev-master",
+		"afterlogic/aurora-module-dav": "dev-master",
 
 		
-		"afterlogic/aurora-module-contacts": "0.7.x",
-		"afterlogic/aurora-module-personal-contacts": "0.7.x",
-		"afterlogic/aurora-module-team-contacts": "0.7.x",
-		"afterlogic/aurora-module-webclient-contacts": "0.7.x",
-		"afterlogic/aurora-module-dav-contacts": "0.7.x",
+		"afterlogic/aurora-module-contacts": "dev-master",
+		"afterlogic/aurora-module-personal-contacts": "dev-master",
+		"afterlogic/aurora-module-team-contacts": "dev-master",
+		"afterlogic/aurora-module-webclient-contacts": "dev-master",
+		"afterlogic/aurora-module-dav-contacts": "dev-master",
 		
-		"afterlogic/aurora-module-webclient-oauth-integrator": "0.7.x",
+		"afterlogic/aurora-module-webclient-oauth-integrator": "dev-master",
 		
-		"afterlogic/aurora-module-google": "0.7.x",
-		"afterlogic/aurora-module-webclient-google-auth": "0.7.x",
-		"afterlogic/aurora-module-googledrive": "0.7.x",
+		"afterlogic/aurora-module-google": "dev-master",
+		"afterlogic/aurora-module-webclient-google-auth": "dev-master",
+		"afterlogic/aurora-module-googledrive": "dev-master",
 		
-		"afterlogic/aurora-module-dropbox": "0.7.x",
-		"afterlogic/aurora-module-webclient-dropbox-auth": "0.7.x",
-		"afterlogic/aurora-module-dropbox-filestorage": "0.7.x",
+		"afterlogic/aurora-module-dropbox": "dev-master",
+		"afterlogic/aurora-module-webclient-dropbox-auth": "dev-master",
+		"afterlogic/aurora-module-dropbox-filestorage": "dev-master",
 		
-		"afterlogic/aurora-module-facebook": "0.7.x",
-		"afterlogic/aurora-module-webclient-facebook-auth": "0.7.x",
+		"afterlogic/aurora-module-facebook": "dev-master",
+		"afterlogic/aurora-module-webclient-facebook-auth": "dev-master",
 		
-		"afterlogic/aurora-module-ios": "0.7.x",
+		"afterlogic/aurora-module-ios": "dev-master",
 		
-		"afterlogic/aurora-module-webclient-invitation-link": "0.7.x",
-		"afterlogic/aurora-module-mobile-sync": "0.7.x",
-		"afterlogic/aurora-module-webclient-mobile-sync": "0.7.x",
+		"afterlogic/aurora-module-webclient-invitation-link": "dev-master",
+		"afterlogic/aurora-module-mobile-sync": "dev-master",
+		"afterlogic/aurora-module-webclient-mobile-sync": "dev-master",
 		
-		"afterlogic/aurora-module-webclient-external-clients-login-form": "0.7.x",
+		"afterlogic/aurora-module-webclient-external-clients-login-form": "dev-master",
 		
-		"afterlogic/aurora-module-webclient-files-tableview-plugin": "0.7.x",
-		"afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin": "0.7.x",
-		"afterlogic/aurora-module-files-zipfolder": "0.7.x",
-		"afterlogic/aurora-module-webclient-file-viewer-plugin": "0.7.x",
-		"afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": "0.7.x"
+		"afterlogic/aurora-module-webclient-files-tableview-plugin": "dev-master",
+		"afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin": "dev-master",
+		"afterlogic/aurora-module-files-zipfolder": "dev-master",
+		"afterlogic/aurora-module-webclient-file-viewer-plugin": "dev-master",
+		"afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": "dev-master"
 	}
 }
