@@ -4,7 +4,8 @@
 	"modules": {
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["files", "contacts"],
-			"EntryModule": "files"
+			"EntryModule": "files",
+			"ThemeList": ["Default","DeepForest","Funny"]
 		},
 		"DropboxAuthWebclient": {
 			"Scopes": "auth"
@@ -20,6 +21,13 @@
 		},
 		"DropboxFilestorage": {
 			"Disabled": true
+		},
+		"StandardLoginFormWebclient": {
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/aurora-files\" target=\"_blank\">Afterlogic Aurora Files</a>"
+		},
+		"StandardRegisterFormWebclient": {
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/aurora-files\" target=\"_blank\">Afterlogic Aurora Files</a>"
 		}
 	}
 }
