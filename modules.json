@@ -22,6 +22,7 @@
 		
 		"afterlogic/aurora-module-files": "0.8.x",
 		"afterlogic/aurora-module-personalfiles": "0.8.x",
+		"afterlogic/aurora-module-corporatefiles": "0.8.x",
 		"afterlogic/aurora-module-webclient-files": "0.8.x",
 		"afterlogic/aurora-module-oembed-files": "0.8.x",
 		"afterlogic/aurora-module-dav": "0.8.x",
