@@ -28,9 +28,9 @@ if [ "$TASK" = "build" ]; then
 	npm install -g gulp-cli
 	npm install ./modules/CoreWebclient
 
-	gulp styles --themes Default,DeepForest,Funny
-	gulp js:build
-	gulp js:min
+	gulp styles --themes Default,DeepForest,Funny --build a
+	gulp js:build --build a
+	gulp js:min --build a
 	gulp test
 	
 	echo CREATE ZIP FILE  = "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
