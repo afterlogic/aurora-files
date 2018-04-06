@@ -5,9 +5,9 @@
 Aurora Files is an open-source file storage platform, built to give you an ability to create your own cloud storage on your hardware by your rules. The file storage can be accessed from web browser or using native clients for Windows, iOS and Android operating systems. Alternatively you can use third-party WebDAV clients. For more informaition please visit [Aurora File home page](https://afterlogic.org/aurora-files).
 Look at Aurora Files [live demo](https://aurora-files.afterlogic.com/).
 
-Aurora Files includes Paranoid Encryption module which provides strong AES-256 browser-based encryption. File content is transmitted to the server in encrypted form only, encryption keys are never transmitted to the server at all. Thus, even if the entire data from the server was stolen, your encrypted data is still safe: any data on the server cannot help decrypt encrypted files without the keys.
-
 ![Afterlogic Aurora Files: Files List](https://afterlogic.org/images/products/aurora-files/aurora-files-folder-list.png)
+
+Aurora Files includes Paranoid Encryption module which provides strong AES-256 browser-based encryption. File content is transmitted to the server in encrypted form only, encryption keys are never transmitted to the server at all. Thus, even if the entire data from the server was stolen, your encrypted data is still safe: any data on the server cannot help decrypt encrypted files without the keys.
 
 ## Installation instructions
 
