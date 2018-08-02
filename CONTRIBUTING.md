@@ -1,4 +1,4 @@
-If you wish to help us improve the codebase, add some features or provide a translation to your native language, make sure you have the most recent code downloaded [as described here](https://github.com/afterlogic/aurora-files/blob/master/README.md) as the process differs from installing the latest stable version. 
+If you wish to help us improve the codebase, add some features or provide a translation to your native language, make sure you have the most recent code downloaded [as described here](https://github.com/afterlogic/aurora-files#installation-instructions) as the process differs from installing the latest stable version. 
 
 In Aurora Files [Developer's Guide](https://afterlogic.com/docs/aurora-files/developers-guide) you can find a number of tutorials for extending the product functionality and integrating it with other applications, as well as documentation for [Web API](https://afterlogic.com/aurora-files-webapi/) and [PHP API](https://afterlogic.com/aurora-files-api/).
 
