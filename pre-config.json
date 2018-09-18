@@ -14,7 +14,8 @@
 			"AllowNewUsersRegister": false
 		},
 		"FilesWebclient": {
-			"ShowCommonSettings": false
+			"ShowCommonSettings": true,
+			"ShowFilesApps": false
 		},
 		"Dropbox": {
 			"Disabled": true
