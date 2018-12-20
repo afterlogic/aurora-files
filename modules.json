@@ -55,6 +55,7 @@
 		"afterlogic/aurora-module-webclient-mobile-sync": "0.9.x",
 		
 		"afterlogic/aurora-module-webclient-external-clients-login-form": "0.9.x",
+		"afterlogic/aurora-module-two-factor-auth": "0.9.x",
 		
 		"afterlogic/aurora-module-webclient-files-tableview-plugin": "0.9.x",
 		"afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin": "0.9.x",
