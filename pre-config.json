@@ -2,10 +2,14 @@
 	"system": {
 	},
 	"modules": {
+		"Core": {
+			"ProductName": "Afterlogic Aurora Files"
+		},
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["files", "contacts"],
 			"DefaultAnonymScreenHash": "login",
 			"DefaultUserScreenHash": "files",
+			"AllowMobile": true,
 			"ThemeList": ["Default","DeepForest","Funny"]
 		},
 		"DropboxAuthWebclient": {
