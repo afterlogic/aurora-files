@@ -34,6 +34,9 @@
 		},
 		"StandardRegisterFormWebclient": {
 			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.org\/aurora-files\" target=\"_blank\">Afterlogic Aurora Files</a>"
+		},
+		"OverrideUserSettings": {
+			"Disabled": true
 		}
 	}
 }
