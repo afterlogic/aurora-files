@@ -61,6 +61,8 @@
 		"afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin": "0.9.x",
 		"afterlogic/aurora-module-files-zipfolder": "0.9.x",
 		"afterlogic/aurora-module-webclient-file-viewer-plugin": "0.9.x",
-		"afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": "0.9.x"
+		"afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": "0.9.x",
+		
+		"afterlogic/aurora-module-override-user-settings": "0.9.x"
 	}
 }
