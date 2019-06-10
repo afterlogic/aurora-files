@@ -37,6 +37,9 @@
 		},
 		"OverrideUserSettings": {
 			"Disabled": true
+		},
+		"Contacts": {
+			"ImportContactsLink": "https://afterlogic.com/docs/aurora-files/frequently-asked-questions/importing-contacts"
 		}
 	}
 }
