@@ -7,7 +7,7 @@
 		"afterlogic/aurora-dev-tools": "0.9.x",
 		
 		"afterlogic/aurora-module-core": "0.9.x",
-		"afterlogic/aurora-module-webclient-core": "0.9.x",
+		"afterlogic/aurora-module-webclient-core": "^0.9.38",
 		"afterlogic/aurora-module-min": "0.9.x",
 		"afterlogic/aurora-module-webclient-settings": "0.9.x",
 		"afterlogic/aurora-module-webclient-branding": "0.9.x",
@@ -62,6 +62,7 @@
 		"afterlogic/aurora-module-files-zipfolder": "0.9.x",
 		"afterlogic/aurora-module-webclient-file-viewer-plugin": "0.9.x",
 		"afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": "0.9.x",
+		"afterlogic/aurora-module-webclient-recaptcha-plugin": "0.9.x",
 		
 		"afterlogic/aurora-module-override-user-settings": "0.9.x"
 	}
