@@ -9,7 +9,8 @@
 			"HeaderModulesOrder": ["files", "contacts"],
 			"DefaultAnonymScreenHash": "login",
 			"DefaultUserScreenHash": "files",
-			"ThemeList": ["Default","DeepForest","Funny"]
+			"AllowMobile": true,
+			"ThemeList": ["Default", "DeepForest", "Funny", "Sand"]
 		},
 		"DropboxAuthWebclient": {
 			"Scopes": "auth"
