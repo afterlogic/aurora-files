@@ -1,3 +1,6 @@
+[8.3.1]
+[*] Various bugfixes
+
 [8.3.0]
 [+] Sand theme inspired by default one of v7
 [*] Contacts autocompletion includes groups
