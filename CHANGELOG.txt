@@ -1,3 +1,11 @@
+[8.3.3]
+[+] Ability to store AuthToken in database
+[+] Adding custom JS and HTML supported
+[*] Update configuration bugfix
+[*] Creating new note fixed
+[*] Accessing folder via public link fixed
+[*] DAV access issue corrected
+
 [8.3.2]
 [*] Minor bugfixes
 
