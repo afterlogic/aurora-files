@@ -1,3 +1,7 @@
+[8.3.4]
+[*] Various bugfixes
+[*] IE bugfixes
+
 [8.3.3]
 [+] Ability to store AuthToken in database
 [+] Adding custom JS and HTML supported
