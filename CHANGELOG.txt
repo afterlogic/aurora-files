@@ -1,3 +1,8 @@
+[8.3.7]
+[+] Methods of handling contacts and groups rewritten and improved
+[*] Web API of Core module for admin panel entities management improved
+[*] Various bugfixes
+
 [8.3.6]
 [+] Security header for all cookies
 [*] Minor bugfixes
