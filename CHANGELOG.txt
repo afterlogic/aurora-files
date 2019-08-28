@@ -1,3 +1,6 @@
+[8.3.9]
+[*] Various bugfixes
+
 [8.3.8]
 [+] Implemented HTTP Digest Authentication on DAV-server
 [*] Various bugfixes
