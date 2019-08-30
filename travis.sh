@@ -36,7 +36,7 @@ if [ "$TASK" = "build" ]; then
 	
 	echo CREATE ZIP FILE  = "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
-	zip -r ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt composer.json modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
+	zip -r ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
 fi
 
 if [ "$TASK" = "upload" ]; then
