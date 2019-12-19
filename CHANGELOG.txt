@@ -1,3 +1,10 @@
+[8.3.15]
+[*] French and Spanish translations updated
+[*] Fixed issue with contacts duplication in global address book
+[*] Fixed issue with sharing contacts
+[*] Fixed issue with LogStackTrace setting being ignored
+[*] Minor bugfixes
+
 [8.3.10]
 [*] Various bugfixes
 [*] Closed CVE-2019-16238 vulnerability
