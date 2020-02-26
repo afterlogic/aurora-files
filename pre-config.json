@@ -39,6 +39,12 @@
 		},
 		"Contacts": {
 			"ImportContactsLink": "https://afterlogic.com/docs/aurora-files/frequently-asked-questions/importing-contacts"
+		},
+		"S3Filestorage": {
+			"Disabled": true
+		},
+		"S3CorporateFilestorage": {
+			"Disabled": true
 		}
 	}
 }

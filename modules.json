@@ -64,6 +64,9 @@
 		"afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": "0.9.x",
 		"afterlogic/aurora-module-webclient-recaptcha-plugin": "0.9.x",
 		
-		"afterlogic/aurora-module-override-user-settings": "0.9.x"
+		"afterlogic/aurora-module-override-user-settings": "0.9.x",
+		
+		"afterlogic/aurora-module-s3-filestorage": "0.9.x",
+		"afterlogic/aurora-module-s3-corporate-filestorage": "0.9.x"
 	}
 }
