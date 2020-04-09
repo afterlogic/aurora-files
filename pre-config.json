@@ -3,6 +3,7 @@
 	},
 	"modules": {
 		"Core": {
+			"SiteName": "Afterlogic Aurora Files",
 			"ProductName": "Afterlogic Aurora Files"
 		},
 		"CoreWebclient": {
