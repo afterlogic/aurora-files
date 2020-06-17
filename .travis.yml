@@ -14,6 +14,7 @@ script:
 - chmod +x ./travis.sh
 - ./travis.sh -t build
 after_success: 
+- ./travis.sh -t pack
 - ./travis.sh -t upload
 env:
   global:
