@@ -11,5 +11,4 @@
 /system
 /npm-debug.log
 /composer.phar
-/composer.lock
 /_composer_cache
