@@ -31,7 +31,7 @@ if [ "$TASK" = "npm" ]; then
 fi
 
 if [ "$TASK" = "build" ]; then
-	cd ${DIR}
+	#cd ${DIR}
 	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
