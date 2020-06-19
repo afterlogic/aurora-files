@@ -12,6 +12,7 @@ install:
 script:
 - php ./travis.php
 - chmod +x ./travis.sh
+- ./travis.sh -t npm
 - ./travis.sh -t build
 after_success: 
 - ./travis.sh -t pack
