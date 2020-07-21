@@ -47,6 +47,10 @@
 		"S3CorporateFilestorage": {
 			"Disabled": true
 		},
+		"MobileAppsWebclient": {
+			"ShowMailAndroidApp": false,
+			"ShowMailIosApp": false
+		},
 		"OpenPgpFilesWebclient": {
 			"EnableSelfDestructingMessages": false,
 			"EnablePublicLinkLifetime": false

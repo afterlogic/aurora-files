@@ -72,6 +72,7 @@
 		"afterlogic/aurora-module-webclient-openpgp": "~0.9.0",
 		"afterlogic/aurora-module-shared-files": "~0.9.0",
 		"afterlogic/aurora-module-activity-history": "~0.9.0",
+		"afterlogic/aurora-module-webclient-mobile-apps": "~0.9.0",
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.9.0"
 	}
 }
