@@ -46,6 +46,10 @@
 		},
 		"S3CorporateFilestorage": {
 			"Disabled": true
+		},
+		"OpenPgpFilesWebclient": {
+			"EnableSelfDestructingMessages": false,
+			"EnablePublicLinkLifetime": false
 		}
 	}
 }
