@@ -8,7 +8,7 @@ services:
 install:
 - mysql -e 'CREATE DATABASE aurora;'
 - composer install
-- npm install -g newman
+- composer run pre-config
 script:
 - php ./travis.php
 - chmod +x ./travis.sh
