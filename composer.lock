@@ -1216,16 +1216,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.9.42",
+            "version": "0.9.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.9.42"
+                "reference": "tags/0.9.43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.42.zip",
-                "reference": "tags/0.9.42",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.43.zip",
+                "reference": "tags/0.9.43",
                 "shasum": null
             },
             "require": {
@@ -1236,20 +1236,20 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2020-07-21 08:10:55"
+            "time": "2020-08-19 08:11:52"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.9.39",
+            "version": "0.9.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.9.39"
+                "reference": "tags/0.9.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.39.zip",
-                "reference": "tags/0.9.39",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.40.zip",
+                "reference": "tags/0.9.40",
                 "shasum": null
             },
             "require": {
@@ -1262,7 +1262,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2020-08-18 12:28:29"
+            "time": "2020-08-19 07:44:15"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
