@@ -54,6 +54,10 @@
 		"OpenPgpFilesWebclient": {
 			"EnableSelfDestructingMessages": false,
 			"EnablePublicLinkLifetime": false
+		},
+		"MobileAppsWebclient": {
+			"ShowMailServerUrlApp": false,
+			"ShowFilesServerUrlApp": true
 		}
 	}
 }
