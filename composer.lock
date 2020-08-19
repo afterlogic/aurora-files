@@ -683,16 +683,16 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.9.28",
+            "version": "0.9.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.9.28"
+                "reference": "tags/0.9.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.28.zip",
-                "reference": "tags/0.9.28",
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.29.zip",
+                "reference": "tags/0.9.29",
                 "shasum": null
             },
             "require": {
@@ -704,7 +704,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2020-07-21 10:50:14"
+            "time": "2020-08-18 12:28:45"
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
@@ -782,16 +782,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.9.42",
+            "version": "0.9.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.9.42"
+                "reference": "tags/0.9.43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.9.42.zip",
-                "reference": "tags/0.9.42",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.9.43.zip",
+                "reference": "tags/0.9.43",
                 "shasum": null
             },
             "require": {
@@ -802,7 +802,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2020-07-02 17:12:15"
+            "time": "2020-08-17 13:42:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
@@ -854,16 +854,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.93",
+            "version": "0.9.94",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.93"
+                "reference": "tags/0.9.94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.93.zip",
-                "reference": "tags/0.9.93",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.94.zip",
+                "reference": "tags/0.9.94",
                 "shasum": null
             },
             "require": {
@@ -874,20 +874,20 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2020-07-20 06:22:23"
+            "time": "2020-08-14 13:56:53"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.9.35",
+            "version": "0.9.37",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
-                "reference": "tags/0.9.35"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
+                "reference": "tags/0.9.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.9.35.zip",
-                "reference": "tags/0.9.35",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.9.37.zip",
+                "reference": "tags/0.9.37",
                 "shasum": null
             },
             "require": {
@@ -901,7 +901,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2020-07-06 13:44:50"
+            "time": "2020-08-18 10:55:16"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -1001,16 +1001,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.9.51",
+            "version": "0.9.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.9.51"
+                "reference": "tags/0.9.52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.9.51.zip",
-                "reference": "tags/0.9.51",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.9.52.zip",
+                "reference": "tags/0.9.52",
                 "shasum": null
             },
             "require": {
@@ -1021,7 +1021,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2020-07-20 06:50:05"
+            "time": "2020-08-14 13:57:37"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
@@ -1240,16 +1240,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.9.38",
+            "version": "0.9.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.9.38"
+                "reference": "tags/0.9.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.38.zip",
-                "reference": "tags/0.9.38",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.39.zip",
+                "reference": "tags/0.9.39",
                 "shasum": null
             },
             "require": {
@@ -1262,7 +1262,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2020-07-22 12:51:33"
+            "time": "2020-08-18 12:28:29"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -1511,16 +1511,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.147.3",
+            "version": "3.150.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a563bb8bd83ec232db6b0b230832e3a6bde8a838"
+                "reference": "f0fd46027ca2e12851ae792d20513cb81b17bc32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a563bb8bd83ec232db6b0b230832e3a6bde8a838",
-                "reference": "a563bb8bd83ec232db6b0b230832e3a6bde8a838",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f0fd46027ca2e12851ae792d20513cb81b17bc32",
+                "reference": "f0fd46027ca2e12851ae792d20513cb81b17bc32",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-22 18:18:26"
+            "time": "2020-08-18 18:14:47"
         },
         {
             "name": "composer/installers",
@@ -2120,25 +2120,25 @@
         },
         {
             "name": "mtdowling/jmespath.php",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "52168cb9472de06979613d365c7f1ab8798be895"
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/52168cb9472de06979613d365c7f1ab8798be895",
-                "reference": "52168cb9472de06979613d365c7f1ab8798be895",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "symfony/polyfill-mbstring": "^1.4"
+                "php": "^5.4 || ^7.0 || ^8.0",
+                "symfony/polyfill-mbstring": "^1.17"
             },
             "require-dev": {
-                "composer/xdebug-handler": "^1.2",
-                "phpunit/phpunit": "^4.8.36|^7.5.15"
+                "composer/xdebug-handler": "^1.4",
+                "phpunit/phpunit": "^4.8.36 || ^7.5.15"
             },
             "bin": [
                 "bin/jp.php"
@@ -2146,7 +2146,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -2173,7 +2173,7 @@
                 "json",
                 "jsonpath"
             ],
-            "time": "2019-12-30 18:03:34"
+            "time": "2020-07-31 21:01:56"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -3470,7 +3470,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -3532,16 +3532,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe"
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
-                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
                 "shasum": ""
             },
             "require": {
@@ -3599,11 +3599,11 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-07-14 12:35:20"
+            "time": "2020-08-04 06:02:08"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -3670,7 +3670,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -3733,7 +3733,7 @@
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
@@ -3796,7 +3796,7 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
