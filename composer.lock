@@ -460,16 +460,16 @@
         },
         {
             "name": "afterlogic/aurora-module-ios",
-            "version": "0.9.11",
+            "version": "0.9.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-ios",
-                "reference": "tags/0.9.11"
+                "reference": "tags/0.9.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.9.11.zip",
-                "reference": "tags/0.9.11",
+                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.9.12.zip",
+                "reference": "tags/0.9.12",
                 "shasum": null
             },
             "require": {
@@ -481,7 +481,7 @@
             "extra": {
                 "installer-name": "Ios"
             },
-            "time": "2019-12-18 08:58:18"
+            "time": "2020-08-20 12:00:42"
         },
         {
             "name": "afterlogic/aurora-module-min",
@@ -606,16 +606,16 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.9.50",
+            "version": "0.9.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.9.50"
+                "reference": "tags/0.9.51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.9.50.zip",
-                "reference": "tags/0.9.50",
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.9.51.zip",
+                "reference": "tags/0.9.51",
                 "shasum": null
             },
             "require": {
@@ -629,7 +629,7 @@
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2020-07-07 13:41:17"
+            "time": "2020-08-20 09:51:43"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
@@ -854,16 +854,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.94",
+            "version": "0.9.96",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.94"
+                "reference": "tags/0.9.96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.94.zip",
-                "reference": "tags/0.9.94",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.96.zip",
+                "reference": "tags/0.9.96",
                 "shasum": null
             },
             "require": {
@@ -874,7 +874,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2020-08-14 13:56:53"
+            "time": "2020-08-21 13:03:56"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1146,16 +1146,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mobile-apps",
-            "version": "0.9.1",
+            "version": "0.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps",
-                "reference": "tags/0.9.1"
+                "reference": "tags/0.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps/archive/0.9.1.zip",
-                "reference": "tags/0.9.1",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps/archive/0.9.2.zip",
+                "reference": "tags/0.9.2",
                 "shasum": null
             },
             "require": {
@@ -1165,7 +1165,7 @@
             "extra": {
                 "installer-name": "MobileAppsWebclient"
             },
-            "time": "2020-08-19 12:31:54"
+            "time": "2020-08-21 13:01:39"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mobile-sync",
@@ -1240,16 +1240,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.9.42",
+            "version": "0.9.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.9.42"
+                "reference": "tags/0.9.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.42.zip",
-                "reference": "tags/0.9.42",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.44.zip",
+                "reference": "tags/0.9.44",
                 "shasum": null
             },
             "require": {
@@ -1262,7 +1262,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2020-08-19 11:40:10"
+            "time": "2020-08-21 10:56:30"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -1511,16 +1511,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.150.0",
+            "version": "3.150.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f0fd46027ca2e12851ae792d20513cb81b17bc32"
+                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f0fd46027ca2e12851ae792d20513cb81b17bc32",
-                "reference": "f0fd46027ca2e12851ae792d20513cb81b17bc32",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1aef7e270f15347df82279f05d85f551f85c8b87",
+                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-18 18:14:47"
+            "time": "2020-08-20 18:12:35"
         },
         {
             "name": "composer/installers",
