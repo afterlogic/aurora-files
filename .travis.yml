@@ -1,5 +1,5 @@
 dist: trusty
-sudo: false
+os: linux
 language: php
 php:
 - '7.1.14'
@@ -14,6 +14,7 @@ script:
 - chmod +x ./travis.sh
 - ./travis.sh -t npm
 - ./travis.sh -t build
+- ./travis.sh -t pack
 after_success: 
 - ./travis.sh -t pack
 - ./travis.sh -t upload
