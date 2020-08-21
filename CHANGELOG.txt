@@ -1,9 +1,7 @@
 [8.5.0]
 [+] Secure shared links functionality
 [+] Paranoid encryption revised, PGP is used now
-[+] Added an option for disabling RTL rendering
 [*] Fixed issue with public links for folders
-[*] Fixed issue with getting iOS profile in mobile layout
 [*] Various bugfixes
 
 [8.3.20]
