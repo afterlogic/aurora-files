@@ -1,3 +1,11 @@
+[8.5.1]
+[+] MultipleFilesUploadLimit setting is added
+[+] Uploading directory with subdirectories
+[+] Improvements related to storing PGP keys in Contacts
+[+] Show encryption vector (IV) and AES key in UI
+[+] VCF export includes contact groups now
+[*] Various bugfixes
+
 [8.5.0]
 [+] Secure shared links functionality
 [+] Paranoid encryption revised, PGP is used now
