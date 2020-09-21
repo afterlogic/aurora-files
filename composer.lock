@@ -135,16 +135,16 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.9.75",
+            "version": "0.9.77",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.9.75"
+                "reference": "tags/0.9.77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.75.zip",
-                "reference": "tags/0.9.75",
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.77.zip",
+                "reference": "tags/0.9.77",
                 "shasum": null
             },
             "require": {
@@ -155,7 +155,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2020-09-01 11:57:54"
+            "time": "2020-09-21 10:33:46"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
@@ -1511,16 +1511,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.154.1",
+            "version": "3.154.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "5651d8a92164d98869b70a15e4c06ce4c14c7c28"
+                "reference": "83a1382930359e4d4f4c9187239f059d5b282520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5651d8a92164d98869b70a15e4c06ce4c14c7c28",
-                "reference": "5651d8a92164d98869b70a15e4c06ce4c14c7c28",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/83a1382930359e4d4f4c9187239f059d5b282520",
+                "reference": "83a1382930359e4d4f4c9187239f059d5b282520",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-09-11 18:12:41"
+            "time": "2020-09-18 18:16:42"
         },
         {
             "name": "composer/installers",
