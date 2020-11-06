@@ -1095,15 +1095,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "0.9.22",
+            "version": "0.9.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "tags/0.9.22"
+                "reference": "tags/0.9.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.9.22.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.9.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1113,7 +1113,7 @@
             "extra": {
                 "installer-name": "OAuthIntegratorWebclient"
             },
-            "time": "2020-09-01T13:06:19+00:00"
+            "time": "2020-11-05T17:46:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
@@ -1410,16 +1410,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.158.20",
+            "version": "3.158.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "25e4fe20837601adbf69921da2ef7d13ecf8932c"
+                "reference": "a2aba95a428f9e478d08b3f8dc1a70837b46785a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/25e4fe20837601adbf69921da2ef7d13ecf8932c",
-                "reference": "25e4fe20837601adbf69921da2ef7d13ecf8932c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a2aba95a428f9e478d08b3f8dc1a70837b46785a",
+                "reference": "a2aba95a428f9e478d08b3f8dc1a70837b46785a",
                 "shasum": ""
             },
             "require": {
@@ -1494,9 +1494,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.158.20"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.158.21"
             },
-            "time": "2020-11-04T20:11:29+00:00"
+            "time": "2020-11-05T19:24:22+00:00"
         },
         {
             "name": "composer/installers",
