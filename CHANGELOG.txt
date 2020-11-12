@@ -1,3 +1,6 @@
+[8.5.3]
+[*] Various bugfixes
+
 [8.5.2]
 [+] Added lang parameter to SSO entry point
 [*] Data directory protection improved
