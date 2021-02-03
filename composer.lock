@@ -1386,16 +1386,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.108",
+            "version": "2.2.109",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "ea62b71abb98d20765c3ef540181f24e302a9401"
+                "reference": "65e612aa24b4a5d3d34ddce418dcaba279ca6313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/ea62b71abb98d20765c3ef540181f24e302a9401",
-                "reference": "ea62b71abb98d20765c3ef540181f24e302a9401",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/65e612aa24b4a5d3d34ddce418dcaba279ca6313",
+                "reference": "65e612aa24b4a5d3d34ddce418dcaba279ca6313",
                 "shasum": ""
             },
             "require": {
@@ -1423,7 +1423,7 @@
             ],
             "description": "Afterlogic DAV Server",
             "homepage": "https://github.com/afterlogic/dav",
-            "time": "2020-12-30T07:38:00+00:00"
+            "time": "2021-02-03T08:53:54+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
