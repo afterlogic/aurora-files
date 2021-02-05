@@ -820,16 +820,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.118",
+            "version": "0.9.120",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.118"
+                "reference": "tags/0.9.120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.118.zip",
-                "reference": "tags/0.9.118"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.120.zip",
+                "reference": "tags/0.9.120"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -839,7 +839,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-02-03T11:55:43+00:00"
+            "time": "2021-02-05T10:09:17+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1455,16 +1455,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.2",
+            "version": "3.173.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1ab4f565744aea8e9560ee8aaffb19b87238c7d5"
+                "reference": "b805c50f0338180e7328c7ad5bcb0aceae11a75a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1ab4f565744aea8e9560ee8aaffb19b87238c7d5",
-                "reference": "1ab4f565744aea8e9560ee8aaffb19b87238c7d5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b805c50f0338180e7328c7ad5bcb0aceae11a75a",
+                "reference": "b805c50f0338180e7328c7ad5bcb0aceae11a75a",
                 "shasum": ""
             },
             "require": {
@@ -1536,7 +1536,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-02-03T21:12:51+00:00"
+            "time": "2021-02-04T21:45:53+00:00"
         },
         {
             "name": "composer/installers",
