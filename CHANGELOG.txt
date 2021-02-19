@@ -1,3 +1,7 @@
+[8.6.1]
+[*] Fixed an issue with Global Address Book 
+[*] Fixed an issue with automatic encryption of the messages
+
 [8.6.0]
 [*] Various bugfixes
 
