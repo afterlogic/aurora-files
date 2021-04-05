@@ -1,3 +1,10 @@
+[8.8.0]
+[+] Office document editor
+[+] IP whitelisting added for Recaptcha
+[+] EnableFailedLoginBlock records are now deleted after they expire
+[+] Added setting for hiding Logout link
+[*] Fixed issue with displaying angle brackets in server error messages
+
 [8.6.1]
 [*] Fixed an issue with Global Address Book 
 [*] Fixed an issue with automatic encryption of the messages
