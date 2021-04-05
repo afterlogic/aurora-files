@@ -105,16 +105,16 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.9.74",
+            "version": "0.9.76",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.9.74"
+                "reference": "tags/0.9.76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.74.zip",
-                "reference": "tags/0.9.74"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.76.zip",
+                "reference": "tags/0.9.76"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2021-01-22T06:20:35+00:00"
+            "time": "2021-04-05T11:26:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -820,16 +820,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.9.43",
+            "version": "0.9.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.9.43"
+                "reference": "tags/0.9.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.43.zip",
-                "reference": "tags/0.9.43"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.44.zip",
+                "reference": "tags/0.9.44"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -839,20 +839,20 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2020-10-03T06:32:43+00:00"
+            "time": "2021-04-05T12:43:02+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.132",
+            "version": "0.9.133",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.132"
+                "reference": "tags/0.9.133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.132.zip",
-                "reference": "tags/0.9.132"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.133.zip",
+                "reference": "tags/0.9.133"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -862,7 +862,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-04-02T08:24:35+00:00"
+            "time": "2021-04-05T13:50:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
