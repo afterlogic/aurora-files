@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a58dc3970f02219209a04e2831f5007c",
+    "content-hash": "641d74a743e6494a281ff2090119c7ae",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -534,16 +534,16 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.9.15",
+            "version": "0.9.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.9.15"
+                "reference": "tags/0.9.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.15.zip",
-                "reference": "tags/0.9.15"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.17.zip",
+                "reference": "tags/0.9.17"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -553,7 +553,30 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2021-04-02T13:34:44+00:00"
+            "time": "2021-04-16T11:34:39+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-office-document-viewer",
+            "version": "0.9.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer",
+                "reference": "tags/0.9.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.9.14.zip",
+                "reference": "tags/0.9.14"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.9.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "OfficeDocumentViewer"
+            },
+            "time": "2021-04-16T07:53:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-override-user-settings",
@@ -820,16 +843,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.9.44",
+            "version": "0.9.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.9.44"
+                "reference": "tags/0.9.45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.44.zip",
-                "reference": "tags/0.9.44"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.45.zip",
+                "reference": "tags/0.9.45"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -839,20 +862,20 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2021-04-05T12:43:02+00:00"
+            "time": "2021-04-19T12:23:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.133",
+            "version": "0.9.135",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.133"
+                "reference": "tags/0.9.135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.133.zip",
-                "reference": "tags/0.9.133"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.135.zip",
+                "reference": "tags/0.9.135"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -862,7 +885,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-04-05T13:50:30+00:00"
+            "time": "2021-04-16T07:51:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1030,16 +1053,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-tableview-plugin",
-            "version": "0.9.12",
+            "version": "0.9.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin",
-                "reference": "tags/0.9.12"
+                "reference": "tags/0.9.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/0.9.12.zip",
-                "reference": "tags/0.9.12"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/0.9.13.zip",
+                "reference": "tags/0.9.13"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1049,7 +1072,7 @@
             "extra": {
                 "installer-name": "FilesTableviewWebclientPlugin"
             },
-            "time": "2020-08-31T07:17:30+00:00"
+            "time": "2021-04-07T09:08:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-google-auth",
@@ -1353,16 +1376,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.113",
+            "version": "2.2.114",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "3d86709417fc234c2152a3644dfaea807265bdef"
+                "reference": "3e5d139b3f77171c65ff6b3d3c51eba3eaa7301c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/3d86709417fc234c2152a3644dfaea807265bdef",
-                "reference": "3d86709417fc234c2152a3644dfaea807265bdef",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/3e5d139b3f77171c65ff6b3d3c51eba3eaa7301c",
+                "reference": "3e5d139b3f77171c65ff6b3d3c51eba3eaa7301c",
                 "shasum": ""
             },
             "require": {
@@ -1390,7 +1413,7 @@
             ],
             "description": "Afterlogic DAV Server",
             "homepage": "https://github.com/afterlogic/dav",
-            "time": "2021-04-01T05:58:00+00:00"
+            "time": "2021-04-06T08:18:36+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1437,16 +1460,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.35",
+            "version": "1.5.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "8bcffb02f05269d4b672c9acb9b785bfcdd024e9"
+                "reference": "b5dec2b2cf4665eae500deecf9c04ba3fbefd4b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/8bcffb02f05269d4b672c9acb9b785bfcdd024e9",
-                "reference": "8bcffb02f05269d4b672c9acb9b785bfcdd024e9",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/b5dec2b2cf4665eae500deecf9c04ba3fbefd4b4",
+                "reference": "b5dec2b2cf4665eae500deecf9c04ba3fbefd4b4",
                 "shasum": ""
             },
             "require": {
@@ -1474,20 +1497,20 @@
             ],
             "description": "Afterlogic MailSo",
             "homepage": "https://github.com/afterlogic/mailso",
-            "time": "2021-03-03T08:07:54+00:00"
+            "time": "2021-04-14T06:47:14+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.176.7",
+            "version": "3.178.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "734dd0535f8e70ebb59be37f522af4e45d006ace"
+                "reference": "15b27555b365053af712a01cbf99d6d7cd4323fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/734dd0535f8e70ebb59be37f522af4e45d006ace",
-                "reference": "734dd0535f8e70ebb59be37f522af4e45d006ace",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/15b27555b365053af712a01cbf99d6d7cd4323fa",
+                "reference": "15b27555b365053af712a01cbf99d6d7cd4323fa",
                 "shasum": ""
             },
             "require": {
@@ -1559,7 +1582,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-04-02T18:16:40+00:00"
+            "time": "2021-04-22T18:13:46+00:00"
         },
         {
             "name": "composer/installers",

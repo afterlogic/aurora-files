@@ -1,3 +1,8 @@
+[8.8.1]
+[+] Document converter and version history implemented for office document editor
+[*] Files list view redesigned, with action buttons added
+[*] Various bugfixes
+
 [8.8.0]
 [+] Office document editor
 [+] IP whitelisting added for Recaptcha

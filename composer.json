@@ -39,6 +39,7 @@
 		"afterlogic/aurora-module-team-contacts": "~0.9.0",
 		"afterlogic/aurora-module-webclient-contacts": "~0.9.0",
 		"afterlogic/aurora-module-dav-contacts": "~0.9.0",
+        "afterlogic/aurora-module-shared-contacts": "~0.9.0",
 		
 		"afterlogic/aurora-module-webclient-oauth-integrator": "~0.9.0",
 		
