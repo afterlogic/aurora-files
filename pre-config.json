@@ -63,6 +63,9 @@
 				"android:apk-key-hash:ruyLw8eJtT5fZ1ZusXSCHTp0yMZIlr6CVx5kq76ApiQ",
 				"android:apk-key-hash:aEdaWviMajF83fPsXVc1yaZVUy1OiKakbZqP62f5D48"
 			]
+		},
+		"OfficeDocumentEditor": {
+			"Disabled": true
 		}
 	}
 }
