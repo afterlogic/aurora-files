@@ -1,6 +1,7 @@
 {
 	"config": {
-		"minimum-stability": "dev"
+		"minimum-stability": "dev",
+		"platform-check": false
 	},
 	"repositories": [
 		{"type": "composer", "url":"https://afterlogic.com/composer/"}
