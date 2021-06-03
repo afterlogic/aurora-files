@@ -512,15 +512,15 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.9.32",
+            "version": "0.9.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.9.32"
+                "reference": "tags/0.9.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.32.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.33.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -530,19 +530,19 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2021-06-01T15:18:09+00:00"
+            "time": "2021-06-02T08:28:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
-            "version": "0.9.14",
+            "version": "0.9.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-viewer",
-                "reference": "tags/0.9.14"
+                "reference": "tags/0.9.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.9.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.9.15.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -552,7 +552,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentViewer"
             },
-            "time": "2021-04-16T07:53:13+00:00"
+            "time": "2021-06-02T08:31:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-override-user-settings",
@@ -966,15 +966,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-file-viewer-plugin",
-            "version": "0.9.4",
+            "version": "0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin",
-                "reference": "tags/0.9.4"
+                "reference": "tags/0.9.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/0.9.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/0.9.5.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -984,7 +984,7 @@
             "extra": {
                 "installer-name": "FileViewerWebclientPlugin"
             },
-            "time": "2020-06-26T13:01:48+00:00"
+            "time": "2021-06-03T14:39:56+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
