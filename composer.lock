@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf4879e7b5e1a103b641253cf10d59a7",
+    "content-hash": "7150d98319ceea49e9656299daa234f5",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
-            "version": "0.9.22",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-dev-tools",
-                "reference": "tags/0.9.22"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.9.22.zip"
+                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/master.zip"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -24,25 +24,29 @@
                 "squizlabs/php_codesniffer": "^2.0"
             },
             "type": "aurora-dev-tools",
-            "time": "2020-05-21T07:48:04+00:00"
+            "time": "2020-11-25T07:06:32+00:00"
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.9.144",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.9.144"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.144.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/mailso": "^1.4",
+                "afterlogic/mailso": "^1.4 || dev-master || dev-laravel",
+                "illuminate/cache": "^7.30",
+                "illuminate/console": "^7.30",
+                "illuminate/container": "^7.30",
+                "illuminate/database": "^7.30",
+                "illuminate/filesystem": "^7.30",
                 "intervention/image": "^2.4",
-                "phpixie/cache": "^3.0",
-                "phpixie/filesystem": "^3.0",
+                "pimple/pimple": "^3.0",
                 "rakit/validation": "^0.22.3",
                 "symfony/filesystem": "^2.8"
             },
@@ -53,22 +57,22 @@
                     "Installer.php"
                 ]
             },
-            "time": "2021-05-25T10:27:57+00:00"
+            "time": "2021-06-04T12:43:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
-            "version": "0.9.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-activity-history",
-                "reference": "tags/0.9.5"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/0.9.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -79,18 +83,18 @@
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
-            "version": "0.9.10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-admin-auth",
-                "reference": "tags/0.9.10"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.9.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -101,18 +105,18 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.9.76",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.9.76"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.9.76.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0",
                 "sabre/dav": "3.2.*"
             },
@@ -120,44 +124,44 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2021-04-05T11:26:44+00:00"
+            "time": "2021-06-04T14:15:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.9.91",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.9.91"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.9.91.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2021-06-01T12:42:23+00:00"
+            "time": "2021-06-24T12:28:59+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
-            "version": "0.9.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core-extender",
-                "reference": "tags/0.9.1"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core-extender/archive/0.9.1.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core-extender/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -168,42 +172,42 @@
         },
         {
             "name": "afterlogic/aurora-module-corporatefiles",
-            "version": "0.9.10",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-corporatefiles",
-                "reference": "tags/0.9.10"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-corporatefiles/archive/0.9.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-corporatefiles/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-files": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "CorporateFiles"
             },
-            "time": "2020-06-01T08:43:38+00:00"
+            "time": "2021-06-05T04:06:29+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav",
-            "version": "0.9.21",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav",
-                "reference": "tags/0.9.21"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.9.21.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/dav": "~2.2.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0",
                 "sabre/dav": "3.2.*"
             },
@@ -215,20 +219,20 @@
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "0.9.47",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "tags/0.9.47"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.9.47.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-dav": "~0.9.0",
-                "afterlogic/dav": "~2.2.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-dav": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -239,66 +243,66 @@
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
-            "version": "0.9.9",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dropbox",
-                "reference": "tags/0.9.9"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dropbox/archive/0.9.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dropbox/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "kunalvarma05/dropbox-php-sdk": "^0.2.1",
                 "php": ">=5.4.0",
-                "tightenco/collect": "5.5.32"
+                "tightenco/collect": "5.5.33"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Dropbox"
             },
-            "time": "2021-03-10T06:58:01+00:00"
+            "time": "2021-05-25T08:44:43+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox-filestorage",
-            "version": "0.9.12",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dropbox-filestorage",
-                "reference": "tags/0.9.12"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dropbox-filestorage/archive/0.9.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dropbox-filestorage/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "kunalvarma05/dropbox-php-sdk": "^0.2.1",
                 "php": ">=5.4.0",
-                "tightenco/collect": "5.5.32"
+                "tightenco/collect": "5.5.33"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "DropboxFilestorage"
             },
-            "time": "2020-11-06T10:33:45+00:00"
+            "time": "2021-05-25T08:44:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-eav-object-viewer",
-            "version": "0.9.11",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer",
-                "reference": "tags/0.9.11"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer/archive/0.9.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -309,18 +313,18 @@
         },
         {
             "name": "afterlogic/aurora-module-facebook",
-            "version": "0.9.9",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-facebook",
-                "reference": "tags/0.9.9"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-facebook/archive/0.9.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-facebook/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -331,42 +335,42 @@
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "0.9.44",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "tags/0.9.44"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.9.44.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-dav": "~0.9.0",
-                "afterlogic/dav": "~2.2.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-dav": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Files"
             },
-            "time": "2021-05-12T10:24:29+00:00"
+            "time": "2021-06-05T04:07:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
-            "version": "0.9.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files-zipfolder",
-                "reference": "tags/0.9.8"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files-zipfolder/archive/0.9.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files-zipfolder/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -377,18 +381,18 @@
         },
         {
             "name": "afterlogic/aurora-module-google",
-            "version": "0.9.9",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-google",
-                "reference": "tags/0.9.9"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.9.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-google/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "google/apiclient": "1.1.7",
                 "php": ">=5.4.0"
             },
@@ -400,18 +404,18 @@
         },
         {
             "name": "afterlogic/aurora-module-googledrive",
-            "version": "0.9.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-googledrive",
-                "reference": "tags/0.9.13"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-googledrive/archive/0.9.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-googledrive/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "google/apiclient": "1.1.7",
                 "php": ">=5.4.0"
             },
@@ -423,18 +427,18 @@
         },
         {
             "name": "afterlogic/aurora-module-ios",
-            "version": "0.9.16",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-ios",
-                "reference": "tags/0.9.16"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.9.16.zip"
+                "url": "https://github.com/afterlogic/aurora-module-ios/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0",
                 "sabre/dav": "3.2.*"
             },
@@ -446,18 +450,18 @@
         },
         {
             "name": "afterlogic/aurora-module-min",
-            "version": "0.9.10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-min",
-                "reference": "tags/0.9.10"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.9.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-min/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -468,18 +472,18 @@
         },
         {
             "name": "afterlogic/aurora-module-mobile-sync",
-            "version": "0.9.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mobile-sync",
-                "reference": "tags/0.9.4"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mobile-sync/archive/0.9.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mobile-sync/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -490,18 +494,18 @@
         },
         {
             "name": "afterlogic/aurora-module-oembed-files",
-            "version": "0.9.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-oembed-files",
-                "reference": "tags/0.9.6"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-oembed-files/archive/0.9.6.zip"
+                "url": "https://github.com/afterlogic/aurora-module-oembed-files/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -512,18 +516,18 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.9.33",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.9.33"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.9.33.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -534,18 +538,18 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
-            "version": "0.9.15",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-viewer",
-                "reference": "tags/0.9.15"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.9.15.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -556,18 +560,18 @@
         },
         {
             "name": "afterlogic/aurora-module-override-user-settings",
-            "version": "0.9.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-override-user-settings",
-                "reference": "tags/0.9.4"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-override-user-settings/archive/0.9.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-override-user-settings/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -578,19 +582,19 @@
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "0.9.20",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "tags/0.9.20"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.9.20.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-contacts": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -601,43 +605,43 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.9.62",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.9.62"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.9.62.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-dav": "~0.9.0",
-                "afterlogic/aurora-module-files": "~0.9.0",
-                "afterlogic/dav": "~2.2.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-dav": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2021-05-31T06:28:49+00:00"
+            "time": "2021-06-23T09:56:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
-            "version": "0.9.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage",
-                "reference": "tags/0.9.2"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage/archive/0.9.2.zip"
+                "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "aws/aws-sdk-php": "3.*",
                 "php": ">=5.4.0"
             },
@@ -649,18 +653,18 @@
         },
         {
             "name": "afterlogic/aurora-module-s3-filestorage",
-            "version": "0.9.30",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-filestorage",
-                "reference": "tags/0.9.30"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.9.30.zip"
+                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "aws/aws-sdk-php": "3.*",
                 "php": ">=5.4.0"
             },
@@ -672,42 +676,42 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
-            "version": "0.9.11",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-contacts",
-                "reference": "tags/0.9.11"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.9.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-contacts": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "SharedContacts"
             },
-            "time": "2020-10-03T06:30:07+00:00"
+            "time": "2021-06-23T09:55:02+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.9.35",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.9.35"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.9.35.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-files": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -718,18 +722,18 @@
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
-            "version": "0.9.16",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-standard-auth",
-                "reference": "tags/0.9.16"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/0.9.16.zip"
+                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -740,42 +744,42 @@
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
-            "version": "0.9.16",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-team-contacts",
-                "reference": "tags/0.9.16"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-team-contacts/archive/0.9.16.zip"
+                "url": "https://github.com/afterlogic/aurora-module-team-contacts/archive/laravel.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-contacts": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "TeamContacts"
             },
-            "time": "2020-12-26T13:38:30+00:00"
+            "time": "2021-06-23T09:53:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.9.42",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.9.42"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.9.42.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/googleauthenticator": "~1.0.2",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/googleauthenticator": "~1.0.2 || dev-master || dev-laravel",
                 "php": ">=5.4.0",
                 "pragmarx/recovery": "^0.1.0"
             },
@@ -787,18 +791,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.9.52",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.9.52"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.9.52.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -809,18 +813,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
-            "version": "0.9.12",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-branding",
-                "reference": "tags/0.9.12"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-branding/archive/0.9.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-branding/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9",
+                "afterlogic/aurora-framework": "~0.9 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -831,65 +835,65 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.9.45",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.9.45"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.9.45.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-contacts": "~0.9.0"
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2021-04-19T12:23:44+00:00"
+            "time": "2021-06-09T14:17:15+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.9.138",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.9.138"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.9.138.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-05-21T06:54:43+00:00"
+            "time": "2021-06-10T13:02:20+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.9.43",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
-                "reference": "tags/0.9.43"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.9.43.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-files": "~0.9.0",
-                "afterlogic/aurora-module-webclient-files": "~0.9.0",
-                "afterlogic/aurora-module-webclient-openpgp": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-webclient-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-webclient-openpgp": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -900,18 +904,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
-            "version": "0.9.9",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-dropbox-auth",
-                "reference": "tags/0.9.9"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-dropbox-auth/archive/0.9.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-dropbox-auth/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -922,18 +926,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-external-clients-login-form",
-            "version": "0.9.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-oauth-integrator",
-                "reference": "tags/0.9.3"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-oauth-integrator/archive/0.9.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-oauth-integrator/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -944,18 +948,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-facebook-auth",
-            "version": "0.9.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-facebook-auth",
-                "reference": "tags/0.9.8"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-facebook-auth/archive/0.9.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-facebook-auth/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -966,18 +970,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-file-viewer-plugin",
-            "version": "0.9.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin",
-                "reference": "tags/0.9.5"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/0.9.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -988,18 +992,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.9.63",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.9.63"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.9.63.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1010,18 +1014,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
-            "version": "0.9.9",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
-                "reference": "tags/0.9.9"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin/archive/0.9.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1032,18 +1036,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-tableview-plugin",
-            "version": "0.9.14",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin",
-                "reference": "tags/0.9.14"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/0.9.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1054,18 +1058,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-google-auth",
-            "version": "0.9.11",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-google-auth",
-                "reference": "tags/0.9.11"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-google-auth/archive/0.9.11.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-google-auth/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1076,18 +1080,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-invitation-link",
-            "version": "0.9.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link",
-                "reference": "tags/0.9.13"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/0.9.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0",
                 "phpmailer/phpmailer": "~5.2"
             },
@@ -1099,18 +1103,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-logs-viewer",
-            "version": "0.9.9",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-logs-viewer",
-                "reference": "tags/0.9.9"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-logs-viewer/archive/0.9.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-logs-viewer/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1121,18 +1125,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mobile-apps",
-            "version": "0.9.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps",
-                "reference": "tags/0.9.3"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps/archive/0.9.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0"
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel"
             },
             "type": "aurora-module",
             "extra": {
@@ -1142,18 +1146,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mobile-sync",
-            "version": "0.9.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-sync",
-                "reference": "tags/0.9.8"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-sync/archive/0.9.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-sync/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0"
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel"
             },
             "type": "aurora-module",
             "extra": {
@@ -1163,18 +1167,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "0.9.26",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "tags/0.9.26"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.9.26.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1185,18 +1189,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.9.53",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.9.53"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.9.53.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1207,20 +1211,20 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.9.55",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.9.55"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.55.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
-                "afterlogic/aurora-module-files": "~0.9.0",
-                "afterlogic/aurora-module-webclient-files": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-module-webclient-files": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1231,18 +1235,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
-            "version": "0.9.19",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin",
-                "reference": "tags/0.9.19"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/0.9.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "google/recaptcha": "^1.2",
                 "php": ">=5.4.0"
             },
@@ -1254,18 +1258,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
-            "version": "0.9.10",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-settings",
-                "reference": "tags/0.9.10"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-settings/archive/0.9.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-settings/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1276,18 +1280,18 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-auth",
-            "version": "0.9.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth",
-                "reference": "tags/0.9.5"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth/archive/0.9.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0"
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel"
             },
             "type": "aurora-module",
             "extra": {
@@ -1297,40 +1301,40 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-login-form",
-            "version": "0.9.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form",
-                "reference": "tags/0.9.13"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/0.9.13.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "StandardLoginFormWebclient"
             },
-            "time": "2020-06-11T08:24:47+00:00"
+            "time": "2020-10-23T10:38:24+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-register-form",
-            "version": "0.9.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-register-form",
-                "reference": "tags/0.9.5"
+                "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-register-form/archive/0.9.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-register-form/archive/master.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0",
+                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -1478,16 +1482,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.183.11",
+            "version": "3.185.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f42dcf893227842aca11e8ea19f7b2123cf3244b"
+                "reference": "953bbd1b5f7fd3f1601ad0a83f93358f635c57f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f42dcf893227842aca11e8ea19f7b2123cf3244b",
-                "reference": "f42dcf893227842aca11e8ea19f7b2123cf3244b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/953bbd1b5f7fd3f1601ad0a83f93358f635c57f4",
+                "reference": "953bbd1b5f7fd3f1601ad0a83f93358f635c57f4",
                 "shasum": ""
             },
             "require": {
@@ -1562,9 +1566,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.183.11"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.1"
             },
-            "time": "2021-06-02T18:14:10+00:00"
+            "time": "2021-06-24T18:22:42+00:00"
         },
         {
             "name": "composer/installers",
@@ -1715,6 +1719,101 @@
                 }
             ],
             "time": "2021-04-28T06:42:17+00:00"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
+                "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^7.0",
+                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-strict-rules": "^0.11",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
+            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
+            "keywords": [
+                "inflection",
+                "inflector",
+                "lowercase",
+                "manipulation",
+                "php",
+                "plural",
+                "singular",
+                "strings",
+                "uppercase",
+                "words"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/inflector/issues",
+                "source": "https://github.com/doctrine/inflector/tree/2.0.x"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-29T15:13:26+00:00"
         },
         {
             "name": "google/apiclient",
@@ -2017,6 +2116,409 @@
             "time": "2021-04-26T09:17:50+00:00"
         },
         {
+            "name": "illuminate/cache",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/cache.git",
+                "reference": "f9155c4827600ea3e0743eb03402f8048c04455c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/f9155c4827600ea3e0743eb03402f8048c04455c",
+                "reference": "f9155c4827600ea3e0743eb03402f8048c04455c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5|^8.0"
+            },
+            "suggest": {
+                "ext-memcached": "Required to use the memcache cache driver.",
+                "illuminate/database": "Required to use the database cache driver (^7.0).",
+                "illuminate/filesystem": "Required to use the file cache driver (^7.0).",
+                "illuminate/redis": "Required to use the redis cache driver (^7.0).",
+                "symfony/cache": "Required to PSR-6 cache bridge (^5.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Cache\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Cache package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-27T15:11:37+00:00"
+        },
+        {
+            "name": "illuminate/console",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/console.git",
+                "reference": "7dd038f1729af6390654f065c3ada5dc275fb01a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/7dd038f1729af6390654f065c3ada5dc275fb01a",
+                "reference": "7dd038f1729af6390654f065c3ada5dc275fb01a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5|^8.0",
+                "symfony/console": "^5.0",
+                "symfony/process": "^5.0"
+            },
+            "suggest": {
+                "dragonmantank/cron-expression": "Required to use scheduler (^2.3.1).",
+                "guzzlehttp/guzzle": "Required to use the ping methods on schedules (^6.3.1|^7.0.1).",
+                "illuminate/bus": "Required to use the scheduled job dispatcher (^7.0).",
+                "illuminate/container": "Required to use the scheduler (^7.0).",
+                "illuminate/filesystem": "Required to use the generator command (^7.0).",
+                "illuminate/queue": "Required to use closures for scheduled jobs (^7.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Console package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-27T19:51:21+00:00"
+        },
+        {
+            "name": "illuminate/container",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/container.git",
+                "reference": "cf94ed8fbaeb26906bb42b24377dbb061b97a096"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/cf94ed8fbaeb26906bb42b24377dbb061b97a096",
+                "reference": "cf94ed8fbaeb26906bb42b24377dbb061b97a096",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^7.0",
+                "php": "^7.2.5|^8.0",
+                "psr/container": "^1.0"
+            },
+            "provide": {
+                "psr/container-implementation": "1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Container\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Container package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-27T16:17:28+00:00"
+        },
+        {
+            "name": "illuminate/contracts",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/contracts.git",
+                "reference": "7d964384f0283bd7525ae7b5baa7ad32e5503b8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/7d964384f0283bd7525ae7b5baa7ad32e5503b8e",
+                "reference": "7d964384f0283bd7525ae7b5baa7ad32e5503b8e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5|^8.0",
+                "psr/container": "^1.0",
+                "psr/simple-cache": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Contracts\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Contracts package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-12-18T14:19:44+00:00"
+        },
+        {
+            "name": "illuminate/database",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/database.git",
+                "reference": "c7a35698106b1ed6b50f7fd4c30ec8e9fc900e41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/c7a35698106b1ed6b50f7fd4c30ec8e9fc900e41",
+                "reference": "c7a35698106b1ed6b50f7fd4c30ec8e9fc900e41",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/container": "^7.0",
+                "illuminate/contracts": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5|^8.0",
+                "symfony/console": "^5.0"
+            },
+            "suggest": {
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6).",
+                "fakerphp/faker": "Required to use the eloquent factory builder (^1.9.1).",
+                "illuminate/console": "Required to use the database commands (^7.0).",
+                "illuminate/events": "Required to use the observers with Eloquent (^7.0).",
+                "illuminate/filesystem": "Required to use the migrations (^7.0).",
+                "illuminate/pagination": "Required to paginate the result set (^7.0).",
+                "symfony/finder": "Required to use Eloquent model factories (^5.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Database\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Database package.",
+            "homepage": "https://laravel.com",
+            "keywords": [
+                "database",
+                "laravel",
+                "orm",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2021-01-21T14:08:35+00:00"
+        },
+        {
+            "name": "illuminate/filesystem",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/filesystem.git",
+                "reference": "2013f94a3a7dff008be54884774548e3c222c3e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/2013f94a3a7dff008be54884774548e3c222c3e8",
+                "reference": "2013f94a3a7dff008be54884774548e3c222c3e8",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5|^8.0",
+                "symfony/finder": "^5.0"
+            },
+            "suggest": {
+                "ext-ftp": "Required to use the Flysystem FTP driver.",
+                "illuminate/http": "Required for handling uploaded files (^7.0).",
+                "league/flysystem": "Required to use the Flysystem local and FTP drivers (^1.1).",
+                "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^1.0).",
+                "league/flysystem-cached-adapter": "Required to use the Flysystem cache (^1.0).",
+                "league/flysystem-sftp": "Required to use the Flysystem SFTP driver (^1.0).",
+                "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
+                "symfony/mime": "Required to enable support for guessing extensions (^5.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Filesystem package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-10-27T15:11:37+00:00"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v7.30.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "1c95b8f842308ff15a56d29d897d3bda29001f1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/1c95b8f842308ff15a56d29d897d3bda29001f1c",
+                "reference": "1c95b8f842308ff15a56d29d897d3bda29001f1c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "^1.4|^2.0",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "illuminate/contracts": "^7.0",
+                "nesbot/carbon": "^2.31",
+                "php": "^7.2.5|^8.0",
+                "voku/portable-ascii": "^1.4.8"
+            },
+            "conflict": {
+                "tightenco/collect": "<5.5.33"
+            },
+            "suggest": {
+                "illuminate/filesystem": "Required to use the composer class (^7.0).",
+                "moontoast/math": "Required to use ordered UUIDs (^1.1).",
+                "ramsey/uuid": "Required to use Str::uuid() (^3.7|^4.0).",
+                "symfony/process": "Required to use the composer class (^5.0).",
+                "symfony/var-dumper": "Required to use the dd function (^5.0).",
+                "vlucas/phpdotenv": "Required to use the Env class and env helper (^4.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Support package.",
+            "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2020-12-22T16:12:23+00:00"
+        },
+        {
             "name": "intervention/image",
             "version": "2.5.1",
             "source": {
@@ -2144,16 +2646,16 @@
         },
         {
             "name": "mtdowling/jmespath.php",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb"
+                "reference": "9b87907a81b87bc76d19a7fb2d61e61486ee9edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/42dae2cbd13154083ca6d70099692fef8ca84bfb",
-                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/9b87907a81b87bc76d19a7fb2d61e61486ee9edb",
+                "reference": "9b87907a81b87bc76d19a7fb2d61e61486ee9edb",
                 "shasum": ""
             },
             "require": {
@@ -2161,7 +2663,7 @@
                 "symfony/polyfill-mbstring": "^1.17"
             },
             "require-dev": {
-                "composer/xdebug-handler": "^1.4",
+                "composer/xdebug-handler": "^1.4 || ^2.0",
                 "phpunit/phpunit": "^4.8.36 || ^7.5.15"
             },
             "bin": [
@@ -2199,9 +2701,102 @@
             ],
             "support": {
                 "issues": "https://github.com/jmespath/jmespath.php/issues",
-                "source": "https://github.com/jmespath/jmespath.php/tree/2.6.0"
+                "source": "https://github.com/jmespath/jmespath.php/tree/2.6.1"
             },
-            "time": "2020-07-31T21:01:56+00:00"
+            "time": "2021-06-14T00:11:39+00:00"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "2.49.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/93d9db91c0235c486875d22f1e08b50bdf3e6eee",
+                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1.8 || ^8.0",
+                "symfony/polyfill-mbstring": "^1.0",
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+            },
+            "require-dev": {
+                "doctrine/orm": "^2.7",
+                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+                "kylekatarnls/multi-tester": "^2.0",
+                "phpmd/phpmd": "^2.9",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12.54",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.14",
+                "squizlabs/php_codesniffer": "^3.4"
+            },
+            "bin": [
+                "bin/carbon"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev",
+                    "dev-3.x": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Carbon\\Laravel\\ServiceProvider"
+                    ]
+                },
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Carbon\\": "src/Carbon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                },
+                {
+                    "name": "kylekatarnls",
+                    "homepage": "http://github.com/kylekatarnls"
+                }
+            ],
+            "description": "An API extension for DateTime that supports 281 different languages.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/briannesbitt/Carbon/issues",
+                "source": "https://github.com/briannesbitt/Carbon"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/Carbon",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-06-02T07:31:40+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -2434,181 +3029,6 @@
             "time": "2019-12-27T09:44:58+00:00"
         },
         {
-            "name": "phpixie/cache",
-            "version": "3.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPixie/Cache.git",
-                "reference": "e1e577373e226b494039a1f46decbd3efa9fe85a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPixie/Cache/zipball/e1e577373e226b494039a1f46decbd3efa9fe85a",
-                "reference": "e1e577373e226b494039a1f46decbd3efa9fe85a",
-                "shasum": ""
-            },
-            "require": {
-                "phpixie/slice": "~3.0",
-                "psr/cache": "^1.0",
-                "psr/simple-cache": "^0.3.0"
-            },
-            "require-dev": {
-                "phpixie/filesystem": "~3.1",
-                "phpixie/test": "~3.1",
-                "predis/predis": "^1.1"
-            },
-            "suggest": {
-                "ext-memcached": "Required for memcached support",
-                "phpixie/filesystem": "Required for file based cache",
-                "predis/predis": "Required for redis support"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPixie\\": "src/PHPixie",
-                    "PHPixie\\Tests\\": "tests/PHPixie/Tests"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Tsiupa",
-                    "email": "draconyster@gmail.com",
-                    "homepage": "http://dracony.org"
-                }
-            ],
-            "description": "Cache library for PHPixie",
-            "homepage": "http://phpixie.com",
-            "keywords": [
-                "cache",
-                "memcached",
-                "psr-16",
-                "psr-6",
-                "redis"
-            ],
-            "support": {
-                "issues": "https://github.com/PHPixie/Cache/issues",
-                "source": "https://github.com/PHPixie/Cache/tree/3.3"
-            },
-            "time": "2019-12-25T09:07:49+00:00"
-        },
-        {
-            "name": "phpixie/filesystem",
-            "version": "3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPixie/Filesystem.git",
-                "reference": "770fdf243dca45a79bf6536d921d3aa7e275d148"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPixie/Filesystem/zipball/770fdf243dca45a79bf6536d921d3aa7e275d148",
-                "reference": "770fdf243dca45a79bf6536d921d3aa7e275d148",
-                "shasum": ""
-            },
-            "require": {
-                "phpixie/slice": "~3.0"
-            },
-            "require-dev": {
-                "phpixie/test": "~3.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPixie\\": "src/PHPixie",
-                    "PHPixie\\Tests\\": "tests/PHPixie/Tests"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Tsiupa",
-                    "email": "draconyster@gmail.com",
-                    "homepage": "http://dracony.org"
-                }
-            ],
-            "description": "Filesystem wrappers for PHPixie",
-            "homepage": "http://phpixie.com",
-            "keywords": [
-                "file",
-                "filesystem"
-            ],
-            "support": {
-                "issues": "https://github.com/PHPixie/Filesystem/issues",
-                "source": "https://github.com/PHPixie/Filesystem/tree/3.2.3"
-            },
-            "time": "2019-12-25T20:27:03+00:00"
-        },
-        {
-            "name": "phpixie/slice",
-            "version": "3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPixie/Slice.git",
-                "reference": "4435da2e2f877b899380c64c86e1bd55795c615c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPixie/Slice/zipball/4435da2e2f877b899380c64c86e1bd55795c615c",
-                "reference": "4435da2e2f877b899380c64c86e1bd55795c615c",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpixie/test": "~3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPixie\\": "src/PHPixie",
-                    "PHPixie\\Tests\\": "tests/PHPixie/Tests"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Tsiupa",
-                    "email": "draconyster@gmail.com",
-                    "homepage": "http://dracony.org"
-                }
-            ],
-            "description": "Slice library for PHPixie",
-            "homepage": "http://phpixie.com",
-            "keywords": [
-                "array",
-                "data",
-                "parameters"
-            ],
-            "support": {
-                "issues": "https://github.com/PHPixie/Slice/issues",
-                "source": "https://github.com/PHPixie/Slice/tree/3.2.3"
-            },
-            "time": "2016-06-12T08:07:30+00:00"
-        },
-        {
             "name": "phpmailer/phpmailer",
             "version": "v5.2.28",
             "source": {
@@ -2702,6 +3122,59 @@
                 }
             ],
             "time": "2020-03-19T14:29:37+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "86406047271859ffc13424a048541f4531f53601"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/86406047271859ffc13424a048541f4531f53601",
+                "reference": "86406047271859ffc13424a048541f4531f53601",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.1"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "https://pimple.symfony.com",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "support": {
+                "source": "https://github.com/silexphp/Pimple/tree/v3.4.0"
+            },
+            "time": "2021-03-06T08:28:00+00:00"
         },
         {
             "name": "pragmarx/random",
@@ -2839,31 +3312,26 @@
             "time": "2017-09-19T16:58:00+00:00"
         },
         {
-            "name": "psr/cache",
-            "version": "1.0.1",
+            "name": "psr/container",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-fig/cache.git",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=7.2.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Cache\\": "src/"
+                    "Psr\\Container\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2873,19 +3341,23 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
-            "description": "Common interface for caching libraries",
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
             "keywords": [
-                "cache",
-                "psr",
-                "psr-6"
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
             ],
             "support": {
-                "source": "https://github.com/php-fig/cache/tree/master"
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
-            "time": "2016-08-06T20:24:11+00:00"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-message",
@@ -2992,16 +3464,16 @@
         },
         {
             "name": "psr/simple-cache",
-            "version": "0.3.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/simple-cache.git",
-                "reference": "7dcf8811a19f589909a041bbca3cefe57f6b37f5"
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/7dcf8811a19f589909a041bbca3cefe57f6b37f5",
-                "reference": "7dcf8811a19f589909a041bbca3cefe57f6b37f5",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
                 "shasum": ""
             },
             "require": {
@@ -3037,9 +3509,9 @@
                 "simple-cache"
             ],
             "support": {
-                "source": "https://github.com/php-fig/simple-cache/tree/0.3.0"
+                "source": "https://github.com/php-fig/simple-cache/tree/master"
             },
-            "time": "2016-12-09T08:51:20+00:00"
+            "time": "2017-10-23T01:57:42+00:00"
         },
         {
             "name": "rakit/validation",
@@ -3649,6 +4121,171 @@
             "time": "2018-11-07T22:31:41+00:00"
         },
         {
+            "name": "symfony/console",
+            "version": "v5.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "649730483885ff2ca99ca0560ef0e5f6b03f2ac1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/649730483885ff2ca99ca0560ef0e5f6b03f2ac1",
+                "reference": "649730483885ff2ca99ca0560ef0e5f6b03f2ac1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/string": "^5.1"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<4.4",
+                "symfony/dotenv": "<5.1",
+                "symfony/event-dispatcher": "<4.4",
+                "symfony/lock": "<4.4",
+                "symfony/process": "<4.4"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^4.4|^5.0",
+                "symfony/lock": "^4.4|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "symfony/var-dumper": "^4.4|^5.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/lock": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Eases the creation of beautiful and testable command line interfaces",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "terminal"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/console/tree/v5.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-06-12T09:42:48+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-03-23T23:28:01+00:00"
+        },
+        {
             "name": "symfony/filesystem",
             "version": "v2.8.52",
             "source": {
@@ -3700,6 +4337,67 @@
                 "source": "https://github.com/symfony/filesystem/tree/v2.8.52"
             },
             "time": "2018-11-11T11:18:13+00:00"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v5.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "0ae3f047bed4edff6fd35b26a9a6bfdc92c953c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/0ae3f047bed4edff6fd35b26a9a6bfdc92c953c6",
+                "reference": "0ae3f047bed4edff6fd35b26a9a6bfdc92c953c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Finds files and directories via an intuitive fluent interface",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/finder/tree/v5.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-05-26T12:52:38+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3779,6 +4477,87 @@
                 }
             ],
             "time": "2021-02-19T12:13:01+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "version": "v1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+                "reference": "24b72c6baa32c746a4d0840147c9715e42bb68ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/24b72c6baa32c746a4d0840147c9715e42bb68ab",
+                "reference": "24b72c6baa32c746a4d0840147c9715e42bb68ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's grapheme_* functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "grapheme",
+                "intl",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.23.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-05-27T09:17:38+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -4108,36 +4887,675 @@
             "time": "2021-05-27T09:17:38+00:00"
         },
         {
-            "name": "tightenco/collect",
-            "version": "v5.5.32",
+            "name": "symfony/polyfill-php73",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tighten/collect.git",
-                "reference": "0db8c8aa2aae44af756437ba6e98d9b0bd1ecec3"
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "fba8933c384d6476ab14fb7b8526e5287ca7e010"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tighten/collect/zipball/0db8c8aa2aae44af756437ba6e98d9b0bd1ecec3",
-                "reference": "0db8c8aa2aae44af756437ba6e98d9b0bd1ecec3",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fba8933c384d6476ab14fb7b8526e5287ca7e010",
+                "reference": "fba8933c384d6476ab14fb7b8526e5287ca7e010",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.23.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-02-19T12:13:01+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "eca0bf41ed421bed1b57c4958bab16aa86b757d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/eca0bf41ed421bed1b57c4958bab16aa86b757d0",
+                "reference": "eca0bf41ed421bed1b57c4958bab16aa86b757d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-02-19T12:13:01+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v5.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "714b47f9196de61a196d86c4bad5f09201b307df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/714b47f9196de61a196d86c4bad5f09201b307df",
+                "reference": "714b47f9196de61a196d86c4bad5f09201b307df",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Executes commands in sub-processes",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v5.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-06-12T10:15:01+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.1"
+            },
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/service-contracts/tree/v2.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-01T10:43:52+00:00"
+        },
+        {
+            "name": "symfony/string",
+            "version": "v5.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/string.git",
+                "reference": "0732e97e41c0a590f77e231afc16a327375d50b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/string/zipball/0732e97e41c0a590f77e231afc16a327375d50b0",
+                "reference": "0732e97e41c0a590f77e231afc16a327375d50b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-intl-grapheme": "~1.0",
+                "symfony/polyfill-intl-normalizer": "~1.0",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "~1.15"
+            },
+            "require-dev": {
+                "symfony/error-handler": "^4.4|^5.0",
+                "symfony/http-client": "^4.4|^5.0",
+                "symfony/translation-contracts": "^1.1|^2",
+                "symfony/var-exporter": "^4.4|^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
+                "files": [
+                    "Resources/functions.php"
+                ],
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "grapheme",
+                "i18n",
+                "string",
+                "unicode",
+                "utf-8",
+                "utf8"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/string/tree/v5.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-06-06T09:51:56+00:00"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v5.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "7e2603bcc598e14804c4d2359d8dc4ee3c40391b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/7e2603bcc598e14804c4d2359d8dc4ee3c40391b",
+                "reference": "7e2603bcc598e14804c4d2359d8dc4ee3c40391b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/translation-contracts": "^2.3"
+            },
+            "conflict": {
+                "symfony/config": "<4.4",
+                "symfony/dependency-injection": "<5.0",
+                "symfony/http-kernel": "<5.0",
+                "symfony/twig-bundle": "<5.0",
+                "symfony/yaml": "<4.4"
+            },
+            "provide": {
+                "symfony/translation-implementation": "2.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/dependency-injection": "^5.0",
+                "symfony/finder": "^4.4|^5.0",
+                "symfony/http-kernel": "^5.0",
+                "symfony/intl": "^4.4|^5.0",
+                "symfony/polyfill-intl-icu": "^1.21",
+                "symfony/service-contracts": "^1.1.2|^2",
+                "symfony/yaml": "^4.4|^5.0"
+            },
+            "suggest": {
+                "psr/log-implementation": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\Translation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides tools to internationalize your application",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/translation/tree/v5.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-06-06T09:51:56+00:00"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation-contracts.git",
+                "reference": "95c812666f3e91db75385749fe219c5e494c7f95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/95c812666f3e91db75385749fe219c5e494c7f95",
+                "reference": "95c812666f3e91db75385749fe219c5e494c7f95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "suggest": {
+                "symfony/translation-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Translation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to translation",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/translation-contracts/tree/v2.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-03-23T23:28:01+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v3.4.47",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "0719f6cf4633a38b2c1585140998579ce23b4b7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0719f6cf4633a38b2c1585140998579ce23b4b7d",
+                "reference": "0719f6cf4633a38b2c1585140998579ce23b4b7d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "twig/twig": "~1.34|~2.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/v3.4.47"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-24T10:57:07+00:00"
+        },
+        {
+            "name": "tightenco/collect",
+            "version": "v5.5.33",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tighten/collect.git",
+                "reference": "a2a3ca1c56aa18948b4e08e90f38fcdee859cc4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tighten/collect/zipball/a2a3ca1c56aa18948b4e08e90f38fcdee859cc4c",
+                "reference": "a2a3ca1c56aa18948b4e08e90f38fcdee859cc4c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "symfony/var-dumper": "~3.3"
             },
             "require-dev": {
                 "mockery/mockery": "~1.0",
                 "phpunit/phpunit": "~6.0"
             },
-            "suggest": {
-                "symfony/var-dumper": "Required to prettify dd() and dump() (~3.3)."
-            },
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/Illuminate/Support/helpers.php"
+                    "src/Collect/Support/helpers.php",
+                    "src/Collect/Support/alias.php"
                 ],
                 "psr-4": {
-                    "Illuminate\\": "src/Illuminate"
+                    "Tightenco\\Collect\\": "src/Collect"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4157,18 +5575,152 @@
             ],
             "support": {
                 "issues": "https://github.com/tighten/collect/issues",
-                "source": "https://github.com/tighten/collect/tree/v5.5.32"
+                "source": "https://github.com/tighten/collect/tree/v5.5.33"
             },
-            "time": "2018-01-25T19:26:27+00:00"
+            "time": "2018-02-09T02:05:17+00:00"
+        },
+        {
+            "name": "voku/portable-ascii",
+            "version": "1.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/portable-ascii.git",
+                "reference": "80953678b19901e5165c56752d087fc11526017c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/80953678b19901e5165c56752d087fc11526017c",
+                "reference": "80953678b19901e5165c56752d087fc11526017c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+            },
+            "suggest": {
+                "ext-intl": "Use Intl for transliterator_transliterate() support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "voku\\": "src/voku/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Moelleken",
+                    "homepage": "http://www.moelleken.org/"
+                }
+            ],
+            "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+            "homepage": "https://github.com/voku/portable-ascii",
+            "keywords": [
+                "ascii",
+                "clean",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/voku/portable-ascii/issues",
+                "source": "https://github.com/voku/portable-ascii/tree/1.5.6"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/moelleken",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/voku",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/portable-ascii",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/voku",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-11-12T00:07:28+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "afterlogic/aurora-framework": 20,
+        "afterlogic/aurora-dev-tools": 20,
+        "afterlogic/aurora-module-core": 20,
+        "afterlogic/aurora-module-core-extender": 20,
+        "afterlogic/aurora-module-webclient-core": 20,
+        "afterlogic/aurora-module-min": 20,
+        "afterlogic/aurora-module-webclient-settings": 20,
+        "afterlogic/aurora-module-webclient-branding": 20,
+        "afterlogic/aurora-module-admin-auth": 20,
+        "afterlogic/aurora-module-webclient-adminpanel": 20,
+        "afterlogic/aurora-module-standard-auth": 20,
+        "afterlogic/aurora-module-webclient-standard-auth": 20,
+        "afterlogic/aurora-module-webclient-standard-login-form": 20,
+        "afterlogic/aurora-module-webclient-standard-register-form": 20,
+        "afterlogic/aurora-module-webclient-logs-viewer": 20,
+        "afterlogic/aurora-module-eav-object-viewer": 20,
+        "afterlogic/aurora-module-files": 20,
+        "afterlogic/aurora-module-personalfiles": 20,
+        "afterlogic/aurora-module-corporatefiles": 20,
+        "afterlogic/aurora-module-webclient-files": 20,
+        "afterlogic/aurora-module-oembed-files": 20,
+        "afterlogic/aurora-module-dav": 20,
+        "afterlogic/aurora-module-contacts": 20,
+        "afterlogic/aurora-module-personal-contacts": 20,
+        "afterlogic/aurora-module-team-contacts": 20,
+        "afterlogic/aurora-module-webclient-contacts": 20,
+        "afterlogic/aurora-module-dav-contacts": 20,
+        "afterlogic/aurora-module-shared-contacts": 20,
+        "afterlogic/aurora-module-webclient-oauth-integrator": 20,
+        "afterlogic/aurora-module-google": 20,
+        "afterlogic/aurora-module-webclient-google-auth": 20,
+        "afterlogic/aurora-module-googledrive": 20,
+        "afterlogic/aurora-module-dropbox": 20,
+        "afterlogic/aurora-module-webclient-dropbox-auth": 20,
+        "afterlogic/aurora-module-dropbox-filestorage": 20,
+        "afterlogic/aurora-module-facebook": 20,
+        "afterlogic/aurora-module-webclient-facebook-auth": 20,
+        "afterlogic/aurora-module-ios": 20,
+        "afterlogic/aurora-module-webclient-invitation-link": 20,
+        "afterlogic/aurora-module-mobile-sync": 20,
+        "afterlogic/aurora-module-webclient-mobile-sync": 20,
+        "afterlogic/aurora-module-webclient-external-clients-login-form": 20,
+        "afterlogic/aurora-module-two-factor-auth": 20,
+        "afterlogic/aurora-module-webclient-files-tableview-plugin": 20,
+        "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin": 20,
+        "afterlogic/aurora-module-files-zipfolder": 20,
+        "afterlogic/aurora-module-webclient-file-viewer-plugin": 20,
+        "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": 20,
+        "afterlogic/aurora-module-webclient-recaptcha-plugin": 20,
+        "afterlogic/aurora-module-office-document-viewer": 20,
+        "afterlogic/aurora-module-office-document-editor": 20,
+        "afterlogic/aurora-module-override-user-settings": 20,
+        "afterlogic/aurora-module-s3-filestorage": 20,
+        "afterlogic/aurora-module-s3-corporate-filestorage": 20,
+        "afterlogic/aurora-module-webclient-openpgp": 20,
+        "afterlogic/aurora-module-shared-files": 20,
+        "afterlogic/aurora-module-activity-history": 20,
+        "afterlogic/aurora-module-webclient-mobile-apps": 20,
+        "afterlogic/aurora-module-webclient-openpgp-files": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
