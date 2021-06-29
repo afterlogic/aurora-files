@@ -84,6 +84,7 @@
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.9.0"
 	},
 	"scripts": {
+		"post-install-cmd": "@pre-config",
 		"post-update-cmd": "@pre-config",
 		"pre-config": [
 			"[ -d data ] || mkdir data",
