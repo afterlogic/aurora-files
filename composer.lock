@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7150d98319ceea49e9656299daa234f5",
+    "content-hash": "b870ba97664ce4a7a1a77404e9bc9f9a",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -61,15 +61,15 @@
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-activity-history",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -79,7 +79,7 @@
             "extra": {
                 "installer-name": "ActivityHistory"
             },
-            "time": "2020-09-04T09:13:59+00:00"
+            "time": "2021-06-29T12:04:39+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
@@ -124,7 +124,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2021-06-04T14:15:34+00:00"
+            "time": "2021-06-29T09:02:38+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -195,15 +195,15 @@
         },
         {
             "name": "afterlogic/aurora-module-dav",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -215,19 +215,19 @@
             "extra": {
                 "installer-name": "Dav"
             },
-            "time": "2020-04-15T13:31:44+00:00"
+            "time": "2021-06-30T07:05:18+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -239,7 +239,7 @@
             "extra": {
                 "installer-name": "DavContacts"
             },
-            "time": "2020-04-01T10:25:59+00:00"
+            "time": "2021-06-29T09:03:40+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -309,7 +309,7 @@
             "extra": {
                 "installer-name": "EavObjectViewer"
             },
-            "time": "2020-09-09T12:12:04+00:00"
+            "time": "2021-06-28T11:38:17+00:00"
         },
         {
             "name": "afterlogic/aurora-module-facebook",
@@ -450,15 +450,15 @@
         },
         {
             "name": "afterlogic/aurora-module-min",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-min",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-min/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-min/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -468,7 +468,7 @@
             "extra": {
                 "installer-name": "Min"
             },
-            "time": "2020-03-10T07:10:45+00:00"
+            "time": "2021-06-29T09:01:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-sync",
@@ -601,7 +601,7 @@
             "extra": {
                 "installer-name": "PersonalContacts"
             },
-            "time": "2020-10-03T06:29:10+00:00"
+            "time": "2021-06-30T10:59:06+00:00"
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
@@ -699,15 +699,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -718,7 +718,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2021-06-02T12:55:28+00:00"
+            "time": "2021-06-30T10:53:11+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
@@ -787,7 +787,7 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2020-12-29T11:38:23+00:00"
+            "time": "2021-06-28T13:19:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
@@ -882,12 +882,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
                 "reference": "master"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/master.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -900,7 +900,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2021-04-26T08:28:30+00:00"
+            "time": "2021-06-28T11:18:39+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -1036,15 +1036,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-tableview-plugin",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -1054,7 +1054,7 @@
             "extra": {
                 "installer-name": "FilesTableviewWebclientPlugin"
             },
-            "time": "2021-05-17T09:17:02+00:00"
+            "time": "2021-06-30T09:00:08+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-google-auth",
@@ -1167,15 +1167,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -1185,19 +1185,19 @@
             "extra": {
                 "installer-name": "OAuthIntegratorWebclient"
             },
-            "time": "2021-04-28T13:13:34+00:00"
+            "time": "2021-06-30T11:05:18+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -1207,19 +1207,19 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2021-04-25T17:25:26+00:00"
+            "time": "2021-06-29T08:59:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "dev-master",
+            "version": "dev-laravel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "master"
+                "reference": "laravel"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/laravel.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
@@ -1231,7 +1231,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2021-03-05T14:04:06+00:00"
+            "time": "2021-06-30T09:23:50+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -1482,16 +1482,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.185.1",
+            "version": "3.185.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "953bbd1b5f7fd3f1601ad0a83f93358f635c57f4"
+                "reference": "e7a7d6b28b477a02a5625348995949c2dee7919a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/953bbd1b5f7fd3f1601ad0a83f93358f635c57f4",
-                "reference": "953bbd1b5f7fd3f1601ad0a83f93358f635c57f4",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e7a7d6b28b477a02a5625348995949c2dee7919a",
+                "reference": "e7a7d6b28b477a02a5625348995949c2dee7919a",
                 "shasum": ""
             },
             "require": {
@@ -1566,9 +1566,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.3"
             },
-            "time": "2021-06-24T18:22:42+00:00"
+            "time": "2021-06-28T18:15:17+00:00"
         },
         {
             "name": "composer/installers",
@@ -2707,16 +2707,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.49.0",
+            "version": "2.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee"
+                "reference": "f47f17d17602b2243414a44ad53d9f8b9ada5fdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/93d9db91c0235c486875d22f1e08b50bdf3e6eee",
-                "reference": "93d9db91c0235c486875d22f1e08b50bdf3e6eee",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f47f17d17602b2243414a44ad53d9f8b9ada5fdb",
+                "reference": "f47f17d17602b2243414a44ad53d9f8b9ada5fdb",
                 "shasum": ""
             },
             "require": {
@@ -2768,15 +2768,15 @@
                 {
                     "name": "Brian Nesbitt",
                     "email": "brian@nesbot.com",
-                    "homepage": "http://nesbot.com"
+                    "homepage": "https://markido.com"
                 },
                 {
                     "name": "kylekatarnls",
-                    "homepage": "http://github.com/kylekatarnls"
+                    "homepage": "https://github.com/kylekatarnls"
                 }
             ],
             "description": "An API extension for DateTime that supports 281 different languages.",
-            "homepage": "http://carbon.nesbot.com",
+            "homepage": "https://carbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
@@ -2796,7 +2796,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-02T07:31:40+00:00"
+            "time": "2021-06-28T22:38:45+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -5191,16 +5191,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "0732e97e41c0a590f77e231afc16a327375d50b0"
+                "reference": "bd53358e3eccec6a670b5f33ab680d8dbe1d4ae1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/0732e97e41c0a590f77e231afc16a327375d50b0",
-                "reference": "0732e97e41c0a590f77e231afc16a327375d50b0",
+                "url": "https://api.github.com/repos/symfony/string/zipball/bd53358e3eccec6a670b5f33ab680d8dbe1d4ae1",
+                "reference": "bd53358e3eccec6a670b5f33ab680d8dbe1d4ae1",
                 "shasum": ""
             },
             "require": {
@@ -5254,7 +5254,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.3.2"
+                "source": "https://github.com/symfony/string/tree/v5.3.3"
             },
             "funding": [
                 {
@@ -5270,20 +5270,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-06T09:51:56+00:00"
+            "time": "2021-06-27T11:44:38+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "7e2603bcc598e14804c4d2359d8dc4ee3c40391b"
+                "reference": "380b8c9e944d0e364b25f28e8e555241eb49c01c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/7e2603bcc598e14804c4d2359d8dc4ee3c40391b",
-                "reference": "7e2603bcc598e14804c4d2359d8dc4ee3c40391b",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/380b8c9e944d0e364b25f28e8e555241eb49c01c",
+                "reference": "380b8c9e944d0e364b25f28e8e555241eb49c01c",
                 "shasum": ""
             },
             "require": {
@@ -5349,7 +5349,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.3.2"
+                "source": "https://github.com/symfony/translation/tree/v5.3.3"
             },
             "funding": [
                 {
@@ -5365,7 +5365,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-06T09:51:56+00:00"
+            "time": "2021-06-27T12:22:47+00:00"
         },
         {
             "name": "symfony/translation-contracts",
