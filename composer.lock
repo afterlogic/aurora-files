@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b870ba97664ce4a7a1a77404e9bc9f9a",
+    "content-hash": "50d059200032a7499ea004a9a9a536c8",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
-            "version": "dev-master",
+            "version": "0.9.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-dev-tools",
-                "reference": "master"
+                "reference": "tags/0.9.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-dev-tools/archive/0.9.22.zip"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -24,22 +24,22 @@
                 "squizlabs/php_codesniffer": "^2.0"
             },
             "type": "aurora-dev-tools",
-            "time": "2020-11-25T07:06:32+00:00"
+            "time": "2020-05-21T07:48:04+00:00"
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/mailso": "^1.4 || dev-master || dev-laravel",
+                "afterlogic/mailso": "^1.4",
                 "illuminate/cache": "^7.30",
                 "illuminate/console": "^7.30",
                 "illuminate/container": "^7.30",
@@ -57,66 +57,66 @@
                     "Installer.php"
                 ]
             },
-            "time": "2021-06-04T12:43:55+00:00"
+            "time": "2021-07-01T12:33:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-activity-history",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "ActivityHistory"
             },
-            "time": "2021-06-29T12:04:39+00:00"
+            "time": "2021-07-02T07:50:56+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-admin-auth",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "AdminAuth"
             },
-            "time": "2020-12-29T09:48:10+00:00"
+            "time": "2021-07-01T13:24:25+00:00"
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0",
                 "sabre/dav": "3.2.*"
             },
@@ -124,90 +124,90 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2021-06-29T09:02:38+00:00"
+            "time": "2021-07-01T13:24:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2021-06-24T12:28:59+00:00"
+            "time": "2021-07-02T07:33:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core-extender",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core-extender/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core-extender/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "CoreExtender"
             },
-            "time": "2020-06-17T11:09:00+00:00"
+            "time": "2021-07-01T16:29:39+00:00"
         },
         {
             "name": "afterlogic/aurora-module-corporatefiles",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-corporatefiles",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-corporatefiles/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-corporatefiles/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-files": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "CorporateFiles"
             },
-            "time": "2021-06-05T04:06:29+00:00"
+            "time": "2021-07-02T08:00:47+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/dav": "~3.0.0",
                 "php": ">=5.4.0",
                 "sabre/dav": "3.2.*"
             },
@@ -215,46 +215,46 @@
             "extra": {
                 "installer-name": "Dav"
             },
-            "time": "2021-06-30T07:05:18+00:00"
+            "time": "2021-07-02T05:34:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "dev-laravel",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "laravel"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.2.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-dav": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-dav": "~0.10.0",
+                "afterlogic/dav": "~3.0.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "DavContacts"
             },
-            "time": "2021-06-29T09:03:40+00:00"
+            "time": "2021-07-02T08:00:48+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
-            "version": "dev-laravel",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dropbox",
-                "reference": "laravel"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dropbox/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dropbox/archive/0.10.2.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "kunalvarma05/dropbox-php-sdk": "^0.2.1",
                 "php": ">=5.4.0",
                 "tightenco/collect": "5.5.33"
@@ -263,22 +263,22 @@
             "extra": {
                 "installer-name": "Dropbox"
             },
-            "time": "2021-05-25T08:44:43+00:00"
+            "time": "2021-07-01T13:24:31+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox-filestorage",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dropbox-filestorage",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dropbox-filestorage/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dropbox-filestorage/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "kunalvarma05/dropbox-php-sdk": "^0.2.1",
                 "php": ">=5.4.0",
                 "tightenco/collect": "5.5.33"
@@ -287,112 +287,112 @@
             "extra": {
                 "installer-name": "DropboxFilestorage"
             },
-            "time": "2021-05-25T08:44:22+00:00"
+            "time": "2021-07-01T13:48:56+00:00"
         },
         {
             "name": "afterlogic/aurora-module-eav-object-viewer",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-eav-object-viewer/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "EavObjectViewer"
             },
-            "time": "2021-06-28T11:38:17+00:00"
+            "time": "2021-07-01T13:24:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-facebook",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-facebook",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-facebook/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-facebook/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Facebook"
             },
-            "time": "2021-03-10T06:58:29+00:00"
+            "time": "2021-07-01T13:24:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-dav": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-dav": "~0.10.0",
+                "afterlogic/dav": "~3.0.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Files"
             },
-            "time": "2021-06-05T04:07:57+00:00"
+            "time": "2021-07-02T08:00:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files-zipfolder",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files-zipfolder/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files-zipfolder/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "FilesZipFolder"
             },
-            "time": "2019-04-26T11:38:59+00:00"
+            "time": "2021-07-01T13:24:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-google",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-google",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-google/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "google/apiclient": "1.1.7",
                 "php": ">=5.4.0"
             },
@@ -400,22 +400,22 @@
             "extra": {
                 "installer-name": "Google"
             },
-            "time": "2021-04-26T11:34:00+00:00"
+            "time": "2021-07-01T13:24:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-googledrive",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-googledrive",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-googledrive/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-googledrive/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "google/apiclient": "1.1.7",
                 "php": ">=5.4.0"
             },
@@ -423,22 +423,22 @@
             "extra": {
                 "installer-name": "GoogleDrive"
             },
-            "time": "2020-07-06T13:13:56+00:00"
+            "time": "2021-07-01T13:24:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-ios",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-ios",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-ios/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0",
                 "sabre/dav": "3.2.*"
             },
@@ -446,202 +446,202 @@
             "extra": {
                 "installer-name": "Ios"
             },
-            "time": "2020-12-22T14:11:58+00:00"
+            "time": "2021-07-01T13:24:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-min",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-min",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-min/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Min"
             },
-            "time": "2021-06-29T09:01:23+00:00"
+            "time": "2021-07-02T07:50:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-sync",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mobile-sync",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mobile-sync/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mobile-sync/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "MobileSync"
             },
-            "time": "2019-04-26T12:02:31+00:00"
+            "time": "2021-07-01T13:24:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-oembed-files",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-oembed-files",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-oembed-files/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-oembed-files/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OEmbedFiles"
             },
-            "time": "2021-04-05T07:11:19+00:00"
+            "time": "2021-07-01T13:24:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2021-06-02T08:28:28+00:00"
+            "time": "2021-07-01T13:24:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-viewer",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-viewer/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OfficeDocumentViewer"
             },
-            "time": "2021-06-02T08:31:16+00:00"
+            "time": "2021-07-01T13:24:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-override-user-settings",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-override-user-settings",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-override-user-settings/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-override-user-settings/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OverrideUserSettings"
             },
-            "time": "2019-07-29T15:16:15+00:00"
+            "time": "2021-07-01T13:24:45+00:00"
         },
         {
             "name": "afterlogic/aurora-module-personal-contacts",
-            "version": "dev-master",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personal-contacts",
-                "reference": "master"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personal-contacts/archive/0.10.2.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-contacts": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "PersonalContacts"
             },
-            "time": "2021-06-30T10:59:06+00:00"
+            "time": "2021-07-02T05:03:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "dev-laravel",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "laravel"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-dav": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/dav": "~2.2.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-dav": "~0.10.0",
+                "afterlogic/aurora-module-files": "~0.10.0",
+                "afterlogic/dav": "~3.0.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2021-06-23T09:56:22+00:00"
+            "time": "2021-07-02T08:00:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "aws/aws-sdk-php": "3.*",
                 "php": ">=5.4.0"
             },
@@ -649,22 +649,22 @@
             "extra": {
                 "installer-name": "S3CorporateFilestorage"
             },
-            "time": "2019-09-26T08:53:03+00:00"
+            "time": "2021-07-02T08:00:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-filestorage",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-filestorage",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "aws/aws-sdk-php": "3.*",
                 "php": ">=5.4.0"
             },
@@ -672,114 +672,114 @@
             "extra": {
                 "installer-name": "S3Filestorage"
             },
-            "time": "2021-04-23T11:52:01+00:00"
+            "time": "2021-07-01T13:24:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-contacts",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-contacts": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "SharedContacts"
             },
-            "time": "2021-06-23T09:55:02+00:00"
+            "time": "2021-07-02T08:00:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-files": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2021-06-30T10:53:11+00:00"
+            "time": "2021-07-02T08:00:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-standard-auth",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "StandardAuth"
             },
-            "time": "2020-04-24T12:49:40+00:00"
+            "time": "2021-07-01T14:00:47+00:00"
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-team-contacts",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-team-contacts/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-team-contacts/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-contacts": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "TeamContacts"
             },
-            "time": "2021-06-23T09:53:51+00:00"
+            "time": "2021-07-02T08:00:56+00:00"
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/googleauthenticator": "~1.0.2 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/googleauthenticator": "~1.0.2",
                 "php": ">=5.4.0",
                 "pragmarx/recovery": "^0.1.0"
             },
@@ -787,311 +787,311 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2021-06-28T13:19:44+00:00"
+            "time": "2021-07-01T13:24:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2021-02-15T10:03:17+00:00"
+            "time": "2021-07-01T13:24:25+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-branding",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-branding/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-branding/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "BrandingWebclient"
             },
-            "time": "2020-09-10T08:09:13+00:00"
+            "time": "2021-07-01T13:24:26+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "dev-master",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "master"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-contacts": "~0.9.0 || dev-master || dev-laravel"
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-contacts": "~0.10.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2021-06-09T14:17:15+00:00"
+            "time": "2021-07-01T21:53:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "dev-master",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "master"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.2.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-06-10T13:02:20+00:00"
+            "time": "2021-07-01T13:24:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "dev-master",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-                "reference": "master"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.1.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-webclient-files": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-webclient-openpgp": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-files": "~0.10.0",
+                "afterlogic/aurora-module-webclient-files": "~0.10.0",
+                "afterlogic/aurora-module-webclient-openpgp": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2021-06-28T11:18:39+00:00"
+            "time": "2021-07-02T08:00:47+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-dropbox-auth",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-dropbox-auth/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-dropbox-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "DropboxAuthWebclient"
             },
-            "time": "2021-04-28T13:14:18+00:00"
+            "time": "2021-07-01T13:24:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-external-clients-login-form",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-oauth-integrator",
-                "reference": "master"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-external-clients-login-form",
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-oauth-integrator/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-external-clients-login-form/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "ExternalClientsLoginFormWebclient"
             },
-            "time": "2019-04-26T11:33:35+00:00"
+            "time": "2021-07-01T13:24:32+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-facebook-auth",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-facebook-auth",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-facebook-auth/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-facebook-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "FacebookAuthWebclient"
             },
-            "time": "2021-04-28T13:14:43+00:00"
+            "time": "2021-07-01T13:24:33+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-file-viewer-plugin",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-file-viewer-plugin/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "FileViewerWebclientPlugin"
             },
-            "time": "2021-06-03T14:39:56+00:00"
+            "time": "2021-07-01T13:24:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2021-04-23T13:38:39+00:00"
+            "time": "2021-07-01T13:24:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "FilesCutCopyPasteWebclientPlugin"
             },
-            "time": "2020-05-21T08:23:11+00:00"
+            "time": "2021-07-01T13:24:33+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-tableview-plugin",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-tableview-plugin/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "FilesTableviewWebclientPlugin"
             },
-            "time": "2021-06-30T09:00:08+00:00"
+            "time": "2021-07-01T13:51:25+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-google-auth",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-google-auth",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-google-auth/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-google-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "GoogleAuthWebclient"
             },
-            "time": "2021-04-28T13:12:52+00:00"
+            "time": "2021-07-01T13:24:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-invitation-link",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0",
                 "phpmailer/phpmailer": "~5.2"
             },
@@ -1099,154 +1099,154 @@
             "extra": {
                 "installer-name": "InvitationLinkWebclient"
             },
-            "time": "2020-05-14T09:38:06+00:00"
+            "time": "2021-07-01T13:24:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-logs-viewer",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-logs-viewer",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-logs-viewer/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-logs-viewer/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "LogsViewerWebclient"
             },
-            "time": "2019-12-18T08:58:44+00:00"
+            "time": "2021-07-01T13:24:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mobile-apps",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-apps/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel"
+                "afterlogic/aurora-framework": "~0.10.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "MobileAppsWebclient"
             },
-            "time": "2020-12-21T11:08:11+00:00"
+            "time": "2021-07-01T13:24:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mobile-sync",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-sync",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-sync/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mobile-sync/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel"
+                "afterlogic/aurora-framework": "~0.10.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "MobileSyncWebclient"
             },
-            "time": "2019-12-18T09:01:50+00:00"
+            "time": "2021-07-01T13:24:43+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OAuthIntegratorWebclient"
             },
-            "time": "2021-06-30T11:05:18+00:00"
+            "time": "2021-07-01T13:56:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2021-06-29T08:59:16+00:00"
+            "time": "2021-07-01T13:58:00+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "dev-laravel",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "laravel"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/laravel.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-files": "~0.9.0 || dev-master || dev-laravel",
-                "afterlogic/aurora-module-webclient-files": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-files": "~0.10.0",
+                "afterlogic/aurora-module-webclient-files": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2021-06-30T09:23:50+00:00"
+            "time": "2021-07-02T08:00:53+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-recaptcha-plugin/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "google/recaptcha": "^1.2",
                 "php": ">=5.4.0"
             },
@@ -1254,107 +1254,107 @@
             "extra": {
                 "installer-name": "RecaptchaWebclientPlugin"
             },
-            "time": "2021-03-30T10:42:57+00:00"
+            "time": "2021-07-01T13:24:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-settings",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-settings/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-settings/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "SettingsWebclient"
             },
-            "time": "2020-07-02T17:33:00+00:00"
+            "time": "2021-07-01T13:24:47+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-auth",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel"
+                "afterlogic/aurora-framework": "~0.10.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "StandardAuthWebclient"
             },
-            "time": "2019-07-29T15:08:20+00:00"
+            "time": "2021-07-01T13:24:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-login-form",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "StandardLoginFormWebclient"
             },
-            "time": "2020-10-23T10:38:24+00:00"
+            "time": "2021-07-01T13:24:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-register-form",
-            "version": "dev-master",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-register-form",
-                "reference": "master"
+                "reference": "tags/0.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-register-form/archive/master.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-register-form/archive/0.10.0.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.9.0 || dev-master || dev-laravel",
+                "afterlogic/aurora-framework": "~0.10.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "StandardRegisterFormWebclient"
             },
-            "time": "2019-07-04T10:07:27+00:00"
+            "time": "2021-07-01T13:24:50+00:00"
         },
         {
             "name": "afterlogic/dav",
-            "version": "2.2.122",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "8fc5cf0cfea993d8e1906457da0ca6f72ee7bee9"
+                "reference": "5327a2b77c54445a9d5432ee7f1e8b03612995a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/8fc5cf0cfea993d8e1906457da0ca6f72ee7bee9",
-                "reference": "8fc5cf0cfea993d8e1906457da0ca6f72ee7bee9",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/5327a2b77c54445a9d5432ee7f1e8b03612995a2",
+                "reference": "5327a2b77c54445a9d5432ee7f1e8b03612995a2",
                 "shasum": ""
             },
             "require": {
@@ -1384,9 +1384,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/2.2.122"
+                "source": "https://github.com/afterlogic/dav/tree/3.0.0"
             },
-            "time": "2021-06-02T12:53:48+00:00"
+            "time": "2021-07-02T05:05:37+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1482,16 +1482,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.185.3",
+            "version": "3.185.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e7a7d6b28b477a02a5625348995949c2dee7919a"
+                "reference": "9b7849c4c9f2aaa9c5cab8323b450dd8b2c31d0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e7a7d6b28b477a02a5625348995949c2dee7919a",
-                "reference": "e7a7d6b28b477a02a5625348995949c2dee7919a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9b7849c4c9f2aaa9c5cab8323b450dd8b2c31d0f",
+                "reference": "9b7849c4c9f2aaa9c5cab8323b450dd8b2c31d0f",
                 "shasum": ""
             },
             "require": {
@@ -1566,9 +1566,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.185.5"
             },
-            "time": "2021-06-28T18:15:17+00:00"
+            "time": "2021-07-01T18:15:11+00:00"
         },
         {
             "name": "composer/installers",
@@ -5657,67 +5657,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "afterlogic/aurora-framework": 20,
-        "afterlogic/aurora-dev-tools": 20,
-        "afterlogic/aurora-module-core": 20,
-        "afterlogic/aurora-module-core-extender": 20,
-        "afterlogic/aurora-module-webclient-core": 20,
-        "afterlogic/aurora-module-min": 20,
-        "afterlogic/aurora-module-webclient-settings": 20,
-        "afterlogic/aurora-module-webclient-branding": 20,
-        "afterlogic/aurora-module-admin-auth": 20,
-        "afterlogic/aurora-module-webclient-adminpanel": 20,
-        "afterlogic/aurora-module-standard-auth": 20,
-        "afterlogic/aurora-module-webclient-standard-auth": 20,
-        "afterlogic/aurora-module-webclient-standard-login-form": 20,
-        "afterlogic/aurora-module-webclient-standard-register-form": 20,
-        "afterlogic/aurora-module-webclient-logs-viewer": 20,
-        "afterlogic/aurora-module-eav-object-viewer": 20,
-        "afterlogic/aurora-module-files": 20,
-        "afterlogic/aurora-module-personalfiles": 20,
-        "afterlogic/aurora-module-corporatefiles": 20,
-        "afterlogic/aurora-module-webclient-files": 20,
-        "afterlogic/aurora-module-oembed-files": 20,
-        "afterlogic/aurora-module-dav": 20,
-        "afterlogic/aurora-module-contacts": 20,
-        "afterlogic/aurora-module-personal-contacts": 20,
-        "afterlogic/aurora-module-team-contacts": 20,
-        "afterlogic/aurora-module-webclient-contacts": 20,
-        "afterlogic/aurora-module-dav-contacts": 20,
-        "afterlogic/aurora-module-shared-contacts": 20,
-        "afterlogic/aurora-module-webclient-oauth-integrator": 20,
-        "afterlogic/aurora-module-google": 20,
-        "afterlogic/aurora-module-webclient-google-auth": 20,
-        "afterlogic/aurora-module-googledrive": 20,
-        "afterlogic/aurora-module-dropbox": 20,
-        "afterlogic/aurora-module-webclient-dropbox-auth": 20,
-        "afterlogic/aurora-module-dropbox-filestorage": 20,
-        "afterlogic/aurora-module-facebook": 20,
-        "afterlogic/aurora-module-webclient-facebook-auth": 20,
-        "afterlogic/aurora-module-ios": 20,
-        "afterlogic/aurora-module-webclient-invitation-link": 20,
-        "afterlogic/aurora-module-mobile-sync": 20,
-        "afterlogic/aurora-module-webclient-mobile-sync": 20,
-        "afterlogic/aurora-module-webclient-external-clients-login-form": 20,
-        "afterlogic/aurora-module-two-factor-auth": 20,
-        "afterlogic/aurora-module-webclient-files-tableview-plugin": 20,
-        "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin": 20,
-        "afterlogic/aurora-module-files-zipfolder": 20,
-        "afterlogic/aurora-module-webclient-file-viewer-plugin": 20,
-        "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin": 20,
-        "afterlogic/aurora-module-webclient-recaptcha-plugin": 20,
-        "afterlogic/aurora-module-office-document-viewer": 20,
-        "afterlogic/aurora-module-office-document-editor": 20,
-        "afterlogic/aurora-module-override-user-settings": 20,
-        "afterlogic/aurora-module-s3-filestorage": 20,
-        "afterlogic/aurora-module-s3-corporate-filestorage": 20,
-        "afterlogic/aurora-module-webclient-openpgp": 20,
-        "afterlogic/aurora-module-shared-files": 20,
-        "afterlogic/aurora-module-activity-history": 20,
-        "afterlogic/aurora-module-webclient-mobile-apps": 20,
-        "afterlogic/aurora-module-webclient-openpgp-files": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
