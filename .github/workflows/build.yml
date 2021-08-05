@@ -6,30 +6,12 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-20.04
+    if: "contains(github.event.head_commit.message, 'version')"
 
     steps:
     - uses: actions/checkout@v2
 
-#     - name: test
-#       run: |
-#           PRODUCT_VER=`cat VERSION`
-#           echo ${{ PRODUCT_VER }}
-#           echo ${ PRODUCT_VER }
-
-#     - name: Validate composer.json and composer.lock
-#       run: composer validate --strict
-
-#     - name: Cache Composer packages
-#       id: composer-cache
-#       uses: actions/cache@v2
-#       with:
-#         php-version: '7.4'
-#         path: vendor
-#         key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-#         restore-keys: |
-#           ${{ runner.os }}-php-
 
     - name: Setup PHP version
       uses: shivammathur/setup-php@v2
