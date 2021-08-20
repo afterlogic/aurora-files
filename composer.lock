@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.29",
+            "version": "0.10.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.29"
+                "reference": "tags/0.10.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.30.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2021-08-19T13:42:37+00:00"
+            "time": "2021-08-19T15:12:23+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -451,15 +451,15 @@
         },
         {
             "name": "afterlogic/aurora-module-min",
-            "version": "0.10.8",
+            "version": "0.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-min",
-                "reference": "tags/0.10.8"
+                "reference": "tags/0.10.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.9.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -469,7 +469,7 @@
             "extra": {
                 "installer-name": "Min"
             },
-            "time": "2021-08-16T08:18:19+00:00"
+            "time": "2021-08-19T15:03:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-sync",
@@ -768,15 +768,15 @@
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.10.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -788,7 +788,7 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2021-08-09T12:33:10+00:00"
+            "time": "2021-08-19T15:09:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
@@ -1168,15 +1168,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "0.10.3",
+            "version": "0.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "tags/0.10.3"
+                "reference": "tags/0.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.3.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.4.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1186,7 +1186,7 @@
             "extra": {
                 "installer-name": "OAuthIntegratorWebclient"
             },
-            "time": "2021-08-09T09:36:28+00:00"
+            "time": "2021-08-19T15:06:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
@@ -1483,16 +1483,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.190.5",
+            "version": "3.191.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c2063c78310b45e378f1bdad9fe6e9191f36439c"
+                "reference": "15e97fe060decf30fa103be091b113adcc578c5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c2063c78310b45e378f1bdad9fe6e9191f36439c",
-                "reference": "c2063c78310b45e378f1bdad9fe6e9191f36439c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/15e97fe060decf30fa103be091b113adcc578c5d",
+                "reference": "15e97fe060decf30fa103be091b113adcc578c5d",
                 "shasum": ""
             },
             "require": {
@@ -1567,9 +1567,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.190.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.191.0"
             },
-            "time": "2021-08-18T18:24:08+00:00"
+            "time": "2021-08-19T18:15:49+00:00"
         },
         {
             "name": "composer/installers",
