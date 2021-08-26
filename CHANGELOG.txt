@@ -1,3 +1,11 @@
+[9.0.0]
+[+] Laravel Eloquent is now used for database layer
+[+] Migration script from EAV tables of v8 to v9 database structure
+[+] Admin panel redesigned with Vue.js framework
+[*] Stronger cryptography for storing passwords in database
+[*] Modules included into the product by default reviewed for compatibility
+[*] DirectAdmin and Plesk installers updated
+
 [8.8.1]
 [+] Document converter and version history implemented for office document editor
 [*] Files list view redesigned, with action buttons added
