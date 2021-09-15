@@ -84,7 +84,8 @@
 		"afterlogic/aurora-module-shared-files": "~0.10.0",
 		"afterlogic/aurora-module-activity-history": "~0.10.0",
 		"afterlogic/aurora-module-webclient-mobile-apps": "~0.10.0",
-		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0"
+		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0",
+		"afterlogic/aurora-module-rocketchat-webclient": "~0.10.0"
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",
