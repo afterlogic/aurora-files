@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "134bf7979e5af09d653269bb33c303e0",
+    "content-hash": "022cd4d2f014d16a41fbaed1acb332a3",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -630,28 +630,6 @@
             "time": "2021-07-28T10:51:45+00:00"
         },
         {
-            "name": "afterlogic/aurora-module-rocketchat-webclient",
-            "version": "0.10.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-rocketchat-webclient",
-                "reference": "tags/0.10.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-rocketchat-webclient/archive/0.10.2.zip"
-            },
-            "require": {
-                "afterlogic/aurora-framework": "~0.10.0",
-                "php": ">=5.4.0"
-            },
-            "type": "aurora-module",
-            "extra": {
-                "installer-name": "RocketChatWebclient"
-            },
-            "time": "2021-09-08T18:07:19+00:00"
-        },
-        {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
             "version": "0.10.0",
             "source": {
@@ -880,15 +858,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.14",
+            "version": "0.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.14"
+                "reference": "tags/0.10.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.15.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -898,7 +876,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-09-14T07:44:22+00:00"
+            "time": "2021-09-15T14:07:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1015,15 +993,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.5",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.5"
+                "reference": "tags/0.10.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.6.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1033,7 +1011,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2021-09-01T14:28:43+00:00"
+            "time": "2021-09-15T14:03:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
@@ -1278,6 +1256,28 @@
                 "installer-name": "RecaptchaWebclientPlugin"
             },
             "time": "2021-07-01T13:24:46+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-webclient-rocketchat",
+            "version": "0.10.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
+                "reference": "tags/0.10.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.7.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "RocketChatWebclient"
+            },
+            "time": "2021-09-17T12:41:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
@@ -1642,16 +1642,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.193.4",
+            "version": "3.194.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "758c2225c484088b2118c4e3ff5b37ccfea3948f"
+                "reference": "1f0a0cec5721b6346c968533fba9b44e462fc728"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/758c2225c484088b2118c4e3ff5b37ccfea3948f",
-                "reference": "758c2225c484088b2118c4e3ff5b37ccfea3948f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1f0a0cec5721b6346c968533fba9b44e462fc728",
+                "reference": "1f0a0cec5721b6346c968533fba9b44e462fc728",
                 "shasum": ""
             },
             "require": {
@@ -1727,9 +1727,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.193.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.194.2"
             },
-            "time": "2021-09-14T18:19:00+00:00"
+            "time": "2021-09-21T18:14:06+00:00"
         },
         {
             "name": "composer/installers",
