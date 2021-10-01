@@ -858,15 +858,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.18",
+            "version": "0.10.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.18"
+                "reference": "tags/0.10.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.18.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.19.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -876,7 +876,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2021-09-29T10:13:35+00:00"
+            "time": "2021-09-30T11:18:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1259,15 +1259,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.19",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.19"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1277,7 +1277,7 @@
             "extra": {
                 "installer-name": "RocketChatWebclient"
             },
-            "time": "2021-09-28T13:03:09+00:00"
+            "time": "2021-10-01T07:11:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
@@ -1642,16 +1642,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.195.2",
+            "version": "3.196.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7e0cdfe30ee3cfa2a1494f8e3b4fa5277f118102"
+                "reference": "3128df6b0b68b1c4704321777332473642b749e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7e0cdfe30ee3cfa2a1494f8e3b4fa5277f118102",
-                "reference": "7e0cdfe30ee3cfa2a1494f8e3b4fa5277f118102",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3128df6b0b68b1c4704321777332473642b749e0",
+                "reference": "3128df6b0b68b1c4704321777332473642b749e0",
                 "shasum": ""
             },
             "require": {
@@ -1727,9 +1727,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.195.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.196.0"
             },
-            "time": "2021-09-29T18:17:19+00:00"
+            "time": "2021-09-30T18:15:45+00:00"
         },
         {
             "name": "composer/installers",
