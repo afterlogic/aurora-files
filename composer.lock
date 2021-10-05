@@ -723,15 +723,15 @@
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
-            "version": "0.10.4",
+            "version": "0.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-standard-auth",
-                "reference": "tags/0.10.4"
+                "reference": "tags/0.10.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/0.10.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/0.10.5.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -741,7 +741,7 @@
             "extra": {
                 "installer-name": "StandardAuth"
             },
-            "time": "2021-08-11T14:15:11+00:00"
+            "time": "2021-10-04T12:59:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
@@ -1642,16 +1642,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.196.1",
+            "version": "3.196.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2845899d05c66a00d88eabbf7cf5d3dbae2da58a"
+                "reference": "3bccf77507f23207c8adbb524cc6da333dc25e47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2845899d05c66a00d88eabbf7cf5d3dbae2da58a",
-                "reference": "2845899d05c66a00d88eabbf7cf5d3dbae2da58a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3bccf77507f23207c8adbb524cc6da333dc25e47",
+                "reference": "3bccf77507f23207c8adbb524cc6da333dc25e47",
                 "shasum": ""
             },
             "require": {
@@ -1727,9 +1727,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.196.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.196.2"
             },
-            "time": "2021-10-01T18:23:06+00:00"
+            "time": "2021-10-04T18:14:13+00:00"
         },
         {
             "name": "composer/installers",
@@ -3027,16 +3027,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.6.1",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "0925f10b259679b5d8ca58f3a2add9255ffcda45"
+                "reference": "9a8cc99d30415ec0b3f7649e1647d03a55698545"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/0925f10b259679b5d8ca58f3a2add9255ffcda45",
-                "reference": "0925f10b259679b5d8ca58f3a2add9255ffcda45",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/9a8cc99d30415ec0b3f7649e1647d03a55698545",
+                "reference": "9a8cc99d30415ec0b3f7649e1647d03a55698545",
                 "shasum": ""
             },
             "require": {
@@ -3095,7 +3095,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Intervention/image/issues",
-                "source": "https://github.com/Intervention/image/tree/2.6.1"
+                "source": "https://github.com/Intervention/image/tree/2.7.0"
             },
             "funding": [
                 {
@@ -3107,7 +3107,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-22T14:31:53+00:00"
+            "time": "2021-10-03T14:17:12+00:00"
         },
         {
             "name": "kunalvarma05/dropbox-php-sdk",
