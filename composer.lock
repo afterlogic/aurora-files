@@ -336,15 +336,15 @@
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "0.10.5",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "tags/0.10.5"
+                "reference": "tags/0.10.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.5.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.6.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -356,7 +356,7 @@
             "extra": {
                 "installer-name": "Files"
             },
-            "time": "2021-09-07T12:48:45+00:00"
+            "time": "2021-10-12T08:41:15+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
@@ -1259,15 +1259,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.33",
+            "version": "0.10.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.33"
+                "reference": "tags/0.10.35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.33.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.35.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1278,7 +1278,7 @@
             "extra": {
                 "installer-name": "RocketChatWebclient"
             },
-            "time": "2021-10-11T18:09:54+00:00"
+            "time": "2021-10-12T10:20:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.198.2",
+            "version": "3.198.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "991117f98cedd7939e84d594577ac8aa85a4ebaf"
+                "reference": "0b632d5cf162d5c67da8950d339c13e97135a45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/991117f98cedd7939e84d594577ac8aa85a4ebaf",
-                "reference": "991117f98cedd7939e84d594577ac8aa85a4ebaf",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0b632d5cf162d5c67da8950d339c13e97135a45b",
+                "reference": "0b632d5cf162d5c67da8950d339c13e97135a45b",
                 "shasum": ""
             },
             "require": {
@@ -1728,9 +1728,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.198.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.198.3"
             },
-            "time": "2021-10-11T18:13:37+00:00"
+            "time": "2021-10-12T18:15:14+00:00"
         },
         {
             "name": "composer/installers",
