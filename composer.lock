@@ -1081,15 +1081,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-invitation-link",
-            "version": "0.10.10",
+            "version": "0.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link",
-                "reference": "tags/0.10.10"
+                "reference": "tags/0.10.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/0.10.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/0.10.11.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1100,7 +1100,7 @@
             "extra": {
                 "installer-name": "InvitationLinkWebclient"
             },
-            "time": "2021-10-21T09:08:04+00:00"
+            "time": "2021-11-01T07:11:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-logs-viewer",
@@ -1259,15 +1259,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.35",
+            "version": "0.10.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.35"
+                "reference": "tags/0.10.36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.35.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.36.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1278,7 +1278,7 @@
             "extra": {
                 "installer-name": "RocketChatWebclient"
             },
-            "time": "2021-10-12T10:20:09+00:00"
+            "time": "2021-10-29T13:18:01+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
@@ -1325,15 +1325,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-login-form",
-            "version": "0.10.0",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form",
-                "reference": "tags/0.10.0"
+                "reference": "tags/0.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/0.10.0.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-login-form/archive/0.10.1.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1343,7 +1343,7 @@
             "extra": {
                 "installer-name": "StandardLoginFormWebclient"
             },
-            "time": "2021-07-01T13:24:49+00:00"
+            "time": "2021-11-02T09:31:58+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-register-form",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.199.6",
+            "version": "3.199.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "587c7765164b22b69b257d48751e5d1662eb0fff"
+                "reference": "48e4e8679a3c9f7f8879e22880a569e4e2e85ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/587c7765164b22b69b257d48751e5d1662eb0fff",
-                "reference": "587c7765164b22b69b257d48751e5d1662eb0fff",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/48e4e8679a3c9f7f8879e22880a569e4e2e85ea5",
+                "reference": "48e4e8679a3c9f7f8879e22880a569e4e2e85ea5",
                 "shasum": ""
             },
             "require": {
@@ -1728,9 +1728,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.199.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.199.9"
             },
-            "time": "2021-10-28T18:20:18+00:00"
+            "time": "2021-11-02T19:37:19+00:00"
         },
         {
             "name": "composer/installers",
@@ -3384,16 +3384,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.53.1",
+            "version": "2.54.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045"
+                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f4655858a784988f880c1b8c7feabbf02dfdf045",
-                "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/eed83939f1aed3eee517d03a33f5ec587ac529b5",
+                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5",
                 "shasum": ""
             },
             "require": {
@@ -3404,6 +3404,7 @@
                 "symfony/translation": "^3.4 || ^4.0 || ^5.0"
             },
             "require-dev": {
+                "doctrine/dbal": "^2.0 || ^3.0",
                 "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
@@ -3474,7 +3475,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-06T09:29:23+00:00"
+            "time": "2021-11-01T21:22:20+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
