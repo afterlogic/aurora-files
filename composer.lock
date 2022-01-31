@@ -106,15 +106,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.40",
+            "version": "0.10.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.40"
+                "reference": "tags/0.10.41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.40.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.41.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-01-28T11:44:55+00:00"
+            "time": "2022-01-31T12:41:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -993,15 +993,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.12",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.12"
+                "reference": "tags/0.10.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.14.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1011,7 +1011,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2022-01-28T07:14:06+00:00"
+            "time": "2022-01-31T11:44:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
