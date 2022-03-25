@@ -5,7 +5,8 @@
 	"modules": {
 		"Core": {
 			"SiteName": "Afterlogic Aurora Files",
-			"ProductName": "Afterlogic Aurora Files"
+			"ProductName": "Afterlogic Aurora Files",
+			"AllowGroups": true
 		},
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["files", "contacts"],
