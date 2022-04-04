@@ -1369,16 +1369,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "3.0.38",
+            "version": "3.0.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "7b1b45bd3a32327e050aa758dec22b3e12a90fcd"
+                "reference": "1c0970f9d7cba89299d200d2763550bb434cbf62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/7b1b45bd3a32327e050aa758dec22b3e12a90fcd",
-                "reference": "7b1b45bd3a32327e050aa758dec22b3e12a90fcd",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/1c0970f9d7cba89299d200d2763550bb434cbf62",
+                "reference": "1c0970f9d7cba89299d200d2763550bb434cbf62",
                 "shasum": ""
             },
             "require": {
@@ -1408,9 +1408,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/3.0.38"
+                "source": "https://github.com/afterlogic/dav/tree/3.0.39"
             },
-            "time": "2022-03-28T08:04:38+00:00"
+            "time": "2022-03-31T14:12:26+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.216.4",
+            "version": "3.218.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "fd16bb2ecc4e1a47b145163d0bd7744c4578656d"
+                "reference": "fd902a4766d61afac98f7e7746736ba741d4dcce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fd16bb2ecc4e1a47b145163d0bd7744c4578656d",
-                "reference": "fd16bb2ecc4e1a47b145163d0bd7744c4578656d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fd902a4766d61afac98f7e7746736ba741d4dcce",
+                "reference": "fd902a4766d61afac98f7e7746736ba741d4dcce",
                 "shasum": ""
             },
             "require": {
@@ -1728,9 +1728,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.216.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.218.1"
             },
-            "time": "2022-03-29T18:29:23+00:00"
+            "time": "2022-04-01T18:14:25+00:00"
         },
         {
             "name": "composer/installers",
@@ -4855,16 +4855,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.5",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d8111acc99876953f52fe16d4c50eb60940d49ad"
+                "reference": "900275254f0a1a2afff1ab0e11abd5587a10e1d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d8111acc99876953f52fe16d4c50eb60940d49ad",
-                "reference": "d8111acc99876953f52fe16d4c50eb60940d49ad",
+                "url": "https://api.github.com/repos/symfony/console/zipball/900275254f0a1a2afff1ab0e11abd5587a10e1d6",
+                "reference": "900275254f0a1a2afff1ab0e11abd5587a10e1d6",
                 "shasum": ""
             },
             "require": {
@@ -4934,7 +4934,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.5"
+                "source": "https://github.com/symfony/console/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -4950,7 +4950,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-24T12:45:35+00:00"
+            "time": "2022-03-31T17:09:19+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -5629,16 +5629,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.4.5",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "95440409896f90a5f85db07a32b517ecec17fa4c"
+                "reference": "38a44b2517b470a436e1c944bf9b9ba3961137fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/95440409896f90a5f85db07a32b517ecec17fa4c",
-                "reference": "95440409896f90a5f85db07a32b517ecec17fa4c",
+                "url": "https://api.github.com/repos/symfony/process/zipball/38a44b2517b470a436e1c944bf9b9ba3961137fb",
+                "reference": "38a44b2517b470a436e1c944bf9b9ba3961137fb",
                 "shasum": ""
             },
             "require": {
@@ -5671,7 +5671,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.4.5"
+                "source": "https://github.com/symfony/process/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -5687,7 +5687,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-30T18:16:22+00:00"
+            "time": "2022-03-18T16:18:52+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -5860,16 +5860,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.4.6",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "a7ca9fdfffb0174209440c2ffa1dee228e15d95b"
+                "reference": "e1eb790575202ee3ac2659f55b93b05853726f8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/a7ca9fdfffb0174209440c2ffa1dee228e15d95b",
-                "reference": "a7ca9fdfffb0174209440c2ffa1dee228e15d95b",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/e1eb790575202ee3ac2659f55b93b05853726f8e",
+                "reference": "e1eb790575202ee3ac2659f55b93b05853726f8e",
                 "shasum": ""
             },
             "require": {
@@ -5937,7 +5937,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.4.6"
+                "source": "https://github.com/symfony/translation/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -5953,7 +5953,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-02T12:56:28+00:00"
+            "time": "2022-03-24T17:09:09+00:00"
         },
         {
             "name": "symfony/translation-contracts",
