@@ -62,15 +62,15 @@
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
-            "version": "0.10.15",
+            "version": "0.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-activity-history",
-                "reference": "tags/0.10.15"
+                "reference": "tags/0.10.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/0.10.15.zip"
+                "url": "https://github.com/afterlogic/aurora-module-activity-history/archive/0.10.16.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -80,7 +80,7 @@
             "extra": {
                 "installer-name": "ActivityHistory"
             },
-            "time": "2022-03-28T17:43:06+00:00"
+            "time": "2022-04-05T06:44:00+00:00"
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
