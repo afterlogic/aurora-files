@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.55",
+            "version": "0.10.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.55"
+                "reference": "tags/0.10.54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.55.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.54.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2022-03-15T12:43:38+00:00"
+            "time": "2022-03-10T06:06:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -106,38 +106,38 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.55",
+            "version": "0.10.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.55"
+                "reference": "tags/0.10.56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.55.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.56.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
-                "afterlogic/sabre-dav": "3.2.*",
+                "afterlogic/dav": "3.*|4.*",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-04-05T06:55:36+00:00"
+            "time": "2022-04-14T10:23:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.56",
+            "version": "0.10.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.56"
+                "reference": "tags/0.10.57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.56.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.57.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -147,7 +147,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2022-04-11T08:15:24+00:00"
+            "time": "2022-04-11T09:55:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
@@ -173,15 +173,15 @@
         },
         {
             "name": "afterlogic/aurora-module-corporatefiles",
-            "version": "0.10.4",
+            "version": "0.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-corporatefiles",
-                "reference": "tags/0.10.4"
+                "reference": "tags/0.10.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-corporatefiles/archive/0.10.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-corporatefiles/archive/0.10.5.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -192,55 +192,54 @@
             "extra": {
                 "installer-name": "CorporateFiles"
             },
-            "time": "2022-01-31T13:56:15+00:00"
+            "time": "2022-04-01T08:10:34+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.10.10.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
-                "afterlogic/dav": "~3.0.0",
-                "afterlogic/sabre-dav": "3.2.*",
+                "afterlogic/dav": "3.*|4.*",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Dav"
             },
-            "time": "2022-02-11T11:12:45+00:00"
+            "time": "2022-04-14T10:24:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.10.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
                 "afterlogic/aurora-module-dav": "~0.10.0",
-                "afterlogic/dav": "~3.0.0",
+                "afterlogic/dav": "3.*|4.*",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "DavContacts"
             },
-            "time": "2022-02-10T10:06:40+00:00"
+            "time": "2022-04-14T10:31:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -336,27 +335,27 @@
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "0.10.17",
+            "version": "0.10.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "tags/0.10.17"
+                "reference": "tags/0.10.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.17.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.19.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
                 "afterlogic/aurora-module-dav": "~0.10.0",
-                "afterlogic/dav": "~3.0.0",
+                "afterlogic/dav": "3.*|4.*",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Files"
             },
-            "time": "2022-03-29T10:03:02+00:00"
+            "time": "2022-04-14T10:34:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
@@ -428,26 +427,26 @@
         },
         {
             "name": "afterlogic/aurora-module-ios",
-            "version": "0.10.4",
+            "version": "0.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-ios",
-                "reference": "tags/0.10.4"
+                "reference": "tags/0.10.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.10.4.zip"
+                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.10.5.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
-                "afterlogic/sabre-dav": "3.2.*",
+                "afterlogic/dav": "3.*|4.*",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "Ios"
             },
-            "time": "2022-03-18T06:58:41+00:00"
+            "time": "2022-04-14T10:24:33+00:00"
         },
         {
             "name": "afterlogic/aurora-module-min",
@@ -517,15 +516,15 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.10.6",
+            "version": "0.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.10.6"
+                "reference": "tags/0.10.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.6.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.7.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -535,7 +534,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2022-03-21T12:29:14+00:00"
+            "time": "2022-04-01T08:09:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
@@ -606,28 +605,28 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.10.19",
+            "version": "0.10.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.10.19"
+                "reference": "tags/0.10.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.21.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
                 "afterlogic/aurora-module-dav": "~0.10.0",
                 "afterlogic/aurora-module-files": "~0.10.0",
-                "afterlogic/dav": "~3.0.0",
+                "afterlogic/dav": "3.*|4.*",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2022-03-29T10:02:27+00:00"
+            "time": "2022-04-14T10:35:26+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
@@ -700,15 +699,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.10.44",
+            "version": "0.10.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.10.44"
+                "reference": "tags/0.10.45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.44.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.45.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -719,7 +718,7 @@
             "extra": {
                 "installer-name": "SharedFiles"
             },
-            "time": "2022-03-29T08:54:59+00:00"
+            "time": "2022-04-07T09:11:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
@@ -768,15 +767,15 @@
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.10.19",
+            "version": "0.10.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.10.19"
+                "reference": "tags/0.10.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.20.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -788,19 +787,19 @@
             "extra": {
                 "installer-name": "TwoFactorAuth"
             },
-            "time": "2022-02-04T11:21:06+00:00"
+            "time": "2022-04-01T08:04:58+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.39",
+            "version": "0.10.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.39"
+                "reference": "tags/0.10.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.39.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.40.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -810,7 +809,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-03-28T10:04:05+00:00"
+            "time": "2022-04-07T19:22:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
@@ -836,15 +835,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.14",
+            "version": "0.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.14"
+                "reference": "tags/0.10.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.15.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -854,19 +853,19 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-03-25T08:51:46+00:00"
+            "time": "2022-04-01T08:13:00+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.43",
+            "version": "0.10.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.43"
+                "reference": "tags/0.10.44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.43.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.44.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -876,19 +875,19 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-03-23T14:25:24+00:00"
+            "time": "2022-04-01T08:12:24+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.10.7",
+            "version": "0.10.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
-                "reference": "tags/0.10.7"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
+                "reference": "tags/0.10.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.10.7.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.8.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -901,7 +900,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2022-01-27T07:52:35+00:00"
+            "time": "2022-04-08T11:37:59+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -993,15 +992,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.24",
+            "version": "0.10.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.24"
+                "reference": "tags/0.10.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.24.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.25.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1011,19 +1010,19 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2022-03-29T08:53:26+00:00"
+            "time": "2022-04-05T10:40:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
-            "version": "0.10.2",
+            "version": "0.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
-                "reference": "tags/0.10.2"
+                "reference": "tags/0.10.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin/archive/0.10.2.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin/archive/0.10.3.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1033,7 +1032,7 @@
             "extra": {
                 "installer-name": "FilesCutCopyPasteWebclientPlugin"
             },
-            "time": "2022-01-27T08:32:18+00:00"
+            "time": "2022-04-01T08:13:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-tableview-plugin",
@@ -1190,15 +1189,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.10.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1208,19 +1207,19 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2022-03-24T14:07:45+00:00"
+            "time": "2022-04-01T08:08:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.10.10",
+            "version": "0.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.10.10"
+                "reference": "tags/0.10.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.10.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.10.11.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1232,7 +1231,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2022-03-29T08:54:10+00:00"
+            "time": "2022-04-08T11:38:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -1369,21 +1368,21 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "3.0.39",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "1c0970f9d7cba89299d200d2763550bb434cbf62"
+                "reference": "3f171677438e855203746b6748503f3a99e6fde5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/1c0970f9d7cba89299d200d2763550bb434cbf62",
-                "reference": "1c0970f9d7cba89299d200d2763550bb434cbf62",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/3f171677438e855203746b6748503f3a99e6fde5",
+                "reference": "3f171677438e855203746b6748503f3a99e6fde5",
                 "shasum": ""
             },
             "require": {
-                "afterlogic/sabre-dav": "3.2.*",
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "sabre/dav": "4.*"
             },
             "type": "library",
             "extra": {
@@ -1408,9 +1407,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/3.0.39"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.4"
             },
-            "time": "2022-03-31T14:12:26+00:00"
+            "time": "2022-04-14T10:13:56+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1505,93 +1504,6 @@
             "time": "2021-11-15T06:14:07+00:00"
         },
         {
-            "name": "afterlogic/sabre-dav",
-            "version": "3.2.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/afterlogic/sabre-dav.git",
-                "reference": "9204214d4bed611df1878ca4c41fa338161ae394"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/sabre-dav/zipball/9204214d4bed611df1878ca4c41fa338161ae394",
-                "reference": "9204214d4bed611df1878ca4c41fa338161ae394",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-date": "*",
-                "ext-dom": "*",
-                "ext-iconv": "*",
-                "ext-mbstring": "*",
-                "ext-pcre": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
-                "lib-libxml": ">=2.7.0",
-                "php": ">=5.5.0",
-                "psr/log": "^1.0",
-                "sabre/event": ">=2.0.0, <4.0.0",
-                "sabre/http": "^4.2.1",
-                "sabre/uri": "^1.0.1",
-                "sabre/vobject": "^4.1.0",
-                "sabre/xml": "^1.4.0"
-            },
-            "require-dev": {
-                "evert/phpdoc-md": "~0.1.0",
-                "monolog/monolog": "^1.18",
-                "phpunit/phpunit": "> 4.8, <6.0.0",
-                "sabre/cs": "^1.0.0"
-            },
-            "suggest": {
-                "ext-curl": "*",
-                "ext-pdo": "*"
-            },
-            "bin": [
-                "bin/sabredav",
-                "bin/naturalselection"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Sabre\\DAV\\": "lib/DAV/",
-                    "Sabre\\CalDAV\\": "lib/CalDAV/",
-                    "Sabre\\DAVACL\\": "lib/DAVACL/",
-                    "Sabre\\CardDAV\\": "lib/CardDAV/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "WebDAV Framework for PHP",
-            "homepage": "http://sabre.io/",
-            "keywords": [
-                "CalDAV",
-                "CardDAV",
-                "WebDAV",
-                "framework",
-                "iCalendar"
-            ],
-            "support": {
-                "forum": "https://groups.google.com/group/sabredav-discuss",
-                "source": "https://github.com/fruux/sabre-dav"
-            },
-            "time": "2021-08-23T11:24:12+00:00"
-        },
-        {
             "name": "aws/aws-crt-php",
             "version": "v1.0.2",
             "source": {
@@ -1643,16 +1555,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.219.1",
+            "version": "3.219.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b35b86022c76c7f6b13d3f1be35cb317f582e253"
+                "reference": "2bbafacd922391077b9dcf40d57fc33ad9759e33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b35b86022c76c7f6b13d3f1be35cb317f582e253",
-                "reference": "b35b86022c76c7f6b13d3f1be35cb317f582e253",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2bbafacd922391077b9dcf40d57fc33ad9759e33",
+                "reference": "2bbafacd922391077b9dcf40d57fc33ad9759e33",
                 "shasum": ""
             },
             "require": {
@@ -1728,22 +1640,22 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.219.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.219.3"
             },
-            "time": "2022-04-11T18:15:54+00:00"
+            "time": "2022-04-13T18:15:40+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "75e5ef05436c90ac565a48176cc7465991908352"
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/75e5ef05436c90ac565a48176cc7465991908352",
-                "reference": "75e5ef05436c90ac565a48176cc7465991908352",
+                "url": "https://api.github.com/repos/composer/installers/zipball/af93ba6e52236418f07a278033eba6959ee5b983",
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983",
                 "shasum": ""
             },
             "require": {
@@ -1858,7 +1770,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v2.1.0"
+                "source": "https://github.com/composer/installers/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -1874,7 +1786,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-18T12:27:54+00:00"
+            "time": "2022-04-13T09:13:00+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -4423,25 +4335,112 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-            "name": "sabre/event",
-            "version": "3.0.0",
+            "name": "sabre/dav",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sabre-io/event.git",
-                "reference": "831d586f5a442dceacdcf5e9c4c36a4db99a3534"
+                "url": "https://github.com/sabre-io/dav.git",
+                "reference": "130abb7017f56e0d99b04eb94b041e000a8e9b39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/event/zipball/831d586f5a442dceacdcf5e9c4c36a4db99a3534",
-                "reference": "831d586f5a442dceacdcf5e9c4c36a4db99a3534",
+                "url": "https://api.github.com/repos/sabre-io/dav/zipball/130abb7017f56e0d99b04eb94b041e000a8e9b39",
+                "reference": "130abb7017f56e0d99b04eb94b041e000a8e9b39",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "ext-ctype": "*",
+                "ext-date": "*",
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
+                "lib-libxml": ">=2.7.0",
+                "php": "^7.1.0 || ^8.0",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
+                "sabre/event": "^5.0",
+                "sabre/http": "^5.0.5",
+                "sabre/uri": "^2.0",
+                "sabre/vobject": "^4.2.1",
+                "sabre/xml": "^2.0.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "*",
-                "sabre/cs": "~0.0.4"
+                "evert/phpdoc-md": "~0.1.0",
+                "friendsofphp/php-cs-fixer": "^2.17.1",
+                "monolog/monolog": "^1.18",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
+            },
+            "suggest": {
+                "ext-curl": "*",
+                "ext-imap": "*",
+                "ext-pdo": "*"
+            },
+            "bin": [
+                "bin/sabredav",
+                "bin/naturalselection"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sabre\\DAV\\": "lib/DAV/",
+                    "Sabre\\CalDAV\\": "lib/CalDAV/",
+                    "Sabre\\DAVACL\\": "lib/DAVACL/",
+                    "Sabre\\CardDAV\\": "lib/CardDAV/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evert Pot",
+                    "email": "me@evertpot.com",
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WebDAV Framework for PHP",
+            "homepage": "http://sabre.io/",
+            "keywords": [
+                "CalDAV",
+                "CardDAV",
+                "WebDAV",
+                "framework",
+                "iCalendar"
+            ],
+            "support": {
+                "forum": "https://groups.google.com/group/sabredav-discuss",
+                "issues": "https://github.com/sabre-io/dav/issues",
+                "source": "https://github.com/fruux/sabre-dav"
+            },
+            "time": "2022-01-20T13:59:29+00:00"
+        },
+        {
+            "name": "sabre/event",
+            "version": "5.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabre-io/event.git",
+                "reference": "d7da22897125d34d7eddf7977758191c06a74497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabre-io/event/zipball/d7da22897125d34d7eddf7977758191c06a74497",
+                "reference": "d7da22897125d34d7eddf7977758191c06a74497",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.17.1",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
             },
             "type": "library",
             "autoload": {
@@ -4471,10 +4470,13 @@
             "keywords": [
                 "EventEmitter",
                 "async",
+                "coroutine",
+                "eventloop",
                 "events",
                 "hooks",
                 "plugin",
                 "promise",
+                "reactor",
                 "signal"
             ],
             "support": {
@@ -4482,32 +4484,34 @@
                 "issues": "https://github.com/sabre-io/event/issues",
                 "source": "https://github.com/fruux/sabre-event"
             },
-            "time": "2015-11-05T20:14:39+00:00"
+            "time": "2021-11-04T06:51:17+00:00"
         },
         {
             "name": "sabre/http",
-            "version": "v4.2.4",
+            "version": "5.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/http.git",
-                "reference": "acccec4ba863959b2d10c1fa0fb902736c5c8956"
+                "reference": "315f592adfcba8aeb73c2fd64285205747acbbd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/http/zipball/acccec4ba863959b2d10c1fa0fb902736c5c8956",
-                "reference": "acccec4ba863959b2d10c1fa0fb902736c5c8956",
+                "url": "https://api.github.com/repos/sabre-io/http/zipball/315f592adfcba8aeb73c2fd64285205747acbbd7",
+                "reference": "315f592adfcba8aeb73c2fd64285205747acbbd7",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
+                "ext-curl": "*",
                 "ext-mbstring": "*",
-                "php": ">=5.4",
-                "sabre/event": ">=1.0.0,<4.0.0",
-                "sabre/uri": "~1.0"
+                "php": "^7.1 || ^8.0",
+                "sabre/event": ">=4.0 <6.0",
+                "sabre/uri": "^2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.3",
-                "sabre/cs": "~0.0.1"
+                "friendsofphp/php-cs-fixer": "~2.17.1",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
             },
             "suggest": {
                 "ext-curl": " to make http requests with the Client class"
@@ -4543,28 +4547,29 @@
                 "issues": "https://github.com/sabre-io/http/issues",
                 "source": "https://github.com/fruux/sabre-http"
             },
-            "time": "2018-02-23T11:10:29+00:00"
+            "time": "2021-11-04T07:02:36+00:00"
         },
         {
             "name": "sabre/uri",
-            "version": "1.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/uri.git",
-                "reference": "ada354d83579565949d80b2e15593c2371225e61"
+                "reference": "7cb0f489578afad5006e85cd60f18ff33f2d440d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/uri/zipball/ada354d83579565949d80b2e15593c2371225e61",
-                "reference": "ada354d83579565949d80b2e15593c2371225e61",
+                "url": "https://api.github.com/repos/sabre-io/uri/zipball/7cb0f489578afad5006e85cd60f18ff33f2d440d",
+                "reference": "7cb0f489578afad5006e85cd60f18ff33f2d440d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.7"
+                "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=4.0,<6.0",
-                "sabre/cs": "~1.0.0"
+                "friendsofphp/php-cs-fixer": "~2.17.1",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
             },
             "type": "library",
             "autoload": {
@@ -4599,29 +4604,32 @@
                 "issues": "https://github.com/sabre-io/uri/issues",
                 "source": "https://github.com/fruux/sabre-uri"
             },
-            "time": "2017-02-20T19:59:28+00:00"
+            "time": "2021-11-04T09:29:58+00:00"
         },
         {
             "name": "sabre/vobject",
-            "version": "4.2.2",
+            "version": "4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/vobject.git",
-                "reference": "449616b2d45b95c8973975de23f34a3d14f63b4b"
+                "reference": "06feff370141fd3118609f808e86d9315864bf14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/449616b2d45b95c8973975de23f34a3d14f63b4b",
-                "reference": "449616b2d45b95c8973975de23f34a3d14f63b4b",
+                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/06feff370141fd3118609f808e86d9315864bf14",
+                "reference": "06feff370141fd3118609f808e86d9315864bf14",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": ">=5.5",
-                "sabre/xml": ">=1.5 <3.0"
+                "php": "^7.1 || ^8.0",
+                "sabre/xml": "^2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "> 4.8.35, <6.0.0"
+                "friendsofphp/php-cs-fixer": "~2.17.1",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/php-invoker": "^2.0 || ^3.1",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
             },
             "suggest": {
                 "hoa/bench": "If you would like to run the benchmark scripts"
@@ -4700,20 +4708,20 @@
                 "issues": "https://github.com/sabre-io/vobject/issues",
                 "source": "https://github.com/fruux/sabre-vobject"
             },
-            "time": "2020-01-14T10:18:45+00:00"
+            "time": "2021-12-07T09:45:33+00:00"
         },
         {
             "name": "sabre/xml",
-            "version": "1.5.1",
+            "version": "2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/xml.git",
-                "reference": "a367665f1df614c3b8fefc30a54de7cd295e444e"
+                "reference": "a6af111850e7536d200d9637c34885cd3c77a86c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/xml/zipball/a367665f1df614c3b8fefc30a54de7cd295e444e",
-                "reference": "a367665f1df614c3b8fefc30a54de7cd295e444e",
+                "url": "https://api.github.com/repos/sabre-io/xml/zipball/a6af111850e7536d200d9637c34885cd3c77a86c",
+                "reference": "a6af111850e7536d200d9637c34885cd3c77a86c",
                 "shasum": ""
             },
             "require": {
@@ -4721,12 +4729,13 @@
                 "ext-xmlreader": "*",
                 "ext-xmlwriter": "*",
                 "lib-libxml": ">=2.6.20",
-                "php": ">=5.5.5",
+                "php": "^7.1 || ^8.0",
                 "sabre/uri": ">=1.0,<3.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8|~5.7",
-                "sabre/cs": "~1.0.0"
+                "friendsofphp/php-cs-fixer": "~2.17.1",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
             },
             "type": "library",
             "autoload": {
@@ -4768,7 +4777,7 @@
                 "issues": "https://github.com/sabre-io/xml/issues",
                 "source": "https://github.com/fruux/sabre-xml"
             },
-            "time": "2019-01-09T13:51:57+00:00"
+            "time": "2021-11-04T06:37:27+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
