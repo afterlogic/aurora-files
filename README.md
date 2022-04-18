@@ -48,8 +48,6 @@ git clone https://github.com/afterlogic/aurora-files.git INSTALL_FOLDER_PATH
 
     **NB:** It is strongly advised to run composer as non-root user. Otherwise, third-party scripts will be run with root permissions and composer issues a warning that it's not safe. We recommend running the script as the same user web server runs under.
 
-Make sure you're using PHP 7.2.5 - 7.4.\*. Building with PHP 8 is not currently supported.
-    
 4. Next, you need to build static files for the current module set.
 
       First of all, install all npm modules via
