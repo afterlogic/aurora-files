@@ -879,15 +879,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.10.8",
+            "version": "0.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-                "reference": "tags/0.10.8"
+                "reference": "tags/0.10.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.9.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -900,7 +900,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2022-04-08T11:37:59+00:00"
+            "time": "2022-04-22T09:19:43+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
