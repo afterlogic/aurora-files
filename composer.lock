@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.55",
+            "version": "0.10.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.55"
+                "reference": "tags/0.10.57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.55.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.57.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2022-03-15T12:43:38+00:00"
+            "time": "2022-05-06T08:24:13+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -129,15 +129,15 @@
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.58",
+            "version": "0.10.60",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.58"
+                "reference": "tags/0.10.60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.58.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.60.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -147,7 +147,7 @@
             "extra": {
                 "installer-name": "Core"
             },
-            "time": "2022-04-19T13:01:50+00:00"
+            "time": "2022-05-05T05:44:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
@@ -791,15 +791,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
-            "version": "0.10.42",
+            "version": "0.10.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel",
-                "reference": "tags/0.10.42"
+                "reference": "tags/0.10.45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.42.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-adminpanel/archive/0.10.45.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -809,7 +809,7 @@
             "extra": {
                 "installer-name": "AdminPanelWebclient"
             },
-            "time": "2022-04-29T12:31:21+00:00"
+            "time": "2022-05-06T14:29:55+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-branding",
@@ -1642,16 +1642,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.4",
+            "version": "3.222.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a6ea9c9a93b35de272286f1de470eea637109415"
+                "reference": "a82c1b4903f5df893bf7108ec9de73328f74652a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a6ea9c9a93b35de272286f1de470eea637109415",
-                "reference": "a6ea9c9a93b35de272286f1de470eea637109415",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a82c1b4903f5df893bf7108ec9de73328f74652a",
+                "reference": "a82c1b4903f5df893bf7108ec9de73328f74652a",
                 "shasum": ""
             },
             "require": {
@@ -1727,9 +1727,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.10"
             },
-            "time": "2022-05-03T21:08:50+00:00"
+            "time": "2022-05-11T18:15:28+00:00"
         },
         {
             "name": "composer/installers",
@@ -3274,16 +3274,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "4192345e260f1d51b365536199744b987e160edc"
+                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4192345e260f1d51b365536199744b987e160edc",
-                "reference": "4192345e260f1d51b365536199744b987e160edc",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/247918972acd74356b0a91dfaa5adcaec069b6c0",
+                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0",
                 "shasum": ""
             },
             "require": {
@@ -3296,18 +3296,23 @@
             "require-dev": {
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
-                "elasticsearch/elasticsearch": "^7",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
                 "graylog2/gelf-php": "^1.4.2",
+                "guzzlehttp/guzzle": "^7.4",
+                "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "php-console/php-console": "^3.1.3",
-                "phpspec/prophecy": "^1.6.1",
+                "phpspec/prophecy": "^1.15",
                 "phpstan/phpstan": "^0.12.91",
-                "phpunit/phpunit": "^8.5",
+                "phpunit/phpunit": "^8.5.14",
                 "predis/predis": "^1.1",
                 "rollbar/rollbar": "^1.3 || ^2 || ^3",
-                "ruflin/elastica": ">=0.90@dev",
-                "swiftmailer/swiftmailer": "^5.3|^6.0"
+                "ruflin/elastica": "^7",
+                "swiftmailer/swiftmailer": "^5.3|^6.0",
+                "symfony/mailer": "^5.4 || ^6",
+                "symfony/mime": "^5.4 || ^6"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -3357,7 +3362,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.5.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.6.0"
             },
             "funding": [
                 {
@@ -3369,7 +3374,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-08T15:43:54+00:00"
+            "time": "2022-05-10T09:36:00+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
