@@ -90,7 +90,7 @@
 		"afterlogic/aurora-module-webclient-mobile-apps": "~0.10.0",
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0",
 		"afterlogic/aurora-module-webclient-rocketchat": "~0.10.0",
-		"afterlogic/dav": "~3.0.0"
+		"afterlogic/dav": "~4.0.0"
 		
 	},
 	"scripts": {
