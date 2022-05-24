@@ -857,15 +857,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.49",
+            "version": "0.10.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.49"
+                "reference": "tags/0.10.50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.49.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.50.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -875,7 +875,7 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-04-25T07:26:39+00:00"
+            "time": "2022-05-24T11:34:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1555,16 +1555,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.17",
+            "version": "3.222.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "dfcaf44f64be4f844b44515f31d9f6d9293244a4"
+                "reference": "223ca25ed10b4d4a3b1e986795b5aa86f3c04466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/dfcaf44f64be4f844b44515f31d9f6d9293244a4",
-                "reference": "dfcaf44f64be4f844b44515f31d9f6d9293244a4",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/223ca25ed10b4d4a3b1e986795b5aa86f3c04466",
+                "reference": "223ca25ed10b4d4a3b1e986795b5aa86f3c04466",
                 "shasum": ""
             },
             "require": {
@@ -1640,9 +1640,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.17"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.18"
             },
-            "time": "2022-05-20T18:23:52+00:00"
+            "time": "2022-05-23T18:16:59+00:00"
         },
         {
             "name": "composer/installers",
