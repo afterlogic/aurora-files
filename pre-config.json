@@ -42,7 +42,9 @@
 			"Disabled": true
 		},
 		"Contacts": {
-			"ImportContactsLink": "https://afterlogic.com/docs/aurora-files/frequently-asked-questions/importing-contacts"
+			"ImportContactsLink": "https://afterlogic.com/docs/aurora-files/frequently-asked-questions/importing-contacts",
+			"AllowAddressBooksManagement": true,
+			"AllowEditTeamContactsByTenantAdmins": true
 		},
 		"S3Filestorage": {
 			"Disabled": true
