@@ -106,15 +106,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.60",
+            "version": "0.10.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.60"
+                "reference": "tags/0.10.61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.60.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.61.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -125,7 +125,7 @@
             "extra": {
                 "installer-name": "Contacts"
             },
-            "time": "2022-04-29T12:29:36+00:00"
+            "time": "2022-05-30T09:57:39+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -516,15 +516,15 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.10.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -534,7 +534,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2022-05-30T07:30:55+00:00"
+            "time": "2022-05-30T13:53:15+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
