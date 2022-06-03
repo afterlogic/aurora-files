@@ -676,15 +676,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
-            "version": "0.10.6",
+            "version": "0.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-contacts",
-                "reference": "tags/0.10.6"
+                "reference": "tags/0.10.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.6.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.7.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -695,7 +695,7 @@
             "extra": {
                 "installer-name": "SharedContacts"
             },
-            "time": "2022-05-27T07:15:54+00:00"
+            "time": "2022-06-03T07:59:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
