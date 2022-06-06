@@ -219,15 +219,15 @@
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "0.10.12",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "tags/0.10.12"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -239,7 +239,7 @@
             "extra": {
                 "installer-name": "DavContacts"
             },
-            "time": "2022-04-29T13:11:15+00:00"
+            "time": "2022-06-06T12:02:11+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
