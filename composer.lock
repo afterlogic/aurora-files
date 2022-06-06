@@ -516,15 +516,15 @@
         },
         {
             "name": "afterlogic/aurora-module-office-document-editor",
-            "version": "0.10.12",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-office-document-editor",
-                "reference": "tags/0.10.12"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-office-document-editor/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -534,7 +534,7 @@
             "extra": {
                 "installer-name": "OfficeDocumentEditor"
             },
-            "time": "2022-06-02T10:40:10+00:00"
+            "time": "2022-06-03T14:40:06+00:00"
         },
         {
             "name": "afterlogic/aurora-module-office-document-viewer",
@@ -1554,16 +1554,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.224.2",
+            "version": "3.224.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a2e6461261a92570128e6c2b6fb1896f3d16b424"
+                "reference": "52f45dfe0d1e5a77f33c050bde5134901fc54a57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a2e6461261a92570128e6c2b6fb1896f3d16b424",
-                "reference": "a2e6461261a92570128e6c2b6fb1896f3d16b424",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/52f45dfe0d1e5a77f33c050bde5134901fc54a57",
+                "reference": "52f45dfe0d1e5a77f33c050bde5134901fc54a57",
                 "shasum": ""
             },
             "require": {
@@ -1639,9 +1639,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.224.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.224.3"
             },
-            "time": "2022-06-01T18:17:06+00:00"
+            "time": "2022-06-02T18:22:57+00:00"
         },
         {
             "name": "composer/installers",
