@@ -1,3 +1,6 @@
+[9.5.1]
+[*] Fixed the problem of sharing the personal address book (Aurora Corporate, Aurora Files)
+
 [9.5.0]
 [+] Sharing address books (Aurora Corporate, Aurora Files)
 [+] Multiple address books supported, address book management is enabled by default (WebMail Pro, Aurora Corporate, Aurora Files)
