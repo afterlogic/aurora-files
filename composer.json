@@ -33,7 +33,6 @@
 		"afterlogic/aurora-module-webclient-standard-register-form": "~0.10.0",
 		
 		"afterlogic/aurora-module-webclient-logs-viewer": "~0.10.0",
-		"afterlogic/aurora-module-eav-object-viewer": "~0.10.0",
 		
 		"afterlogic/aurora-module-files": "~0.10.0",
 		"afterlogic/aurora-module-personalfiles": "~0.10.0",
@@ -68,7 +67,6 @@
 		"afterlogic/aurora-module-mobile-sync": "~0.10.0",
 		"afterlogic/aurora-module-webclient-mobile-sync": "~0.10.0",
 		
-		"afterlogic/aurora-module-webclient-external-clients-login-form": "~0.10.0",
 		"afterlogic/aurora-module-two-factor-auth": "~0.10.0",
 		
 		"afterlogic/aurora-module-webclient-files-tableview-plugin": "~0.10.0",
