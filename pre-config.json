@@ -12,7 +12,7 @@
 			"HeaderModulesOrder": ["files", "contacts"],
 			"DefaultAnonymScreenHash": "login",
 			"DefaultUserScreenHash": "files",
-			"ThemeList": ["Default", "DeepForest", "Funny", "Sand"]
+			"ThemeList": ["Default", "DefaultDark", "DeepForest", "Funny", "Sand"]
 		},
 		"DropboxAuthWebclient": {
 			"Scopes": "auth"
