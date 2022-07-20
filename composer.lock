@@ -608,15 +608,15 @@
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
-            "version": "0.10.1",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage",
-                "reference": "tags/0.10.1"
+                "reference": "tags/0.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage/archive/0.10.1.zip"
+                "url": "https://github.com/afterlogic/aurora-module-s3-corporate-filestorage/archive/0.10.2.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -627,19 +627,19 @@
             "extra": {
                 "installer-name": "S3CorporateFilestorage"
             },
-            "time": "2022-01-27T09:10:06+00:00"
+            "time": "2022-07-19T13:55:20+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-filestorage",
-            "version": "0.10.20",
+            "version": "0.10.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-s3-filestorage",
-                "reference": "tags/0.10.20"
+                "reference": "tags/0.10.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.10.20.zip"
+                "url": "https://github.com/afterlogic/aurora-module-s3-filestorage/archive/0.10.21.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -650,7 +650,7 @@
             "extra": {
                 "installer-name": "S3Filestorage"
             },
-            "time": "2022-07-13T12:38:55+00:00"
+            "time": "2022-07-19T13:53:58+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
@@ -1510,16 +1510,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.231.7",
+            "version": "3.231.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "25f7cf72a1d7cf3075436cfbfdc4caed201df3ec"
+                "reference": "fbda3e544226b44f79ead89de78f220d30ef3796"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/25f7cf72a1d7cf3075436cfbfdc4caed201df3ec",
-                "reference": "25f7cf72a1d7cf3075436cfbfdc4caed201df3ec",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fbda3e544226b44f79ead89de78f220d30ef3796",
+                "reference": "fbda3e544226b44f79ead89de78f220d30ef3796",
                 "shasum": ""
             },
             "require": {
@@ -1596,9 +1596,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.9"
             },
-            "time": "2022-07-15T18:16:42+00:00"
+            "time": "2022-07-19T18:14:37+00:00"
         },
         {
             "name": "composer/installers",
