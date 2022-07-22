@@ -1324,16 +1324,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.26",
+            "version": "4.0.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "a34ad82f580b42c83c701964d786c5e5d6a75378"
+                "reference": "e257edea9df8bb66c886d5c6519a92004b4bfe37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/a34ad82f580b42c83c701964d786c5e5d6a75378",
-                "reference": "a34ad82f580b42c83c701964d786c5e5d6a75378",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/e257edea9df8bb66c886d5c6519a92004b4bfe37",
+                "reference": "e257edea9df8bb66c886d5c6519a92004b4bfe37",
                 "shasum": ""
             },
             "require": {
@@ -1363,9 +1363,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.26"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.27"
             },
-            "time": "2022-07-14T09:22:09+00:00"
+            "time": "2022-07-22T06:20:46+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1510,16 +1510,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.231.10",
+            "version": "3.231.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e46b7c5fcb70fadf38079755982cc1d3f0583c41"
+                "reference": "6a37c3d5fe2d6b401f689aa37c9f962df55e680b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e46b7c5fcb70fadf38079755982cc1d3f0583c41",
-                "reference": "e46b7c5fcb70fadf38079755982cc1d3f0583c41",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6a37c3d5fe2d6b401f689aa37c9f962df55e680b",
+                "reference": "6a37c3d5fe2d6b401f689aa37c9f962df55e680b",
                 "shasum": ""
             },
             "require": {
@@ -1596,9 +1596,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.11"
             },
-            "time": "2022-07-20T18:17:18+00:00"
+            "time": "2022-07-21T18:17:02+00:00"
         },
         {
             "name": "composer/installers",
