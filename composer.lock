@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddc0d0addba13d85116176121ab26ea4",
+    "content-hash": "32a1f58fa4bc52a8c09a574213307cce",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.68",
+            "version": "0.10.69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.68"
+                "reference": "tags/0.10.69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.68.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.69.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -58,7 +58,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2022-09-20T14:20:35+00:00"
+            "time": "2022-09-29T10:40:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
