@@ -23,6 +23,10 @@ include_once 'system/autoload.php';
 \set_time_limit(3000);
 \set_error_handler(function ($errno, $errstr, $errfile, $errline) {
     throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
-    });
-    
-    \Afterlogic\DAV\Server::getInstance()->exec();
+});
+
+$server = \Afterlogic\DAV\Server::getInstance();
+$server->setBaseUri(
+    str_replace($_SERVER['DOCUMENT_ROOT'], '', $_SERVER['SCRIPT_FILENAME'])
+);
+$server->exec();
