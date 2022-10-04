@@ -219,15 +219,15 @@
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
-            "version": "0.10.14",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav-contacts",
-                "reference": "tags/0.10.14"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav-contacts/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -239,7 +239,7 @@
             "extra": {
                 "installer-name": "DavContacts"
             },
-            "time": "2022-08-18T13:29:05+00:00"
+            "time": "2022-06-06T12:02:11+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
@@ -1346,16 +1346,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.29",
+            "version": "4.0.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "548764520d3fb5d87db72de299085e4e42b5066a"
+                "reference": "a619204b3b26d8ae98aa60fe59abf343772d3db2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/548764520d3fb5d87db72de299085e4e42b5066a",
-                "reference": "548764520d3fb5d87db72de299085e4e42b5066a",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/a619204b3b26d8ae98aa60fe59abf343772d3db2",
+                "reference": "a619204b3b26d8ae98aa60fe59abf343772d3db2",
                 "shasum": ""
             },
             "require": {
@@ -1385,9 +1385,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.29"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.28"
             },
-            "time": "2022-08-11T08:13:28+00:00"
+            "time": "2022-07-26T12:25:00+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
