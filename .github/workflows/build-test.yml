@@ -27,5 +27,6 @@ jobs:
   
   call-upload-workflow:
     uses: ./.github/workflows/upload.yml
+    needs: build
     secrets: inherit
 
