@@ -1,8 +1,9 @@
 name: PHP Composer
 
 on:
-  push:
-    branches: [ workflows ]
+#  push:
+#    branches: [ workflows ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,4 +26,5 @@ jobs:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
     - uses: ./.github/workflows/upload.yml
-      secrets: inherit
+      # secrets: inherit
+
