@@ -2,18 +2,6 @@ name: PHP Composer
 
 on:
   workflow_call:
-    inputs:
-      config-path:
-        required: true
-        type: string
-    secrets:
-      PRODUCT_NAME:
-        description: 'A product name'
-        required: true
-      FTP_USER:
-        required: true
-      FTP_PASSWORD:
-        required: true
 
 jobs:
   upload:

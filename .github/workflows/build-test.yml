@@ -25,4 +25,4 @@ jobs:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
 
     - uses: ./.github/workflows/upload.yml
-
+       secrets: inherit
