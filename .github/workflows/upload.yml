@@ -1,28 +1,14 @@
-name: PHP Composer
+name: Upload workflow
 
 on:
   workflow_call:
-
-    secrets:
-      PRODUCT_NAME:
-        description: 'A product name'
-        # required: true
-      FTP_USER:
-        # required: true
-      FTP_PASSWORD:
-        # required: true
-
 
 jobs:
   upload:
     runs-on: ubuntu-20.04
 
-    steps:
-    - uses: actions/checkout@v2
-    
-    - name: DEMO - upload demo package
-      run: ./builder.sh -t upload-demo
-      env:
-        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+    run: ./builder.sh -t upload-demo
+    env:
+      PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+      FTP_USER: ${{ secrets.FTP_USER }}
+      FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
