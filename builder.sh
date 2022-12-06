@@ -127,3 +127,20 @@ if [ "$TASK" = "upload-demo" ]; then
 	
 	curl -v --ftp-create-dirs --retry 6 -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/demo/
 fi
+
+if [ "$TASK" = "build-documentation" ]; then
+	cd ${DIR}/dev/docs/
+
+	printf "${$GREEN}BUILDING DOCUMENTATION\n"$NC
+
+	# ./build-apigen.sh
+	./build-apidoc.sh
+
+	DOCUMENTATION_FILE=${PRODUCT_NAME}_${PRODUCT_VERSION}.zip
+	
+	printf "${$GREEN}PACKING DOCUMENTATION: ${RED}${DOCUMENTATION_FILE}\n"$NC
+	
+	zip -rq ${DOCUMENTATION_FILE} ${DIR}/docs/apigen/**/*.*
+	
+	curl -v --ftp-create-dirs --retry 6 -T ${DOCUMENTATION_FILE} -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
+fi
