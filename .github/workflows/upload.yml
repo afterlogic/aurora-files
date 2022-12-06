@@ -1,0 +1,28 @@
+name: PHP Composer
+
+on:
+  workflow_call:
+    inputs:
+      config-path:
+        required: true
+        type: string
+    secrets:
+      PRODUCT_NAME:
+        description: 'A product name'
+        required: true
+      FTP_USER:
+        required: true
+      FTP_PASSWORD:
+        required: true
+
+jobs:
+  upload:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: DEMO - upload demo package
+      run: ./builder.sh -t upload-demo
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
