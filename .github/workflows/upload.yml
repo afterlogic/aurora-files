@@ -7,8 +7,10 @@ jobs:
   upload:
     runs-on: ubuntu-20.04
 
-    run: ./builder.sh -t upload-demo
-    env:
-      PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-      FTP_USER: ${{ secrets.FTP_USER }}
-      FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+    steps:    
+    - name: DEMO - upload demo package
+      run: ./builder.sh -t upload-demo
+      env:
+        PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
