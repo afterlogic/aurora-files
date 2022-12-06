@@ -1,9 +1,9 @@
 name: PHP Composer
 
 on:
-#  push:
-#    branches: [ workflows ]
-  workflow_dispatch:
+ push:
+   branches: [ workflows ]
+  # workflow_dispatch:
 
 jobs:
   build:
