@@ -130,6 +130,8 @@ fi
 
 if [ "$TASK" = "build-documentation" ]; then
         cd ${DIR}
+		echo $(cd `dirname $0` && pwd)
+		echo ls
 		PRODUCT_VERSION=`cat VERSION`
         DOCUMENTATION_FILE=${PRODUCT_NAME}_${PRODUCT_VERSION}.zip
 
@@ -138,6 +140,7 @@ if [ "$TASK" = "build-documentation" ]; then
 
         cd ${DIR}/dev/docs
 		echo $(cd `dirname $0` && pwd)
+		echo ls
         # ./build-apigen.sh
         ./build-phpdoc.sh
 
