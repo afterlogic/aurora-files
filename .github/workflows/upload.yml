@@ -1,18 +1,15 @@
 name: PHP Composer
 
 on:
-  # schedule:
-    # Every tuesday at 12 am UTC, aka 5 pm pacific time
-    # - cron: '0 0 * * 2'
   workflow_call:
 
-    # secrets:
-      # PRODUCT_NAME:
-        # description: 'A product name'
+    secrets:
+      PRODUCT_NAME:
+        description: 'A product name'
         # required: true
-      # FTP_USER:
+      FTP_USER:
         # required: true
-      # FTP_PASSWORD:
+      FTP_PASSWORD:
         # required: true
 
 

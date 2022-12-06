@@ -24,7 +24,8 @@ jobs:
       run: ./builder.sh -t pack
       env:
         PRODUCT_NAME: ${{ secrets.PRODUCT_NAME }}
-
-    - uses: ./.github/workflows/upload.yml
-      # secrets: inherit
+  
+  call-upload-workflow:
+    uses: ./.github/workflows/upload.yml
+    secrets: inherit
 
