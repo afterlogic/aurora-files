@@ -1,6 +1,6 @@
 <?php
 /*
- * @copyright Copyright (c) 2017, Afterlogic Corp.
+ * @copyright Copyright (c) 2022, Afterlogic Corp.
  * @license AGPL-3.0
  *
  * This code is free software: you can redistribute it and/or modify
@@ -16,8 +16,4 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-include_once 'system/autoload.php';
-
-\Aurora\System\Api::Init();
-
-$server = \Afterlogic\DAV\Server::getInstance()->exec();
+include 'system/dav/server.php';
