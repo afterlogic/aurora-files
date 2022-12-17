@@ -583,15 +583,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.10.29",
+            "version": "0.10.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.10.29"
+                "reference": "tags/0.10.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.30.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -604,7 +604,7 @@
             "extra": {
                 "installer-name": "PersonalFiles"
             },
-            "time": "2022-12-08T09:54:50+00:00"
+            "time": "2022-12-12T13:43:21+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
@@ -813,15 +813,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.28",
+            "version": "0.10.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.28"
+                "reference": "tags/0.10.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.28.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.29.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -831,19 +831,19 @@
             "extra": {
                 "installer-name": "ContactsWebclient"
             },
-            "time": "2022-11-18T12:17:34+00:00"
+            "time": "2022-12-09T06:57:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.77",
+            "version": "0.10.78",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.77"
+                "reference": "tags/0.10.78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.77.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.78.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -853,19 +853,19 @@
             "extra": {
                 "installer-name": "CoreWebclient"
             },
-            "time": "2022-12-06T18:32:54+00:00"
+            "time": "2022-12-09T06:56:02+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.10.15",
+            "version": "0.10.16",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
-                "reference": "tags/0.10.15"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
+                "reference": "tags/0.10.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.10.15.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.16.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -878,7 +878,7 @@
             "extra": {
                 "installer-name": "CoreParanoidEncryptionWebclientPlugin"
             },
-            "time": "2022-11-02T11:30:25+00:00"
+            "time": "2022-12-09T06:58:50+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -948,15 +948,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-files",
-            "version": "0.10.37",
+            "version": "0.10.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-files",
-                "reference": "tags/0.10.37"
+                "reference": "tags/0.10.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.37.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-files/archive/0.10.38.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -966,7 +966,7 @@
             "extra": {
                 "installer-name": "FilesWebclient"
             },
-            "time": "2022-11-23T16:25:39+00:00"
+            "time": "2022-12-09T07:01:46+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-files-cut-copy-paste-plugin",
@@ -1145,15 +1145,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
-            "version": "0.10.24",
+            "version": "0.10.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp",
-                "reference": "tags/0.10.24"
+                "reference": "tags/0.10.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.24.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp/archive/0.10.25.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1163,7 +1163,7 @@
             "extra": {
                 "installer-name": "OpenPgpWebclient"
             },
-            "time": "2022-12-08T09:56:16+00:00"
+            "time": "2022-12-09T07:34:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
@@ -1346,16 +1346,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.34",
+            "version": "4.0.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "0401d5dbe2db6ea7b3685e17f3eab4dc37aca80b"
+                "reference": "3eeef5578370a6b2beb9cf414af9137ba0125fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/0401d5dbe2db6ea7b3685e17f3eab4dc37aca80b",
-                "reference": "0401d5dbe2db6ea7b3685e17f3eab4dc37aca80b",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/3eeef5578370a6b2beb9cf414af9137ba0125fab",
+                "reference": "3eeef5578370a6b2beb9cf414af9137ba0125fab",
                 "shasum": ""
             },
             "require": {
@@ -1385,9 +1385,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.34"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.35"
             },
-            "time": "2022-12-08T09:52:08+00:00"
+            "time": "2022-12-13T08:34:34+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1532,16 +1532,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.252.4",
+            "version": "3.253.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b"
+                "reference": "da3b60b090b2070bd452d8b87737ea1e00d8002f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/da3b60b090b2070bd452d8b87737ea1e00d8002f",
+                "reference": "da3b60b090b2070bd452d8b87737ea1e00d8002f",
                 "shasum": ""
             },
             "require": {
@@ -1620,9 +1620,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.253.4"
             },
-            "time": "2022-12-07T19:47:20+00:00"
+            "time": "2022-12-16T19:23:03+00:00"
         },
         {
             "name": "composer/installers",
