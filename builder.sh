@@ -8,7 +8,7 @@ NC='\033[0m' # No Color
 DIR=$(cd `dirname $0` && pwd)
 DIR_VUE="${DIR}/modules/AdminPanelWebclient/vue"
 
-TASK="build"
+TASK="list"
 
 POSITIONAL=()
 while [[ $# -gt 0 ]]
@@ -34,6 +34,23 @@ getThemeList ()
 	LIST=$(find ${DIR}/modules/CoreWebclient/styles/themes -maxdepth 1 -mindepth 1 -type d -printf '%f,')
 	echo ${LIST::-1}
 }
+
+if [ "$TASK" = "list" ]; then
+	printf "The script can be used to intall NPM dependencies and build required static files. See the full list of the supported commands:
+  - npm
+  - build
+    - build-main
+    - build-admin
+  - watch-js
+  - watch-styles
+  - pack
+  - upload
+  - prepare-demo
+  - upload-demo
+  - build-documentation
+  - analyze
+"
+fi
 
 echo TASK: "$TASK"
 
@@ -164,4 +181,16 @@ if [ "$TASK" = "build-documentation" ]; then
 	zip -rq ${DOCUMENTATION_FILE} *
 
 	curl -v --ftp-create-dirs --retry 6 -T ${DOCUMENTATION_FILE} -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
+fi
+
+if [ "$TASK" = "analyze" ]; then
+	cd ${DIR}
+
+	vendor/bin/phpstan analyse | grep '[ERROR]' -F
+	
+	# if [ $? != 0 ]
+    # then
+        printf "\r\n To get more details on the found errors please run:\r\n "$YELLOW"vendor/bin/phpstan analyze"$NC"\r\n"
+        exit 1
+    # fi
 fi
