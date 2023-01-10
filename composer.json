@@ -42,7 +42,7 @@
 		"oomphinc/composer-installers-extender": "^2.0",
 		
 		"afterlogic/aurora-framework": "~0.10.0",
-		"afterlogic/aurora-dev-tools": "~0.9.0",
+		"afterlogic/aurora-dev-tools": "~0.10.0",
 		
 		"afterlogic/aurora-module-core": "~0.10.0",
 		"afterlogic/aurora-module-core-extender": "~0.10.0",
