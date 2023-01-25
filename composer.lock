@@ -1465,15 +1465,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.62",
+            "version": "0.10.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.62"
+                "reference": "tags/0.10.64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.62.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.64.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1489,7 +1489,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-24T12:58:20+00:00"
+            "time": "2023-01-25T10:27:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-settings",
@@ -1813,16 +1813,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.257.6",
+            "version": "3.257.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "de8666f4dc87b6c4eeef1388c8aea09722549d92"
+                "reference": "c98199a1459e95ec3ebb597d0c20aa60fc078005"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/de8666f4dc87b6c4eeef1388c8aea09722549d92",
-                "reference": "de8666f4dc87b6c4eeef1388c8aea09722549d92",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c98199a1459e95ec3ebb597d0c20aa60fc078005",
+                "reference": "c98199a1459e95ec3ebb597d0c20aa60fc078005",
                 "shasum": ""
             },
             "require": {
@@ -1901,9 +1901,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.7"
             },
-            "time": "2023-01-23T19:28:48+00:00"
+            "time": "2023-01-24T19:22:28+00:00"
         },
         {
             "name": "composer/installers",
