@@ -14,3 +14,4 @@
 /package-lock.json
 /_composer_cache
 /*.zip
+.php-cs-fixer.cache
