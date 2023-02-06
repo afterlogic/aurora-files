@@ -117,15 +117,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.80",
+            "version": "0.10.81",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.80"
+                "reference": "tags/0.10.81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.80.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.81.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -141,7 +141,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-17T05:50:24+00:00"
+            "time": "2023-02-01T09:40:24+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -694,15 +694,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.10.36",
+            "version": "0.10.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.10.36"
+                "reference": "tags/0.10.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.36.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.37.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -720,7 +720,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-19T13:14:34+00:00"
+            "time": "2023-02-02T09:01:44+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
@@ -1001,15 +1001,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.88",
+            "version": "0.10.89",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.88"
+                "reference": "tags/0.10.89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.88.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.89.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1024,7 +1024,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-27T14:30:18+00:00"
+            "time": "2023-02-03T14:24:52+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
@@ -1247,15 +1247,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-invitation-link",
-            "version": "0.10.19",
+            "version": "0.10.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link",
-                "reference": "tags/0.10.19"
+                "reference": "tags/0.10.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/0.10.19.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-invitation-link/archive/0.10.20.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1271,7 +1271,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-26T10:08:39+00:00"
+            "time": "2023-01-31T08:08:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-logs-viewer",
@@ -1354,15 +1354,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "0.10.22",
+            "version": "0.10.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "tags/0.10.22"
+                "reference": "tags/0.10.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.22.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.23.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1377,7 +1377,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-30T14:37:07+00:00"
+            "time": "2023-02-06T12:47:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
@@ -1627,16 +1627,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.0.43",
+            "version": "4.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "b6134e2f108b54b994f487c5edfa0f216f474b9d"
+                "reference": "be4d08540b416f407ad1de0b6852ef5710104d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/b6134e2f108b54b994f487c5edfa0f216f474b9d",
-                "reference": "b6134e2f108b54b994f487c5edfa0f216f474b9d",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/be4d08540b416f407ad1de0b6852ef5710104d6e",
+                "reference": "be4d08540b416f407ad1de0b6852ef5710104d6e",
                 "shasum": ""
             },
             "require": {
@@ -1666,9 +1666,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.0.43"
+                "source": "https://github.com/afterlogic/dav/tree/4.0.45"
             },
-            "time": "2023-01-23T13:07:36+00:00"
+            "time": "2023-02-01T11:16:01+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1764,23 +1764,23 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.0.2",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "3942776a8c99209908ee0b287746263725685732"
+                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/3942776a8c99209908ee0b287746263725685732",
-                "reference": "3942776a8c99209908ee0b287746263725685732",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/f5c64ee7c5fce196e2519b3d9b7138649efe032d",
+                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35|^5.4.3"
+                "phpunit/phpunit": "^4.8.35|^5.6.3"
             },
             "type": "library",
             "autoload": {
@@ -1808,26 +1808,26 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.2"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.4"
             },
-            "time": "2021-09-03T22:57:30+00:00"
+            "time": "2023-01-31T23:08:25+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.257.11",
+            "version": "3.258.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3c26d5d82120bcb8845f70f8f63c37cbc9d65b51"
+                "reference": "57cbc06827148d0d4d3f5dbe4b948daa20f82d70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3c26d5d82120bcb8845f70f8f63c37cbc9d65b51",
-                "reference": "3c26d5d82120bcb8845f70f8f63c37cbc9d65b51",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/57cbc06827148d0d4d3f5dbe4b948daa20f82d70",
+                "reference": "57cbc06827148d0d4d3f5dbe4b948daa20f82d70",
                 "shasum": ""
             },
             "require": {
-                "aws/aws-crt-php": "^1.0.2",
+                "aws/aws-crt-php": "^1.0.4",
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
@@ -1902,9 +1902,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.11"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.3"
             },
-            "time": "2023-01-30T19:45:18+00:00"
+            "time": "2023-02-03T19:25:20+00:00"
         },
         {
             "name": "composer/installers",
@@ -2613,16 +2613,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.285.0",
+            "version": "v0.286.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "d8ffb976f4da1f83326d6d3f471162acd23ec5d8"
+                "reference": "4a00eb9803e01f97d96e49fd82dbb03802610def"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d8ffb976f4da1f83326d6d3f471162acd23ec5d8",
-                "reference": "d8ffb976f4da1f83326d6d3f471162acd23ec5d8",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/4a00eb9803e01f97d96e49fd82dbb03802610def",
+                "reference": "4a00eb9803e01f97d96e49fd82dbb03802610def",
                 "shasum": ""
             },
             "require": {
@@ -2651,9 +2651,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.285.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.286.0"
             },
-            "time": "2023-01-29T01:28:14+00:00"
+            "time": "2023-02-05T01:20:11+00:00"
         },
         {
             "name": "google/auth",
@@ -3751,16 +3751,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
+                "reference": "e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb",
+                "reference": "e1c0ae1528ce313a450e5e1ad782765c4a8dd3cb",
                 "shasum": ""
             },
             "require": {
@@ -3775,7 +3775,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -3837,7 +3837,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.0"
             },
             "funding": [
                 {
@@ -3849,7 +3849,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2023-02-05T13:07:32+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
