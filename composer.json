@@ -46,7 +46,7 @@
 		
 		"afterlogic/aurora-module-core": "~0.10.0",
 		"afterlogic/aurora-module-core-extender": "~0.10.0",
-		"afterlogic/aurora-module-webclient-core": "~0.10.0",
+		"afterlogic/aurora-module-webclient-core": "~0.10.93",
 		"afterlogic/aurora-module-min": "~0.10.0",
 		"afterlogic/aurora-module-webclient-settings": "~0.10.0",
 		"afterlogic/aurora-module-webclient-branding": "~0.10.0",
