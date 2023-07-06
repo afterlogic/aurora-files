@@ -1728,21 +1728,21 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.62",
+            "version": "1.5.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "7ccc6b5bf00fa9a0491fcc0c3fefffc2b0a28061"
+                "reference": "f4f83623576a97285face34065c7d63c2f16612e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/7ccc6b5bf00fa9a0491fcc0c3fefffc2b0a28061",
-                "reference": "7ccc6b5bf00fa9a0491fcc0c3fefffc2b0a28061",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/f4f83623576a97285face34065c7d63c2f16612e",
+                "reference": "f4f83623576a97285face34065c7d63c2f16612e",
                 "shasum": ""
             },
             "require": {
-                "pear/net_idna2": "^0.2.0",
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "symfony/polyfill-intl-idn": ">=1.27.0"
             },
             "type": "library",
             "extra": {
@@ -1767,9 +1767,9 @@
             "homepage": "https://github.com/afterlogic/mailso",
             "support": {
                 "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.62"
+                "source": "https://github.com/afterlogic/MailSo/tree/1.5.61"
             },
-            "time": "2023-07-06T11:28:52+00:00"
+            "time": "2023-07-06T10:24:14+00:00"
         },
         {
             "name": "aws/aws-crt-php",
@@ -1827,16 +1827,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.275.3",
+            "version": "3.275.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bbdf8e8d5df0b44ee83d5a751f316fc9f9dd2849"
+                "reference": "bacab9b131dc790ed0084b63f5f4889a81eee311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bbdf8e8d5df0b44ee83d5a751f316fc9f9dd2849",
-                "reference": "bbdf8e8d5df0b44ee83d5a751f316fc9f9dd2849",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bacab9b131dc790ed0084b63f5f4889a81eee311",
+                "reference": "bacab9b131dc790ed0084b63f5f4889a81eee311",
                 "shasum": ""
             },
             "require": {
@@ -1916,9 +1916,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.275.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.275.4"
             },
-            "time": "2023-07-05T18:22:08+00:00"
+            "time": "2023-07-06T18:22:51+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -2016,16 +2016,16 @@
         },
         {
             "name": "barryvdh/reflection-docblock",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/ReflectionDocBlock.git",
-                "reference": "bf44b757feb8ba1734659029357646466ded673e"
+                "reference": "e6811e927f0ecc37cc4deaa6627033150343e597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/bf44b757feb8ba1734659029357646466ded673e",
-                "reference": "bf44b757feb8ba1734659029357646466ded673e",
+                "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/e6811e927f0ecc37cc4deaa6627033150343e597",
+                "reference": "e6811e927f0ecc37cc4deaa6627033150343e597",
                 "shasum": ""
             },
             "require": {
@@ -2062,9 +2062,9 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/barryvdh/ReflectionDocBlock/tree/v2.1.0"
+                "source": "https://github.com/barryvdh/ReflectionDocBlock/tree/v2.1.1"
             },
-            "time": "2022-10-31T15:35:43+00:00"
+            "time": "2023-06-14T05:06:27+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -5047,117 +5047,6 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
-        },
-        {
-            "name": "pear/net_idna2",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pear/Net_IDNA2.git",
-                "reference": "51734eaf8be2df58e8aad5835b9966459b2fb37c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_IDNA2/zipball/51734eaf8be2df58e8aad5835b9966459b2fb37c",
-                "reference": "51734eaf8be2df58e8aad5835b9966459b2fb37c",
-                "shasum": ""
-            },
-            "require": {
-                "pear/pear_exception": "@stable"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Net": "./"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "./"
-            ],
-            "license": [
-                "LGPL"
-            ],
-            "authors": [
-                {
-                    "name": "Stefan Neufeind",
-                    "email": "pear.neufeind@speedpartner.de",
-                    "role": "Lead"
-                },
-                {
-                    "name": "Daniel O'Connor",
-                    "email": "daniel.oconnor@gmail.com",
-                    "role": "Lead"
-                }
-            ],
-            "description": "More info available on: https://pear.php.net/package/Net_IDNA2",
-            "support": {
-                "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_IDNA2",
-                "source": "https://github.com/pear/Net_IDNA2"
-            },
-            "time": "2017-03-06T20:46:41+00:00"
-        },
-        {
-            "name": "pear/pear_exception",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pear/PEAR_Exception.git",
-                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
-                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "<9"
-            },
-            "type": "class",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "PEAR/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "."
-            ],
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Helgi Thormar",
-                    "email": "dufuz@php.net"
-                },
-                {
-                    "name": "Greg Beaver",
-                    "email": "cellog@php.net"
-                }
-            ],
-            "description": "The PEAR Exception base class.",
-            "homepage": "https://github.com/pear/PEAR_Exception",
-            "keywords": [
-                "exception"
-            ],
-            "support": {
-                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR_Exception",
-                "source": "https://github.com/pear/PEAR_Exception"
-            },
-            "time": "2021-03-21T15:43:46+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
