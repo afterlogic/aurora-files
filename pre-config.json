@@ -20,6 +20,9 @@
 		"OAuthIntegratorWebclient": {
 			"AllowNewUsersRegister": false
 		},
+		"RecaptchaWebclientPlugin": {
+			"Disabled": true
+		},
 		"FilesWebclient": {
 			"ShowCommonSettings": true,
 			"ShowFilesApps": false,
