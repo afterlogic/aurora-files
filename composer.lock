@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.107",
+            "version": "0.10.110",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.107"
+                "reference": "tags/0.10.110"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.107.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.110.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2023-08-07T08:01:17+00:00"
+            "time": "2023-08-18T09:17:06+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -372,15 +372,15 @@
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "0.10.35",
+            "version": "0.10.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "tags/0.10.35"
+                "reference": "tags/0.10.36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.35.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.36.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -397,7 +397,7 @@
                     "/"
                 ]
             },
-            "time": "2023-08-05T10:26:17+00:00"
+            "time": "2023-08-17T14:35:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
@@ -1827,16 +1827,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.279.0",
+            "version": "3.279.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7b3d38cfccd393add0ea0ce281de91846967c61e"
+                "reference": "73ca831b1311945e96594b3cdf2b973bc733d57a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7b3d38cfccd393add0ea0ce281de91846967c61e",
-                "reference": "7b3d38cfccd393add0ea0ce281de91846967c61e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/73ca831b1311945e96594b3cdf2b973bc733d57a",
+                "reference": "73ca831b1311945e96594b3cdf2b973bc733d57a",
                 "shasum": ""
             },
             "require": {
@@ -1916,9 +1916,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.279.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.279.1"
             },
-            "time": "2023-08-16T18:18:34+00:00"
+            "time": "2023-08-17T18:14:41+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -6205,16 +6205,16 @@
         },
         {
             "name": "sabre/http",
-            "version": "5.1.8",
+            "version": "5.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/http.git",
-                "reference": "f67757f117044b693dba53a1281fcf448473f6b4"
+                "reference": "f9f3d1fba8916fa2f4ec25636c4fedc26cb94e02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/http/zipball/f67757f117044b693dba53a1281fcf448473f6b4",
-                "reference": "f67757f117044b693dba53a1281fcf448473f6b4",
+                "url": "https://api.github.com/repos/sabre-io/http/zipball/f9f3d1fba8916fa2f4ec25636c4fedc26cb94e02",
+                "reference": "f9f3d1fba8916fa2f4ec25636c4fedc26cb94e02",
                 "shasum": ""
             },
             "require": {
@@ -6264,7 +6264,7 @@
                 "issues": "https://github.com/sabre-io/http/issues",
                 "source": "https://github.com/fruux/sabre-http"
             },
-            "time": "2023-08-17T12:58:38+00:00"
+            "time": "2023-08-18T01:55:28+00:00"
         },
         {
             "name": "sabre/uri",
