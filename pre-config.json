@@ -64,6 +64,12 @@
 			"ShowMailIosApp": false,
 			"ShowFilesServerUrlApp": false
 		},
+		"SecuritySettingsWebclient": {
+			"Disabled": true
+		},
+		"IPAllowList": {
+			"Disabled": true
+		},
 		"TwoFactorAuth": {
 			"Disabled": true,
 			"FacetIds": [
