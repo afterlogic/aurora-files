@@ -1583,18 +1583,19 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-auth",
-            "version": "0.10.14",
+            "version": "0.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth",
-                "reference": "tags/0.10.14"
+                "reference": "tags/0.10.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth/archive/0.10.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-auth/archive/0.10.15.zip"
             },
             "require": {
-                "afterlogic/aurora-framework": "~0.10.0"
+                "afterlogic/aurora-framework": "~0.10.0",
+                "afterlogic/aurora-module-standard-auth": "^0.10.16"
             },
             "type": "aurora-module",
             "extra": {
@@ -1605,7 +1606,7 @@
                     "/"
                 ]
             },
-            "time": "2023-05-02T12:18:40+00:00"
+            "time": "2023-08-29T19:58:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-standard-login-form",
@@ -1881,16 +1882,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.279.9",
+            "version": "3.280.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cbf446e410c04a405192cc0d018f29a91fe36375"
+                "reference": "bf4f3079bc59af44a752677cfbcd43f7953c4343"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cbf446e410c04a405192cc0d018f29a91fe36375",
-                "reference": "cbf446e410c04a405192cc0d018f29a91fe36375",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf4f3079bc59af44a752677cfbcd43f7953c4343",
+                "reference": "bf4f3079bc59af44a752677cfbcd43f7953c4343",
                 "shasum": ""
             },
             "require": {
@@ -1970,9 +1971,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.279.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.280.0"
             },
-            "time": "2023-08-29T18:11:18+00:00"
+            "time": "2023-08-30T18:19:33+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
