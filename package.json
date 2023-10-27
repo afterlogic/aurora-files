@@ -2,15 +2,16 @@
   "name": "afterlogic-aurora-platform",
   "version": "9.0.0",
   "description": "",
-  "homepage": "https://afterlogic.com/webmail-client",
-  "repository": "https://github.com/afterlogic/webmail-pro-8",
+  "homepage": "https://afterlogic.org/aurora-files",
+  "repository": "https://github.com/afterlogic/aurora-files",
   "author": {
     "name": "Afterlogic Corp.",
     "email": "support@afterlogic.com",
-    "web": "http://afterlogic.com"
+    "web": "https://afterlogic.com"
   },
   "license": "AGPL-3.0",
   "scripts": {
+    "serve": "vue-cli-service serve",
     "js:build": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.build()\"",
     "js:min": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.min()\"",
     "js:watch": "node -e \"require('./modules/CoreWebclient/gulp-tasks/javascript.js').default.watch()\"",

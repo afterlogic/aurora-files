@@ -70,10 +70,24 @@ git clone https://github.com/afterlogic/aurora-files.git INSTALL_FOLDER_PATH
 	  ```
 	  ./builder.sh -t build
 	  ```
-  
-5. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
+5. In case you want to use the product in development mode and work with JS, you need to run webpack dev server. But before that rename .env.dist to .env and specify the Web API host. For example, `http://localhost/aurora/`.
+Please note that if the backend responds on a domain other than localhost, you will have to specify custom headers in the index.php file to avoid CORS blocking cross-domain requests.
 
-6. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-files/configuration).
+    Now you can run webpack dev server:
+    ```
+    npm run serve
+    ```
+
+    This will compile JS script files. If you need to work with CSS, you need to run the following command:
+    ```
+    npm run styles:watch --themes=Default,DefaultDark,DeepForest,Funny,Sand
+    ```
+
+    You can modify the themes list and specify the themes you are currently working with.
+    
+6. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
+
+7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/aurora-files/configuration).
 
 
 **IMPORTANT:**
