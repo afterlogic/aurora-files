@@ -13,7 +13,7 @@
 	"repositories": [
 		{
 			"type": "package",
-            "package": {
+			"package": {
 				"name": "gufy/cpanel-php",
 				"version": "1.1.0",
 				"dist": {
@@ -116,7 +116,6 @@
 		"afterlogic/aurora-module-webclient-mobile-apps": "~0.10.0",
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0",
 		"afterlogic/aurora-module-webclient-rocketchat": "~0.10.0",
-		"afterlogic/dav": "~4.0.0",
 		"afterlogic/aurora-module-webclient-security-settings": "^0.10.6",
 		"afterlogic/aurora-module-ip-allow-list": "^0.10.12"
 	},
