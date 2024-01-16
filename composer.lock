@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.118",
+            "version": "0.10.119",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.118"
+                "reference": "tags/0.10.119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.118.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.119.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2024-01-12T14:51:59+00:00"
+            "time": "2024-01-15T17:08:37+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -120,15 +120,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.107",
+            "version": "0.10.108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.107"
+                "reference": "tags/0.10.108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.107.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.108.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -144,7 +144,7 @@
                     "/"
                 ]
             },
-            "time": "2024-01-12T13:15:25+00:00"
+            "time": "2024-01-16T11:02:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -484,15 +484,15 @@
         },
         {
             "name": "afterlogic/aurora-module-ios",
-            "version": "0.10.15",
+            "version": "0.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-ios",
-                "reference": "tags/0.10.15"
+                "reference": "tags/0.10.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.10.15.zip"
+                "url": "https://github.com/afterlogic/aurora-module-ios/archive/0.10.16.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -508,7 +508,7 @@
                     "/"
                 ]
             },
-            "time": "2024-01-12T14:16:11+00:00"
+            "time": "2024-01-16T15:38:41+00:00"
         },
         {
             "name": "afterlogic/aurora-module-ip-allow-list",
@@ -1390,15 +1390,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-oauth-integrator",
-            "version": "0.10.29",
+            "version": "0.10.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator",
-                "reference": "tags/0.10.29"
+                "reference": "tags/0.10.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-oauth-integrator/archive/0.10.30.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1413,7 +1413,7 @@
                     "/"
                 ]
             },
-            "time": "2023-12-05T08:58:37+00:00"
+            "time": "2024-01-15T09:45:02+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp",
@@ -1882,16 +1882,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.296.0",
+            "version": "3.296.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7c61ea4f7df51e6e9f1e7fc1112e296bed8429f9"
+                "reference": "38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7c61ea4f7df51e6e9f1e7fc1112e296bed8429f9",
-                "reference": "7c61ea4f7df51e6e9f1e7fc1112e296bed8429f9",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b",
+                "reference": "38e47bbd3b5f76f008dd71c8a68545f9e4e47b6b",
                 "shasum": ""
             },
             "require": {
@@ -1971,9 +1971,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.296.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.296.1"
             },
-            "time": "2024-01-12T19:32:12+00:00"
+            "time": "2024-01-14T05:20:33+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -2822,16 +2822,16 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "2.0.8",
+            "version": "2.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "f9301a5b2fb1216b2b08f02ba04dc45423db6bff"
+                "reference": "2930cd5ef353871c821d5c43ed030d39ac8cfe65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/f9301a5b2fb1216b2b08f02ba04dc45423db6bff",
-                "reference": "f9301a5b2fb1216b2b08f02ba04dc45423db6bff",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/2930cd5ef353871c821d5c43ed030d39ac8cfe65",
+                "reference": "2930cd5ef353871c821d5c43ed030d39ac8cfe65",
                 "shasum": ""
             },
             "require": {
@@ -2893,7 +2893,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/2.0.8"
+                "source": "https://github.com/doctrine/inflector/tree/2.0.9"
             },
             "funding": [
                 {
@@ -2909,7 +2909,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-16T13:40:37+00:00"
+            "time": "2024-01-15T18:05:13+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -3190,16 +3190,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.331.0",
+            "version": "v0.332.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "94d0bcc1827f6ea24274fe17ece0930ae2a8f51d"
+                "reference": "027cc7fe60877c2b6ba0f380d419acf65a3755d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/94d0bcc1827f6ea24274fe17ece0930ae2a8f51d",
-                "reference": "94d0bcc1827f6ea24274fe17ece0930ae2a8f51d",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/027cc7fe60877c2b6ba0f380d419acf65a3755d2",
+                "reference": "027cc7fe60877c2b6ba0f380d419acf65a3755d2",
                 "shasum": ""
             },
             "require": {
@@ -3228,9 +3228,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.331.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.332.0"
             },
-            "time": "2024-01-05T01:04:19+00:00"
+            "time": "2024-01-15T00:56:15+00:00"
         },
         {
             "name": "google/auth",
@@ -8558,16 +8558,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.55",
+            "version": "1.10.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "9a88f9d18ddf4cf54c922fbeac16c4cb164c5949"
+                "reference": "27816a01aea996191ee14d010f325434c0ee76fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9a88f9d18ddf4cf54c922fbeac16c4cb164c5949",
-                "reference": "9a88f9d18ddf4cf54c922fbeac16c4cb164c5949",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/27816a01aea996191ee14d010f325434c0ee76fa",
+                "reference": "27816a01aea996191ee14d010f325434c0ee76fa",
                 "shasum": ""
             },
             "require": {
@@ -8616,7 +8616,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-08T12:32:40+00:00"
+            "time": "2024-01-15T10:43:00+00:00"
         }
     ],
     "aliases": [],
