@@ -1691,16 +1691,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "7233ff1d8cf1ad5e71dcda9a96f81f130887e2a1"
+                "reference": "0ba30663abcd50312fd0943c904a45f6140a657f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/7233ff1d8cf1ad5e71dcda9a96f81f130887e2a1",
-                "reference": "7233ff1d8cf1ad5e71dcda9a96f81f130887e2a1",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/0ba30663abcd50312fd0943c904a45f6140a657f",
+                "reference": "0ba30663abcd50312fd0943c904a45f6140a657f",
                 "shasum": ""
             },
             "require": {
@@ -1730,9 +1730,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.1.2"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.3"
             },
-            "time": "2024-01-11T11:48:49+00:00"
+            "time": "2024-02-07T07:00:52+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -1882,16 +1882,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.298.4",
+            "version": "3.298.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c61e8f8640352c4cad1ec364c0801b8adae8adb9"
+                "reference": "0afccba68a96c0cbc10f6fc5b08c5a0e09774220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c61e8f8640352c4cad1ec364c0801b8adae8adb9",
-                "reference": "c61e8f8640352c4cad1ec364c0801b8adae8adb9",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0afccba68a96c0cbc10f6fc5b08c5a0e09774220",
+                "reference": "0afccba68a96c0cbc10f6fc5b08c5a0e09774220",
                 "shasum": ""
             },
             "require": {
@@ -1971,9 +1971,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.298.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.298.6"
             },
-            "time": "2024-02-06T19:09:25+00:00"
+            "time": "2024-02-08T19:03:23+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
