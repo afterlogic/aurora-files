@@ -117,7 +117,8 @@
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0",
 		"afterlogic/aurora-module-webclient-rocketchat": "~0.10.0",
 		"afterlogic/aurora-module-webclient-security-settings": "^0.10.6",
-		"afterlogic/aurora-module-ip-allow-list": "^0.10.12"
+		"afterlogic/aurora-module-ip-allow-list": "^0.10.12",
+		"afterlogic/aurora-module-standard-reset-password" : "~0.10.12"
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",

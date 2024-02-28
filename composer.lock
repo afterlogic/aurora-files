@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1310b39d8dd0393cfdd0953361a9c402",
+    "content-hash": "26aa885ddaabaa39e4abd8390b8a187a",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -895,6 +895,34 @@
                 ]
             },
             "time": "2024-01-12T07:15:32+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-standard-reset-password",
+            "version": "0.10.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password",
+                "reference": "tags/0.10.24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password/archive/0.10.24.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0",
+                "php": ">=5.4.0",
+                "phpmailer/phpmailer": "~6.5"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "StandardResetPassword"
+            },
+            "autoload": {
+                "classmap": [
+                    "/"
+                ]
+            },
+            "time": "2024-02-22T16:18:42+00:00"
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
