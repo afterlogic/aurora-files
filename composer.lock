@@ -120,15 +120,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.114",
+            "version": "0.10.115",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.114"
+                "reference": "tags/0.10.115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.114.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.115.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -144,7 +144,7 @@
                     "/"
                 ]
             },
-            "time": "2024-02-27T12:56:08+00:00"
+            "time": "2024-02-27T12:57:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -287,15 +287,15 @@
         },
         {
             "name": "afterlogic/aurora-module-dropbox",
-            "version": "0.10.16",
+            "version": "0.10.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dropbox",
-                "reference": "tags/0.10.16"
+                "reference": "tags/0.10.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dropbox/archive/0.10.16.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dropbox/archive/0.10.17.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -312,7 +312,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:48:56+00:00"
+            "time": "2024-02-26T12:53:41+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dropbox-filestorage",
@@ -345,15 +345,15 @@
         },
         {
             "name": "afterlogic/aurora-module-facebook",
-            "version": "0.10.14",
+            "version": "0.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-facebook",
-                "reference": "tags/0.10.14"
+                "reference": "tags/0.10.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-facebook/archive/0.10.14.zip"
+                "url": "https://github.com/afterlogic/aurora-module-facebook/archive/0.10.15.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -368,7 +368,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:48:57+00:00"
+            "time": "2024-02-26T12:53:12+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files",
@@ -428,15 +428,15 @@
         },
         {
             "name": "afterlogic/aurora-module-google",
-            "version": "0.10.18",
+            "version": "0.10.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-google",
-                "reference": "tags/0.10.18"
+                "reference": "tags/0.10.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.18.zip"
+                "url": "https://github.com/afterlogic/aurora-module-google/archive/0.10.19.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -452,7 +452,7 @@
                     "/"
                 ]
             },
-            "time": "2023-04-28T15:49:00+00:00"
+            "time": "2024-02-26T12:52:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-googledrive",
