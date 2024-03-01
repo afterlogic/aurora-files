@@ -871,15 +871,15 @@
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
-            "version": "0.10.17",
+            "version": "0.10.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-standard-auth",
-                "reference": "tags/0.10.17"
+                "reference": "tags/0.10.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/0.10.17.zip"
+                "url": "https://github.com/afterlogic/aurora-module-standard-auth/archive/0.10.18.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -894,19 +894,19 @@
                     "/"
                 ]
             },
-            "time": "2024-01-12T07:15:32+00:00"
+            "time": "2024-02-22T18:11:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-reset-password",
-            "version": "0.10.24",
+            "version": "0.10.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-standard-reset-password",
-                "reference": "tags/0.10.24"
+                "reference": "tags/0.10.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password/archive/0.10.24.zip"
+                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password/archive/0.10.25.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -922,7 +922,7 @@
                     "/"
                 ]
             },
-            "time": "2024-02-22T16:18:42+00:00"
+            "time": "2024-03-01T11:01:29+00:00"
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
@@ -1910,16 +1910,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.6",
+            "version": "3.300.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "957ccef631684d612d01ced2fa3b0506f2ec78c3"
+                "reference": "421be99f109a330acd4297abe2f41069eccbf447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/957ccef631684d612d01ced2fa3b0506f2ec78c3",
-                "reference": "957ccef631684d612d01ced2fa3b0506f2ec78c3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/421be99f109a330acd4297abe2f41069eccbf447",
+                "reference": "421be99f109a330acd4297abe2f41069eccbf447",
                 "shasum": ""
             },
             "require": {
@@ -1999,9 +1999,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.8"
             },
-            "time": "2024-02-27T19:05:27+00:00"
+            "time": "2024-02-29T19:06:50+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
