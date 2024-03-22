@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.123",
+            "version": "0.10.124",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.123"
+                "reference": "tags/0.10.124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.123.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.124.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2024-03-18T14:08:20+00:00"
+            "time": "2024-03-22T09:41:09+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -1910,16 +1910,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.301.4",
+            "version": "3.301.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1d04b11a621eaceb389d2cfbd82bcdc423903796"
+                "reference": "434f13d3bdb0230bfb247cf77a7ecfaa8b83aa97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1d04b11a621eaceb389d2cfbd82bcdc423903796",
-                "reference": "1d04b11a621eaceb389d2cfbd82bcdc423903796",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/434f13d3bdb0230bfb247cf77a7ecfaa8b83aa97",
+                "reference": "434f13d3bdb0230bfb247cf77a7ecfaa8b83aa97",
                 "shasum": ""
             },
             "require": {
@@ -1999,9 +1999,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.301.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.301.5"
             },
-            "time": "2024-03-20T18:16:55+00:00"
+            "time": "2024-03-21T18:06:56+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
