@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.125",
+            "version": "0.10.126",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.125"
+                "reference": "tags/0.10.126"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.125.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.126.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2024-05-03T09:33:46+00:00"
+            "time": "2024-05-16T07:52:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -1908,16 +1908,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.306.5",
+            "version": "3.306.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2"
+                "reference": "bc30df54badd9d2af8d291cd0665ade6eb509598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2",
-                "reference": "07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bc30df54badd9d2af8d291cd0665ade6eb509598",
+                "reference": "bc30df54badd9d2af8d291cd0665ade6eb509598",
                 "shasum": ""
             },
             "require": {
@@ -1997,9 +1997,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.306.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.306.7"
             },
-            "time": "2024-05-13T18:04:50+00:00"
+            "time": "2024-05-15T18:04:12+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -8429,16 +8429,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.0",
+            "version": "1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "666cb1703742cea9cc80fee631f0940e1592fa6e"
+                "reference": "e524358f930e41a2b4cca1320e3b04fc26b39e0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/666cb1703742cea9cc80fee631f0940e1592fa6e",
-                "reference": "666cb1703742cea9cc80fee631f0940e1592fa6e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e524358f930e41a2b4cca1320e3b04fc26b39e0b",
+                "reference": "e524358f930e41a2b4cca1320e3b04fc26b39e0b",
                 "shasum": ""
             },
             "require": {
@@ -8483,7 +8483,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-13T06:02:22+00:00"
+            "time": "2024-05-15T08:00:59+00:00"
         }
     ],
     "aliases": [],
