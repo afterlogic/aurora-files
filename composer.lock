@@ -1527,15 +1527,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.78",
+            "version": "0.10.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.78"
+                "reference": "tags/0.10.79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.78.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.79.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1551,7 +1551,7 @@
                     "/"
                 ]
             },
-            "time": "2024-04-15T07:44:19+00:00"
+            "time": "2024-05-30T08:45:10+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-security-settings",
