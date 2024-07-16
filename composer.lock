@@ -93,15 +93,15 @@
         },
         {
             "name": "afterlogic/aurora-module-admin-auth",
-            "version": "0.10.12",
+            "version": "0.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-admin-auth",
-                "reference": "tags/0.10.12"
+                "reference": "tags/0.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.12.zip"
+                "url": "https://github.com/afterlogic/aurora-module-admin-auth/archive/0.10.13.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "^0.10.122",
@@ -116,7 +116,7 @@
                     "/"
                 ]
             },
-            "time": "2024-03-14T20:20:40+00:00"
+            "time": "2024-07-16T09:28:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-contacts",
