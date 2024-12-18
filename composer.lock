@@ -120,15 +120,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.129",
+            "version": "0.10.130",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.129"
+                "reference": "tags/0.10.130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.129.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.130.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -144,7 +144,7 @@
                     "/"
                 ]
             },
-            "time": "2024-12-13T08:54:09+00:00"
+            "time": "2024-12-18T14:07:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -1527,15 +1527,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.82",
+            "version": "0.10.83",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.82"
+                "reference": "tags/0.10.83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.82.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.83.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1551,7 +1551,7 @@
                     "/"
                 ]
             },
-            "time": "2024-12-17T10:08:04+00:00"
+            "time": "2024-12-17T13:02:18+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-security-settings",
@@ -1908,16 +1908,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.334.7",
+            "version": "3.336.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8e0104e95a1edba209e077e6c4212b8cca04686f"
+                "reference": "5a62003bf183e32da038056a4b9077c27224e034"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8e0104e95a1edba209e077e6c4212b8cca04686f",
-                "reference": "8e0104e95a1edba209e077e6c4212b8cca04686f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5a62003bf183e32da038056a4b9077c27224e034",
+                "reference": "5a62003bf183e32da038056a4b9077c27224e034",
                 "shasum": ""
             },
             "require": {
@@ -2000,9 +2000,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.334.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.0"
             },
-            "time": "2024-12-16T19:09:36+00:00"
+            "time": "2024-12-18T19:04:32+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -8365,16 +8365,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.12",
+            "version": "1.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0"
+                "reference": "9b469068840cfa031e1deaf2fa1886d00e20680f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0",
-                "reference": "b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b469068840cfa031e1deaf2fa1886d00e20680f",
+                "reference": "9b469068840cfa031e1deaf2fa1886d00e20680f",
                 "shasum": ""
             },
             "require": {
@@ -8419,7 +8419,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-28T22:13:23+00:00"
+            "time": "2024-12-17T17:00:20+00:00"
         }
     ],
     "aliases": [],
