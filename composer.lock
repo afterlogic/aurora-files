@@ -120,15 +120,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.131",
+            "version": "0.10.132",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.131"
+                "reference": "tags/0.10.132"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.131.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.132.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -144,7 +144,7 @@
                     "/"
                 ]
             },
-            "time": "2024-12-19T05:40:13+00:00"
+            "time": "2024-12-20T18:36:59+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
@@ -813,15 +813,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
-            "version": "0.10.35",
+            "version": "0.10.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-contacts",
-                "reference": "tags/0.10.35"
+                "reference": "tags/0.10.36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.35.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.36.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -837,7 +837,7 @@
                     "/"
                 ]
             },
-            "time": "2024-12-13T08:52:56+00:00"
+            "time": "2024-12-20T08:39:14+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
@@ -1036,15 +1036,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-contacts",
-            "version": "0.10.49",
+            "version": "0.10.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-contacts",
-                "reference": "tags/0.10.49"
+                "reference": "tags/0.10.50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.49.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-contacts/archive/0.10.50.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1059,7 +1059,7 @@
                     "/"
                 ]
             },
-            "time": "2024-11-14T09:47:30+00:00"
+            "time": "2024-12-18T09:27:31+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
@@ -1908,16 +1908,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.336.0",
+            "version": "3.336.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "5a62003bf183e32da038056a4b9077c27224e034"
+                "reference": "954bfdfc048840ca34afe2a2e1cbcff6681989c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5a62003bf183e32da038056a4b9077c27224e034",
-                "reference": "5a62003bf183e32da038056a4b9077c27224e034",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/954bfdfc048840ca34afe2a2e1cbcff6681989c4",
+                "reference": "954bfdfc048840ca34afe2a2e1cbcff6681989c4",
                 "shasum": ""
             },
             "require": {
@@ -2000,9 +2000,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.2"
             },
-            "time": "2024-12-18T19:04:32+00:00"
+            "time": "2024-12-20T19:05:10+00:00"
         },
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -2465,13 +2465,13 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "3.x-dev"
-                },
                 "phpstan": {
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
@@ -4929,10 +4929,6 @@
             ],
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev",
-                    "dev-2.x": "2.x-dev"
-                },
                 "laravel": {
                     "providers": [
                         "Carbon\\Laravel\\ServiceProvider"
@@ -4942,6 +4938,10 @@
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev",
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
