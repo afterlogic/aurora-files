@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.142",
+            "version": "0.10.144",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.142"
+                "reference": "tags/0.10.144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.142.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.144.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4 || dev-master",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2025-09-05T08:56:37+00:00"
+            "time": "2026-03-12T15:24:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activity-history",
@@ -120,15 +120,15 @@
         },
         {
             "name": "afterlogic/aurora-module-contacts",
-            "version": "0.10.136",
+            "version": "0.10.137",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-contacts",
-                "reference": "tags/0.10.136"
+                "reference": "tags/0.10.137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.136.zip"
+                "url": "https://github.com/afterlogic/aurora-module-contacts/archive/0.10.137.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -144,22 +144,23 @@
                     "/"
                 ]
             },
-            "time": "2025-02-07T11:37:02+00:00"
+            "time": "2025-11-01T13:59:03+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core",
-            "version": "0.10.127",
+            "version": "0.10.128",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-core",
-                "reference": "tags/0.10.127"
+                "reference": "tags/0.10.128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.127.zip"
+                "url": "https://github.com/afterlogic/aurora-module-core/archive/0.10.128.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "^0.10.122 || dev-master",
+                "firebase/php-jwt": "^6.0",
                 "php": ">=5.4.0"
             },
             "type": "aurora-module",
@@ -171,7 +172,7 @@
                     "/"
                 ]
             },
-            "time": "2025-06-18T13:04:58+00:00"
+            "time": "2025-10-07T15:11:59+00:00"
         },
         {
             "name": "afterlogic/aurora-module-core-extender",
@@ -230,15 +231,15 @@
         },
         {
             "name": "afterlogic/aurora-module-dav",
-            "version": "0.10.24",
+            "version": "0.10.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-dav",
-                "reference": "tags/0.10.24"
+                "reference": "tags/0.10.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.10.24.zip"
+                "url": "https://github.com/afterlogic/aurora-module-dav/archive/0.10.25.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -254,7 +255,7 @@
                     "/"
                 ]
             },
-            "time": "2025-03-24T11:25:03+00:00"
+            "time": "2025-10-31T14:20:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-dav-contacts",
@@ -370,15 +371,15 @@
         },
         {
             "name": "afterlogic/aurora-module-files",
-            "version": "0.10.48",
+            "version": "0.10.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-files",
-                "reference": "tags/0.10.48"
+                "reference": "tags/0.10.49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.48.zip"
+                "url": "https://github.com/afterlogic/aurora-module-files/archive/0.10.49.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -395,7 +396,7 @@
                     "/"
                 ]
             },
-            "time": "2025-10-01T13:01:47+00:00"
+            "time": "2026-03-19T13:24:57+00:00"
         },
         {
             "name": "afterlogic/aurora-module-files-zipfolder",
@@ -537,15 +538,15 @@
         },
         {
             "name": "afterlogic/aurora-module-min",
-            "version": "0.10.29",
+            "version": "0.10.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-min",
-                "reference": "tags/0.10.29"
+                "reference": "tags/0.10.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-module-min/archive/0.10.30.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -560,7 +561,7 @@
                     "/"
                 ]
             },
-            "time": "2025-05-19T06:15:49+00:00"
+            "time": "2026-03-12T17:45:25+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-sync",
@@ -727,15 +728,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.10.56",
+            "version": "0.10.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.10.56"
+                "reference": "tags/0.10.57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.56.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.57.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -753,7 +754,7 @@
                     "/"
                 ]
             },
-            "time": "2025-07-11T08:47:33+00:00"
+            "time": "2025-09-11T14:12:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-corporate-filestorage",
@@ -813,15 +814,15 @@
         },
         {
             "name": "afterlogic/aurora-module-shared-contacts",
-            "version": "0.10.38",
+            "version": "0.10.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-contacts",
-                "reference": "tags/0.10.38"
+                "reference": "tags/0.10.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.38.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-contacts/archive/0.10.40.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -837,19 +838,19 @@
                     "/"
                 ]
             },
-            "time": "2025-03-27T14:09:21+00:00"
+            "time": "2025-11-10T14:00:58+00:00"
         },
         {
             "name": "afterlogic/aurora-module-shared-files",
-            "version": "0.10.67",
+            "version": "0.10.68",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-shared-files",
-                "reference": "tags/0.10.67"
+                "reference": "tags/0.10.68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.67.zip"
+                "url": "https://github.com/afterlogic/aurora-module-shared-files/archive/0.10.68.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -865,7 +866,7 @@
                     "/"
                 ]
             },
-            "time": "2025-06-03T12:59:09+00:00"
+            "time": "2025-09-19T15:25:45+00:00"
         },
         {
             "name": "afterlogic/aurora-module-standard-auth",
@@ -896,15 +897,15 @@
         },
         {
             "name": "afterlogic/aurora-module-standard-reset-password",
-            "version": "0.10.29",
+            "version": "0.10.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password",
-                "reference": "tags/0.10.29"
+                "reference": "tags/0.10.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password/archive/0.10.30.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -920,7 +921,7 @@
                     "/"
                 ]
             },
-            "time": "2024-09-23T14:19:21+00:00"
+            "time": "2025-09-25T06:30:08+00:00"
         },
         {
             "name": "afterlogic/aurora-module-team-contacts",
@@ -952,15 +953,15 @@
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
-            "version": "0.10.64",
+            "version": "0.10.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-two-factor-auth",
-                "reference": "tags/0.10.64"
+                "reference": "tags/0.10.67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.64.zip"
+                "url": "https://github.com/afterlogic/aurora-module-two-factor-auth/archive/0.10.67.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -978,7 +979,7 @@
                     "/"
                 ]
             },
-            "time": "2025-04-07T06:48:52+00:00"
+            "time": "2026-02-11T09:05:33+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-adminpanel",
@@ -1063,15 +1064,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-core",
-            "version": "0.10.130",
+            "version": "0.10.131",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-core",
-                "reference": "tags/0.10.130"
+                "reference": "tags/0.10.131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.130.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core/archive/0.10.131.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -1086,19 +1087,19 @@
                     "/"
                 ]
             },
-            "time": "2025-09-04T17:09:01+00:00"
+            "time": "2025-10-02T21:40:16+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
-            "version": "0.10.28",
+            "version": "0.10.29",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
-                "reference": "tags/0.10.28"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
+                "reference": "tags/0.10.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.10.28.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.29.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -1116,7 +1117,7 @@
                     "/"
                 ]
             },
-            "time": "2025-04-30T11:05:55+00:00"
+            "time": "2026-03-19T13:21:53+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-dropbox-auth",
@@ -1470,15 +1471,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.10.37",
+            "version": "0.10.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.10.37"
+                "reference": "tags/0.10.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.10.37.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.10.38.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -1495,7 +1496,7 @@
                     "/"
                 ]
             },
-            "time": "2025-08-19T11:18:33+00:00"
+            "time": "2025-09-19T15:23:27+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -1527,15 +1528,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-rocketchat",
-            "version": "0.10.87",
+            "version": "0.10.88",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat",
-                "reference": "tags/0.10.87"
+                "reference": "tags/0.10.88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.87.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-rocketchat/archive/0.10.88.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -1551,7 +1552,7 @@
                     "/"
                 ]
             },
-            "time": "2025-08-27T15:00:26+00:00"
+            "time": "2025-09-25T13:46:36+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-security-settings",
@@ -1717,16 +1718,16 @@
         },
         {
             "name": "afterlogic/dav",
-            "version": "4.1.15",
+            "version": "4.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/dav.git",
-                "reference": "dfd414f5e962393b2874fce49f00d7af5d48f0f1"
+                "reference": "f7ad7d78091a44c00ea0acabef1b7f26957d085c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/dav/zipball/dfd414f5e962393b2874fce49f00d7af5d48f0f1",
-                "reference": "dfd414f5e962393b2874fce49f00d7af5d48f0f1",
+                "url": "https://api.github.com/repos/afterlogic/dav/zipball/f7ad7d78091a44c00ea0acabef1b7f26957d085c",
+                "reference": "f7ad7d78091a44c00ea0acabef1b7f26957d085c",
                 "shasum": ""
             },
             "require": {
@@ -1756,9 +1757,9 @@
             "homepage": "https://github.com/afterlogic/dav",
             "support": {
                 "issues": "https://github.com/afterlogic/dav/issues",
-                "source": "https://github.com/afterlogic/dav/tree/4.1.15"
+                "source": "https://github.com/afterlogic/dav/tree/4.1.16"
             },
-            "time": "2025-08-29T13:56:30+00:00"
+            "time": "2025-12-22T07:58:45+00:00"
         },
         {
             "name": "afterlogic/googleauthenticator",
@@ -2100,16 +2101,16 @@
         },
         {
             "name": "barryvdh/reflection-docblock",
-            "version": "v2.4.0",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/ReflectionDocBlock.git",
-                "reference": "d103774cbe7e94ddee7e4870f97f727b43fe7201"
+                "reference": "4f5ba70c30c81f2ce03a16a9965832cfcc31ed3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/d103774cbe7e94ddee7e4870f97f727b43fe7201",
-                "reference": "d103774cbe7e94ddee7e4870f97f727b43fe7201",
+                "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/4f5ba70c30c81f2ce03a16a9965832cfcc31ed3b",
+                "reference": "4f5ba70c30c81f2ce03a16a9965832cfcc31ed3b",
                 "shasum": ""
             },
             "require": {
@@ -2146,9 +2147,9 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/barryvdh/ReflectionDocBlock/tree/v2.4.0"
+                "source": "https://github.com/barryvdh/ReflectionDocBlock/tree/v2.4.1"
             },
-            "time": "2025-07-17T06:07:30+00:00"
+            "time": "2026-03-05T20:09:01+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -2221,22 +2222,22 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.6.2",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "ba9f089655d4cdd64e762a6044f411ccdaec0076"
+                "reference": "8f5fa3cc214230e71f54924bd0197a3bcc705eb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/ba9f089655d4cdd64e762a6044f411ccdaec0076",
-                "reference": "ba9f089655d4cdd64e762a6044f411ccdaec0076",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/8f5fa3cc214230e71f54924bd0197a3bcc705eb1",
+                "reference": "8f5fa3cc214230e71f54924bd0197a3bcc705eb1",
                 "shasum": ""
             },
             "require": {
                 "composer/pcre": "^2.1 || ^3.1",
                 "php": "^7.2 || ^8.0",
-                "symfony/finder": "^4.4 || ^5.3 || ^6 || ^7"
+                "symfony/finder": "^4.4 || ^5.3 || ^6 || ^7 || ^8"
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.12 || ^2",
@@ -2244,7 +2245,7 @@
                 "phpstan/phpstan-phpunit": "^1 || ^2",
                 "phpstan/phpstan-strict-rules": "^1.1 || ^2",
                 "phpunit/phpunit": "^8",
-                "symfony/filesystem": "^5.4 || ^6"
+                "symfony/filesystem": "^5.4 || ^6 || ^7 || ^8"
             },
             "type": "library",
             "extra": {
@@ -2274,7 +2275,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.6.2"
+                "source": "https://github.com/composer/class-map-generator/tree/1.7.1"
             },
             "funding": [
                 {
@@ -2286,7 +2287,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-08-20T18:52:43+00:00"
+            "time": "2025-12-29T13:15:25+00:00"
         },
         {
             "name": "composer/installers",
@@ -2604,6 +2605,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "time": "2022-05-20T20:07:39+00:00"
         },
         {
@@ -2717,29 +2719,29 @@
         },
         {
             "name": "doctrine/deprecations",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
-                "reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38"
+                "reference": "d4fe3e6fd9bb9e72557a19674f44d8ac7db4c6ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
-                "reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/d4fe3e6fd9bb9e72557a19674f44d8ac7db4c6ca",
+                "reference": "d4fe3e6fd9bb9e72557a19674f44d8ac7db4c6ca",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "conflict": {
-                "phpunit/phpunit": "<=7.5 || >=13"
+                "phpunit/phpunit": "<=7.5 || >=14"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9 || ^12 || ^13",
-                "phpstan/phpstan": "1.4.10 || 2.1.11",
+                "doctrine/coding-standard": "^9 || ^12 || ^14",
+                "phpstan/phpstan": "1.4.10 || 2.1.30",
                 "phpstan/phpstan-phpunit": "^1.0 || ^2",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5 || ^12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5 || ^12.4 || ^13.0",
                 "psr/log": "^1 || ^2 || ^3"
             },
             "suggest": {
@@ -2759,9 +2761,9 @@
             "homepage": "https://www.doctrine-project.org/",
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
-                "source": "https://github.com/doctrine/deprecations/tree/1.1.5"
+                "source": "https://github.com/doctrine/deprecations/tree/1.1.6"
             },
-            "time": "2025-04-07T20:06:18+00:00"
+            "time": "2026-02-07T07:09:04+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -3587,16 +3589,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "21dc724a0583619cd1652f673303492272778051"
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-                "reference": "21dc724a0583619cd1652f673303492272778051",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/7d0ed42f28e42d61352a7a79de682e5e67fec884",
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884",
                 "shasum": ""
             },
             "require": {
@@ -3612,6 +3614,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
+                "jshttp/mime-db": "1.54.0.1",
                 "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
@@ -3683,7 +3686,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.9.0"
             },
             "funding": [
                 {
@@ -3699,7 +3702,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-23T21:21:41+00:00"
+            "time": "2026-03-10T16:41:02+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -4717,16 +4720,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5cf826f2991858b54d5c3809bee745560a1042a7"
+                "reference": "37308608e599f34a1a4845b16440047ec98a172a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5cf826f2991858b54d5c3809bee745560a1042a7",
-                "reference": "5cf826f2991858b54d5c3809bee745560a1042a7",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/37308608e599f34a1a4845b16440047ec98a172a",
+                "reference": "37308608e599f34a1a4845b16440047ec98a172a",
                 "shasum": ""
             },
             "require": {
@@ -4744,7 +4747,7 @@
                 "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
-                "mongodb/mongodb": "^1.8",
+                "mongodb/mongodb": "^1.8 || ^2.0",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "phpspec/prophecy": "^1.15",
                 "phpstan/phpstan": "^1.10",
@@ -4803,7 +4806,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.10.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.11.0"
             },
             "funding": [
                 {
@@ -4815,7 +4818,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-12T12:43:37+00:00"
+            "time": "2026-01-01T13:05:00+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -4992,16 +4995,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.6.1",
+            "version": "v5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2"
+                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2",
-                "reference": "f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dca41cd15c2ac9d055ad70dbfd011130757d1f82",
+                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82",
                 "shasum": ""
             },
             "require": {
@@ -5044,9 +5047,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.6.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.7.0"
             },
-            "time": "2025-08-13T20:13:15+00:00"
+            "time": "2025-12-06T11:56:16+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -5339,16 +5342,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.10.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "679e3ce485b99e84c775d28e2e96fade9a7fb50a"
+                "reference": "92a98ada2b93d9b201a613cb5a33584dde25f195"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/679e3ce485b99e84c775d28e2e96fade9a7fb50a",
-                "reference": "679e3ce485b99e84c775d28e2e96fade9a7fb50a",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/92a98ada2b93d9b201a613cb5a33584dde25f195",
+                "reference": "92a98ada2b93d9b201a613cb5a33584dde25f195",
                 "shasum": ""
             },
             "require": {
@@ -5391,22 +5394,22 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.10.0"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.12.0"
             },
-            "time": "2024-11-09T15:12:26+00:00"
+            "time": "2025-11-21T15:09:14+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.11.1",
+            "version": "v6.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "d9e3b36b47f04b497a0164c5a20f92acb4593284"
+                "reference": "d1ac35d784bf9f5e61b424901d5a014967f15b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/d9e3b36b47f04b497a0164c5a20f92acb4593284",
-                "reference": "d9e3b36b47f04b497a0164c5a20f92acb4593284",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/d1ac35d784bf9f5e61b424901d5a014967f15b12",
+                "reference": "d1ac35d784bf9f5e61b424901d5a014967f15b12",
                 "shasum": ""
             },
             "require": {
@@ -5427,7 +5430,6 @@
             },
             "suggest": {
                 "decomplexity/SendOauth2": "Adapter for using XOAUTH2 authentication",
-                "ext-imap": "Needed to support advanced email address parsing according to RFC822",
                 "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
                 "ext-openssl": "Needed for secure SMTP sending and DKIM signing",
                 "greew/oauth2-azure-provider": "Needed for Microsoft Azure XOAUTH2 authentication",
@@ -5467,7 +5469,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.11.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.12.0"
             },
             "funding": [
                 {
@@ -5475,20 +5477,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-30T11:54:53+00:00"
+            "time": "2025-10-15T16:49:08+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.46",
+            "version": "3.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6"
+                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
-                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
+                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
                 "shasum": ""
             },
             "require": {
@@ -5569,7 +5571,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.46"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.50"
             },
             "funding": [
                 {
@@ -5585,20 +5587,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-26T16:29:55+00:00"
+            "time": "2026-03-19T02:57:58+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.3.0",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495"
+                "reference": "a004701b11273a26cd7955a61d67a7f1e525a45a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/1e0cd5370df5dd2e556a36b9c62f62e555870495",
-                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/a004701b11273a26cd7955a61d67a7f1e525a45a",
+                "reference": "a004701b11273a26cd7955a61d67a7f1e525a45a",
                 "shasum": ""
             },
             "require": {
@@ -5630,9 +5632,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.2"
             },
-            "time": "2025-08-30T15:50:23+00:00"
+            "time": "2026-01-25T14:56:51+00:00"
         },
         {
             "name": "pragmarx/random",
@@ -6493,16 +6495,16 @@
         },
         {
             "name": "sabre/vobject",
-            "version": "4.5.7",
+            "version": "4.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/vobject.git",
-                "reference": "ff22611a53782e90c97be0d0bc4a5f98a5c0a12c"
+                "reference": "d554eb24d64232922e1eab5896cc2f84b3b9ffb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/ff22611a53782e90c97be0d0bc4a5f98a5c0a12c",
-                "reference": "ff22611a53782e90c97be0d0bc4a5f98a5c0a12c",
+                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/d554eb24d64232922e1eab5896cc2f84b3b9ffb1",
+                "reference": "d554eb24d64232922e1eab5896cc2f84b3b9ffb1",
                 "shasum": ""
             },
             "require": {
@@ -6593,7 +6595,7 @@
                 "issues": "https://github.com/sabre-io/vobject/issues",
                 "source": "https://github.com/fruux/sabre-vobject"
             },
-            "time": "2025-04-17T09:22:48+00:00"
+            "time": "2026-01-12T10:45:19+00:00"
         },
         {
             "name": "sabre/xml",
@@ -7111,16 +7113,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.48",
+            "version": "v5.4.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "3f38b8af283b830e1363acd79e5bc3412d055341"
+                "reference": "1a0706e8b8041046052ea2695eb8aeee04f97609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3f38b8af283b830e1363acd79e5bc3412d055341",
-                "reference": "3f38b8af283b830e1363acd79e5bc3412d055341",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1a0706e8b8041046052ea2695eb8aeee04f97609",
+                "reference": "1a0706e8b8041046052ea2695eb8aeee04f97609",
                 "shasum": ""
             },
             "require": {
@@ -7167,7 +7169,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.48"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.50"
             },
             "funding": [
                 {
@@ -7179,11 +7181,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-13T18:58:02+00:00"
+            "time": "2025-11-03T12:58:48+00:00"
         },
         {
             "name": "symfony/mime",
@@ -7858,16 +7864,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.4.47",
+            "version": "v5.4.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "5d1662fb32ebc94f17ddb8d635454a776066733d"
+                "reference": "467bfc56f18f5ef6d5ccb09324d7e988c1c0a98f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/5d1662fb32ebc94f17ddb8d635454a776066733d",
-                "reference": "5d1662fb32ebc94f17ddb8d635454a776066733d",
+                "url": "https://api.github.com/repos/symfony/process/zipball/467bfc56f18f5ef6d5ccb09324d7e988c1c0a98f",
+                "reference": "467bfc56f18f5ef6d5ccb09324d7e988c1c0a98f",
                 "shasum": ""
             },
             "require": {
@@ -7900,7 +7906,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.4.47"
+                "source": "https://github.com/symfony/process/tree/v5.4.51"
             },
             "funding": [
                 {
@@ -7912,11 +7918,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-06T11:36:42+00:00"
+            "time": "2026-01-26T15:53:37+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -8393,11 +8403,11 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.32",
+            "version": "1.12.33",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2770dcdf5078d0b0d53f94317e06affe88419aa8",
-                "reference": "2770dcdf5078d0b0d53f94317e06affe88419aa8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/37982d6fc7cbb746dda7773530cda557cdf119e1",
+                "reference": "37982d6fc7cbb746dda7773530cda557cdf119e1",
                 "shasum": ""
             },
             "require": {
@@ -8442,7 +8452,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-30T10:16:31+00:00"
+            "time": "2026-02-28T20:30:03+00:00"
         }
     ],
     "aliases": [],
