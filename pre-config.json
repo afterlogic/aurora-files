@@ -23,6 +23,9 @@
 		"RecaptchaWebclientPlugin": {
 			"Disabled": true
 		},
+		"CloudflareTurnstileWebclientPlugin": {
+			"Disabled": true
+		},
 		"FilesWebclient": {
 			"ShowCommonSettings": true,
 			"ShowFilesApps": false,
