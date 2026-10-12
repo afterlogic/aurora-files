@@ -31,6 +31,9 @@
 			"ShowFilesApps": false,
 			"PublicLinksEnabled": false
 		},
+		"CustomMailHeadersReader": {
+			"Disabled": true
+		},
 		"Dropbox": {
 			"Disabled": true
 		},
