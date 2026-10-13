@@ -22,3 +22,8 @@ parameters:
 			message: '#Property Aurora\\System\\Utils\\Ldap#'
 			reportUnmatched: false
 			path: system/Utils/Ldap.php
+		-
+			# Mail module is not installed in this product, so the Server model returned by MailAccount::GetServer() is unknown to PhpStan
+			message: '#Access to an undefined property object::\$ExternalAccess(Imap|Smtp)(Port|UseSsl)\.#'
+			reportUnmatched: false
+			path: modules/Ios/Manager.php
